@@ -6,12 +6,9 @@
 
 @media only screen and (max-width: 42em) {
 
-<<<<<<< HEAD
-=======
 body {
     background-color: #333333;
 }
->>>>>>> d1d01e2bb403d4e345fb2663f51c5cee80540357
 #dokuwiki__aside {
     width: 100%;
     float: none;
