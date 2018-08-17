@@ -13,6 +13,7 @@ header('X-UA-Compatible: IE=edge,chrome=1');
 
 $showTools = !tpl_getConf('hideTools') || ( tpl_getConf('hideTools') && !empty($_SERVER['REMOTE_USER']) );
 $showSidebar = page_findnearest($conf['sidebar']) && ($ACT=='show');
+$imagePrefix = 'lib/tpl/starter/images';
 ?><!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $conf['lang'] ?>"
   lang="<?php echo $conf['lang'] ?>" dir="<?php echo $lang['direction'] ?>" class="no-js">
@@ -114,6 +115,15 @@ $showSidebar = page_findnearest($conf['sidebar']) && ($ACT=='show');
 
 
         <div class="wrapper">
+            <div class="dokuwiki_overture"><?php
+                $entryTitle = tpl_pagetitle(null, true);
+                echo "<h1 class='dokuwiki_title'>$entryTitle</h1>";
+                echo "<img src='$imagePrefix/split.png' alt='-'>";
+                echo "<img id='title_img' src='$imagePrefix/$entryTitle.png' alt='$entryTitle'>";
+            ?>
+                <div class='dokuwiki_decoration'></div>
+                <?php tpl_searchform() ?>
+            </div>
 
             <!-- ********** ASIDE ********** -->
             <?php if ($showSidebar): ?>
