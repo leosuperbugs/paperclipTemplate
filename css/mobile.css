@@ -5,6 +5,15 @@
  */
 
 @media only screen and (max-width: 42em) {
+#dokuwiki__header {
+    display: none;
+}
+.notify {
+    display: none;
+}
+#dw__toc {
+    display: none;
+}
 
 .dokuwiki_title {
     font-size: 3em;
@@ -29,30 +38,6 @@
 }
 [dir=rtl] .hasSidebar #dokuwiki__content > .pad {
     margin-right: 0;
-}
-
-#dokuwiki__header .headings {
-    margin: 2.1em 0 0;
-}
-
-#dokuwiki__header .tools {
-    margin-bottom: .7em;
-}
-
-#dokuwiki__header .headings,
-#dokuwiki__header .tools,
-#dokuwiki__header .tools li {
-    float: none;
-    text-align: left;
-}
-[dir=rtl] #dokuwiki__header .tools,
-[dir=rtl] #dokuwiki__header .tools li {
-    float: none;
-    text-align: right;
-}
-[dir=rtl] #dokuwiki__header .headings {
-    float: none;
-    text-align: right;
 }
 
 #dokuwiki__sitetools ul {
