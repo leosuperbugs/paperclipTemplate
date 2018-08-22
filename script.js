@@ -12,9 +12,9 @@ jQuery( document ).ready(function($) {
         //     break;
         //    }
         };
-        $(this).append('&nbsp;&nbsp; <img border="0" src="' + im + '">');
-    })
-})
+        $(this).append('&nbsp;&nbsp; <img border="0" class="plus" src="' + im + '">');
+    });
+});
 
 // var Paperclip = {
 
