@@ -14,6 +14,9 @@
 #dw__toc {
     display: none;
 }
+.secedit {
+    display: none;
+}
 
 .dokuwiki_title {
     font-size: 3em;
