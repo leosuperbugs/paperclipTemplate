@@ -14,6 +14,7 @@ jQuery( document ).ready(function($) {
         };
         $(this).append('&nbsp;&nbsp; <img border="0" class="plus" src="' + im + '">');
     });
+    $(".secedit").remove();
 });
 
 // var Paperclip = {
