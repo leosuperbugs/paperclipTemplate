@@ -115,9 +115,10 @@ $imagePrefix = 'lib/tpl/starter/images';
 
 
         <div class="wrapper">
+            <!-- the cover of entry -->
             <div class="dokuwiki_overture"><?php
                 $entryTitle = tpl_pagetitle(null, true);
-                echo "<h1 class='dokuwiki_title'>$entryTitle</h1>";
+                echo "<div class='dokuwiki_title'>$entryTitle</div>";
                 echo "<img src='$imagePrefix/split.png' alt='-'>";
                 echo "<img id='title_img' src='$imagePrefix/$entryTitle.png' alt='$entryTitle'>";
             ?>
