@@ -458,3 +458,12 @@ option {
     width: 1.25em;
     float: right;
 }
+#wiki__text {
+     color: #000;
+}
+#edit__summary {
+    color: #000;
+}
+.editButtons {
+    color: #000;
+}
