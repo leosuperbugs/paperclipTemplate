@@ -1,0 +1,11 @@
+
+    <div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">金属<br>压力容器<br>制造
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/金属压力容器制造.png' 
+         alt='金属压力容器制造' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

@@ -1,0 +1,11 @@
+
+    <div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">常用<br>有色金属<br>冶炼
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/常用有色金属冶炼.png' 
+         alt='常用有色金属冶炼' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

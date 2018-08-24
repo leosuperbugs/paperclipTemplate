@@ -1,0 +1,11 @@
+
+    <div style="font-size:2em;margin:30px 30px 0 30px;background: transparent ">社区卫生<br>服务中心<br>（<br>站<br>）
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/社区卫生服务中心（站）.png' 
+         alt='社区卫生服务中心（站）' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

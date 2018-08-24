@@ -1,0 +1,11 @@
+
+    <div style="font-size:2em;margin:30px 30px 0 30px;background: transparent ">农<br>副食品<br>加工<br>专用设备<br>制造
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/农副食品加工专用设备制造.png' 
+         alt='农副食品加工专用设备制造' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

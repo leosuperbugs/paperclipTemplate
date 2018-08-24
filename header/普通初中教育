@@ -1,0 +1,11 @@
+
+    <div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">普通<br>初中<br>教育
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/普通初中教育.png' 
+         alt='普通初中教育' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

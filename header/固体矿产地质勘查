@@ -1,0 +1,11 @@
+
+    <div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">固体<br>矿产<br>地质<br>勘查
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/固体矿产地质勘查.png' 
+         alt='固体矿产地质勘查' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

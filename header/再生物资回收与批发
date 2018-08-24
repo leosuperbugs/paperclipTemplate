@@ -1,0 +1,11 @@
+
+    <div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">再生<br>物资<br>回收<br>与批发
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/再生物资回收与批发.png' 
+         alt='再生物资回收与批发' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

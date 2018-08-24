@@ -1,0 +1,11 @@
+
+    <div style="font-size:2em;margin:30px 30px 0 30px;background: transparent ">可<br>穿戴<br>智能<br>设备<br>制造
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/可穿戴智能设备制造.png' 
+         alt='可穿戴智能设备制造' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

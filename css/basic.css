@@ -120,6 +120,7 @@ div {
 ul,
 ol {
     padding: 0 0 0 1.5em;
+    background-color: #333333;
 }
 [dir=rtl] ul,
 [dir=rtl] ol {
@@ -217,7 +218,7 @@ a {
 a:link,
 a:visited {
     text-decoration: none;
-    color: #00c; /* §colour */
+    color: #ffffff; /* §colour */
 }
 a:link:hover,
 a:visited:hover,
@@ -466,4 +467,7 @@ option {
 }
 .editButtons {
     color: #000;
+}
+.clear {
+    clear: both;
 }

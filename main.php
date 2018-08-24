@@ -55,7 +55,7 @@ $imagePrefix = 'lib/tpl/starter/images';
                 <ul class="a11y skip">
                     <li><a href="#dokuwiki__content"><?php echo $lang['skip_to_content'] ?></a></li>
                 </ul>
-                <div class="clearer"></div>
+                <div class="ZZer"></div>
             </div>
 
             <div class="tools">
@@ -116,12 +116,7 @@ $imagePrefix = 'lib/tpl/starter/images';
 
         <div class="wrapper">
             <!-- the cover of entry -->
-            <div class="dokuwiki_overture"><?php
-                $entryTitle = tpl_pagetitle(null, true);
-                echo "<div class='dokuwiki_title'>$entryTitle</div>";
-                echo "<img src='$imagePrefix/split.png' alt='-'>";
-                echo "<img id='title_img' src='$imagePrefix/$entryTitle.png' alt='$entryTitle'>";
-            ?>
+            <div class="dokuwiki_overture">
                 <div class='dokuwiki_decoration'></div>
                 <?php tpl_searchform() ?>
             </div>
@@ -140,6 +135,32 @@ $imagePrefix = 'lib/tpl/starter/images';
             <div id="dokuwiki__content"><div class="pad">
                 <?php tpl_flush() /* flush the output buffer */ ?>
                 <?php tpl_includeFile('pageheader.html') ?>
+                <div class="paperclip__title">‘
+                    <?php 
+                        $entryTitle = tpl_pagetitle(null, true); 
+                        $filename ='lib/tpl/starter/header/'.$entryTitle;
+                        $file = fopen($filename, "r") or die("Unable to read file!!");
+                        echo fread($file, filesize($filename));
+                        fclose($file);
+                    ?>
+                    <!-- <div style="font-size:6em;
+                                margin:30px 30px 0 30px;
+                                background: transparent ">
+                                玉米<br>种植
+                                <hr style="width:60px;
+                                    font-size:10px;
+                                    height:10px;
+                                    background-color:white;">
+                    </div>
+                    <img id='title_img' 
+                        src='lib/tpl/starter/images/玉米种植.png' 
+                        alt='玉米种植' 
+                        style="height:10em;
+                            margin-left:-6em;"
+                    > -->
+                    <!--  <div class="circle"></div> -->
+                </div>
+                
 
                 <div class="page">
                     <!-- wikipage start -->

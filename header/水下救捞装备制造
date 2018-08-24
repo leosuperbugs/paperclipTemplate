@@ -1,0 +1,11 @@
+
+    <div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">水下<br>救捞<br>装备<br>制造
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/水下救捞装备制造.png' 
+         alt='水下救捞装备制造' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

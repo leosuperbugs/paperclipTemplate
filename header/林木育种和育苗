@@ -1,0 +1,11 @@
+
+    <div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">林木<br>育种<br>和育苗
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/林木育种和育苗.png' 
+         alt='林木育种和育苗' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

@@ -1,0 +1,11 @@
+
+    <div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">常用<br>有色金属<br>矿<br>采选
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/常用有色金属矿采选.png' 
+         alt='常用有色金属矿采选' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

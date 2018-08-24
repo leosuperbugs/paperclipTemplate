@@ -1,0 +1,11 @@
+
+    <div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">工程技术<br>与设计<br>服务
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/工程技术与设计服务.png' 
+         alt='工程技术与设计服务' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

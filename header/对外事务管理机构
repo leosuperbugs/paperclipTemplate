@@ -1,0 +1,11 @@
+
+    <div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">对外<br>事务<br>管理机构
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/对外事务管理机构.png' 
+         alt='对外事务管理机构' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

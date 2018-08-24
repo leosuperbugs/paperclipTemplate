@@ -1,0 +1,11 @@
+
+    <div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">资源<br>与产权交易<br>服务
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/资源与产权交易服务.png' 
+         alt='资源与产权交易服务' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

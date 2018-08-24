@@ -1,0 +1,11 @@
+
+    <div style="font-size:6em;margin:30px 30px 0 30px;background: transparent ">海洋工程<br>建筑
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/海洋工程建筑.png' 
+         alt='海洋工程建筑' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

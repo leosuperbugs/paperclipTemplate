@@ -12,7 +12,7 @@ jQuery( document ).ready(function($) {
         //     break;
         //    }
         };
-        $(this).append('&nbsp;&nbsp; <img border="0" class="plus" src="' + im + '">');
+        $(this).append('&nbsp;&nbsp; <img border="0" class="plus" src="' + im + '"><div class="clear"></div>');
     });
     $(".secedit").remove();
 });

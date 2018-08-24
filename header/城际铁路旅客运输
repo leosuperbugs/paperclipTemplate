@@ -1,0 +1,11 @@
+
+    <div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">城际<br>铁路<br>旅客<br>运输
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/城际铁路旅客运输.png' 
+         alt='城际铁路旅客运输' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

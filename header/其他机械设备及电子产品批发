@@ -1,0 +1,11 @@
+
+    <div style="font-size:2em;margin:30px 30px 0 30px;background: transparent ">其他<br>机械设备<br>及<br>电子产品<br>批发
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/其他机械设备及电子产品批发.png' 
+         alt='其他机械设备及电子产品批发' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

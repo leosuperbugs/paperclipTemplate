@@ -1,0 +1,11 @@
+
+    <div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">行政监督<br>检查<br>机构
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/行政监督检查机构.png' 
+         alt='行政监督检查机构' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

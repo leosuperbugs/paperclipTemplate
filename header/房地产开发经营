@@ -1,0 +1,11 @@
+
+    <div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">房地产<br>开发<br>经营
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/房地产开发经营.png' 
+         alt='房地产开发经营' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

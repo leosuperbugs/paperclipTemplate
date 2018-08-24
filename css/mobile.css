@@ -72,6 +72,19 @@
     right: auto !important;
     left: 1em !important;
 }
+.circle {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    height: 200px;
+    width: 200px;
+    background-color: #333333;
+    border-radius: 100px;
+    z-index: 1;
+}
+.paperclip__title {
+    background-image: url(images/circle.png)
+}
 
 
 } /* /@media */

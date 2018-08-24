@@ -1,0 +1,11 @@
+
+    <div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">生活<br>用<br>燃料<br>零售
+<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+    </div>
+    <img id='title_img' 
+         src='lib/tpl/starter/images/生活用燃料零售.png' 
+         alt='生活用燃料零售' 
+        style="height:10em;
+                margin-left:-6em;"
+    > 
+    

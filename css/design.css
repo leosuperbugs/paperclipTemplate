@@ -23,7 +23,7 @@
 }
 #dokuwiki__header h1 a {
     text-decoration: none;
-    color: #00c;
+    color: #ffffff;
     background-color: inherit;
 }
 #dokuwiki__header p.claim {
@@ -61,7 +61,7 @@
     margin-bottom: .3em;
 }
 #dokuwiki__header div.breadcrumbs a {
-    color: __existing__;
+    color: yellow;
     background-color: inherit;
 }
 
@@ -74,7 +74,7 @@
 #dokuwiki__pagetools a.wikilink1,
 #dokuwiki__usertools a.wikilink2,
 #dokuwiki__pagetools a.wikilink2 {
-    color: #00c;
+    color: #ffffff;
     border-bottom-width: 0;
 }
 #dokuwiki__usertools a.wikilink2:hover,
