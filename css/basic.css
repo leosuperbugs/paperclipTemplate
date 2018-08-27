@@ -218,7 +218,10 @@ a {
 a:link,
 a:visited {
     text-decoration: none;
-    color: #000000; /* §colour */
+    color: #ffffff; /* §colour */
+}
+.table a:link, a:visited {
+    color: #000;
 }
 a:link:hover,
 a:visited:hover,
