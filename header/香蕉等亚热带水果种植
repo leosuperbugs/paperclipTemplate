@@ -1,5 +1,4 @@
-
-    <div style="font-size:2em;margin:30px 30px 0 30px;background: transparent ">香蕉<br>等<br>亚热带<br>水果<br>种植
+<div style="font-size:2em;margin:30px 30px 0 30px;background: transparent ">香蕉<br>等<br>亚热带<br>水果<br>种植
 <hr style="width:60px;font-size:10px;height:10px;background-color:white;">
     </div>
     <img id='title_img' 

@@ -218,7 +218,7 @@ a {
 a:link,
 a:visited {
     text-decoration: none;
-    color: #ffffff; /* §colour */
+    color: #000000; /* §colour */
 }
 a:link:hover,
 a:visited:hover,
@@ -381,7 +381,6 @@ output,
 meter,
 progress {
     font: inherit;
-    color: inherit;
     /* background-color destroys button look */
     line-height: normal;
     margin: 0;
@@ -389,6 +388,22 @@ progress {
     -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
+}
+
+input,
+textarea,
+select,
+optgroup,
+option,
+keygen,
+output,
+meter,
+progress {
+    color: inherit;
+}
+
+button {
+    color: #000;
 }
 
 input,

@@ -1,5 +1,4 @@
-
-    <div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">供应链<br>管理<br>服务
+<div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">供应链<br>管理<br>服务
 <hr style="width:60px;font-size:10px;height:10px;background-color:white;">
     </div>
     <img id='title_img' 

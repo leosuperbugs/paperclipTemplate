@@ -1,5 +1,4 @@
-
-    <div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">半导体<br>分立<br>器件<br>制造
+<div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">半导体<br>分立<br>器件<br>制造
 <hr style="width:60px;font-size:10px;height:10px;background-color:white;">
     </div>
     <img id='title_img' 

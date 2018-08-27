@@ -135,11 +135,11 @@ $imagePrefix = 'lib/tpl/starter/images';
             <div id="dokuwiki__content"><div class="pad">
                 <?php tpl_flush() /* flush the output buffer */ ?>
                 <?php tpl_includeFile('pageheader.html') ?>
-                <div class="paperclip__title">‘
+                <div class="paperclip__title">
                     <?php 
                         $entryTitle = tpl_pagetitle(null, true); 
                         $filename ='lib/tpl/starter/header/'.$entryTitle;
-                        $file = fopen($filename, "r") or die("Unable to read file!!");
+                        $file = fopen($filename, "r") ;
                         echo fread($file, filesize($filename));
                         fclose($file);
                     ?>

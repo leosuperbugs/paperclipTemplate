@@ -11,8 +11,7 @@ for (line, br) in zip(name, jieba):
     print line
 
     newHTML = open(line[:-1], 'w')
-    newHTML.write("""
-    <div style=\"font-size:"""+ str(fontSize) +"""em;margin:30px 30px 0 30px;background: transparent \">"""+ br +"""<hr style=\"width:60px;font-size:10px;height:10px;background-color:white;\">
+    newHTML.write("""<div style=\"font-size:"""+ str(fontSize) +"""em;margin:30px 30px 0 30px;background: transparent \">"""+ br +"""<hr style=\"width:60px;font-size:10px;height:10px;background-color:white;\">
     </div>
     <img id='title_img' 
          src='lib/tpl/starter/images/"""+ line[:-1] +""".png' 

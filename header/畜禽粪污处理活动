@@ -1,5 +1,4 @@
-
-    <div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">畜禽<br>粪污<br>处理<br>活动
+<div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">畜禽<br>粪污<br>处理<br>活动
 <hr style="width:60px;font-size:10px;height:10px;background-color:white;">
     </div>
     <img id='title_img' 

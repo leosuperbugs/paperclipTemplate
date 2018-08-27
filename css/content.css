@@ -168,3 +168,7 @@
 [dir=rtl] .JSpopup ol {
     padding-right: 0;
 }
+
+#dw__toc {
+    background-color: #333;
+}

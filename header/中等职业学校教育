@@ -1,5 +1,4 @@
-
-    <div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">中等职业<br>学校<br>教育
+<div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">中等职业<br>学校<br>教育
 <hr style="width:60px;font-size:10px;height:10px;background-color:white;">
     </div>
     <img id='title_img' 
