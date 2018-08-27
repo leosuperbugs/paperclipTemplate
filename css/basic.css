@@ -220,7 +220,8 @@ a:visited {
     text-decoration: none;
     color: #ffffff; /* §colour */
 }
-.table a:link, a:visited {
+#config__manager a:link, 
+#config__manager a:visited {
     color: #000;
 }
 a:link:hover,
