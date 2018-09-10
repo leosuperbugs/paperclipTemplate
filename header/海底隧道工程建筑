@@ -1,6 +1,8 @@
-<div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">海底隧道<br>工程<br>建筑
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>建筑业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">海底隧道<br>工程<br>建筑
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>海底隧道工程建筑
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/海底隧道工程建筑.png' 
          alt='海底隧道工程建筑' 

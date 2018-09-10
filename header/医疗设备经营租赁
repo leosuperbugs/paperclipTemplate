@@ -1,6 +1,8 @@
-<div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">医疗<br>设备<br>经营<br>租赁
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>租赁和商务服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">医疗<br>设备<br>经营<br>租赁
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>医疗设备经营租赁
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/医疗设备经营租赁.png' 
          alt='医疗设备经营租赁' 

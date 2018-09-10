@@ -1,6 +1,8 @@
-<div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">自然生态<br>系统<br>保护<br>管理
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>水利、环境和公共设施管理业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">自然生态<br>系统<br>保护<br>管理
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>自然生态系统保护管理
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/自然生态系统保护管理.png' 
          alt='自然生态系统保护管理' 

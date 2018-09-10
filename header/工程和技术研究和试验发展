@@ -1,6 +1,8 @@
-<div style="font-size:2em;margin:30px 30px 0 30px;background: transparent ">工程<br>和技术<br>研究<br>和试验<br>发展
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>科学研究和技术服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">工程<br>和技术<br>研究<br>和试验<br>发展
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>工程和技术研究和试验发展
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/工程和技术研究和试验发展.png' 
          alt='工程和技术研究和试验发展' 

@@ -1,6 +1,8 @@
-<div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">非<br>食用<br>植物油<br>加工
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">非<br>食用<br>植物油<br>加工
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>非食用植物油加工
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/非食用植物油加工.png' 
          alt='非食用植物油加工' 

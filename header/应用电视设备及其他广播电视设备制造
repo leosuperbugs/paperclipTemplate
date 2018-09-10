@@ -1,6 +1,8 @@
-<div style="font-size:1em;margin:30px 30px 0 30px;background: transparent ">应用<br>电视<br>设备<br>及其他<br>广播电视<br>设备<br>制造
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:1em; ">应用<br>电视<br>设备<br>及其他<br>广播电视<br>设备<br>制造
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>应用电视设备及其他广播电视设备制造
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/应用电视设备及其他广播电视设备制造.png' 
          alt='应用电视设备及其他广播电视设备制造' 

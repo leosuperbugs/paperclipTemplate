@@ -1,6 +1,8 @@
-<div style="font-size:6em;margin:30px 30px 0 30px;background: transparent ">羊的<br>饲养
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>农、林、牧、渔业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">羊的<br>饲养
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>羊的饲养
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/羊的饲养.png' 
          alt='羊的饲养' 

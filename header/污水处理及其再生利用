@@ -1,6 +1,8 @@
-<div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">污水处理<br>及其<br>再生<br>利用
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>电力、热力、燃气及水生产和供应业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">污水处理<br>及其<br>再生<br>利用
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>污水处理及其再生利用
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/污水处理及其再生利用.png' 
          alt='污水处理及其再生利用' 

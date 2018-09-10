@@ -1,6 +1,8 @@
-<div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">生物质<br>液体燃料<br>生产
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">生物质<br>液体燃料<br>生产
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>生物质液体燃料生产
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/生物质液体燃料生产.png' 
          alt='生物质液体燃料生产' 

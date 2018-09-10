@@ -1,6 +1,8 @@
-<div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">其他<br>技术推广<br>服务
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>水利、环境和公共设施管理业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">其他<br>技术推广<br>服务
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>其他技术推广服务
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/其他技术推广服务.png' 
          alt='其他技术推广服务' 

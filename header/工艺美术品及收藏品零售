@@ -1,6 +1,8 @@
-<div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">工艺美术品<br>及<br>收藏品<br>零售
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>批发和零售业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">工艺美术品<br>及<br>收藏品<br>零售
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>工艺美术品及收藏品零售
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/工艺美术品及收藏品零售.png' 
          alt='工艺美术品及收藏品零售' 

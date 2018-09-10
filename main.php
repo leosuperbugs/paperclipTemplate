@@ -139,9 +139,12 @@ $imagePrefix = 'lib/tpl/starter/images';
                     <?php 
                         $entryTitle = tpl_pagetitle(null, true); 
                         $filename ='lib/tpl/starter/header/'.$entryTitle;
-                        $file = fopen($filename, "r") ;
-                        echo fread($file, filesize($filename));
-                        fclose($file);
+                        // need some fix here
+                        $file = fopen($filename, "r");
+                        if ($file) {
+                            echo fread($file, filesize($filename));
+                            fclose($file);
+                        }
                     ?>
                     <!-- <div style="font-size:6em;
                                 margin:30px 30px 0 30px;

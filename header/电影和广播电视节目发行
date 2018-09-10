@@ -1,6 +1,8 @@
-<div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">电影<br>和广播<br>电视节目<br>发行
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>文化、体育和娱乐业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">电影<br>和广播<br>电视节目<br>发行
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>电影和广播电视节目发行
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/电影和广播电视节目发行.png' 
          alt='电影和广播电视节目发行' 

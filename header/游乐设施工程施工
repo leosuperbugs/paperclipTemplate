@@ -1,6 +1,8 @@
-<div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">游乐<br>设施<br>工程施工
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>建筑业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">游乐<br>设施<br>工程施工
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>游乐设施工程施工
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/游乐设施工程施工.png' 
          alt='游乐设施工程施工' 

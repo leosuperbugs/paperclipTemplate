@@ -1,6 +1,8 @@
-<div style="font-size:2em;margin:30px 30px 0 30px;background: transparent ">初级<br>形态<br>塑料<br>及<br>合成树脂<br>制造
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">初级<br>形态<br>塑料<br>及<br>合成树脂<br>制造
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>初级形态塑料及合成树脂制造
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/初级形态塑料及合成树脂制造.png' 
          alt='初级形态塑料及合成树脂制造' 

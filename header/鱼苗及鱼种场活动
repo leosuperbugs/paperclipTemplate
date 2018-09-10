@@ -1,6 +1,8 @@
-<div style="font-size:2em;margin:30px 30px 0 30px;background: transparent ">鱼苗<br>及<br>鱼种<br>场<br>活动
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>农、林、牧、渔业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">鱼苗<br>及<br>鱼种<br>场<br>活动
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>鱼苗及鱼种场活动
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/鱼苗及鱼种场活动.png' 
          alt='鱼苗及鱼种场活动' 

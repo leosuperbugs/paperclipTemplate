@@ -1,6 +1,8 @@
-<div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">精炼<br>石油<br>产品<br>制造
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">精炼<br>石油<br>产品<br>制造
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>精炼石油产品制造
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/精炼石油产品制造.png' 
          alt='精炼石油产品制造' 

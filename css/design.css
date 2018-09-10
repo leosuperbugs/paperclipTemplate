@@ -246,3 +246,8 @@
     margin: 0 .5em 0 0;
     float: none;
 }
+
+#extension__manager .panelHeader {
+    background-color: #333333;
+}
+

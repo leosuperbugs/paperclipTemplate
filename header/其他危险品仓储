@@ -1,6 +1,8 @@
-<div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">其他<br>危险品<br>仓储
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>交通运输、仓储和邮政业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">其他<br>危险品<br>仓储
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>其他危险品仓储
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/其他危险品仓储.png' 
          alt='其他危险品仓储' 

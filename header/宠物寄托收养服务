@@ -1,6 +1,8 @@
-<div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">宠物<br>寄托<br>收养<br>服务
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>居民服务、修理和其他服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">宠物<br>寄托<br>收养<br>服务
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>宠物寄托收养服务
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/宠物寄托收养服务.png' 
          alt='宠物寄托收养服务' 

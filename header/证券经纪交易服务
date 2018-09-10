@@ -1,6 +1,8 @@
-<div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">证券<br>经纪<br>交易<br>服务
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>金融业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">证券<br>经纪<br>交易<br>服务
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>证券经纪交易服务
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/证券经纪交易服务.png' 
          alt='证券经纪交易服务' 

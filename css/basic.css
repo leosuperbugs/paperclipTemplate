@@ -490,3 +490,7 @@ option {
 .clear {
     clear: both;
 }
+
+bdi {
+    color: white;
+}

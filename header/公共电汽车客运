@@ -1,6 +1,8 @@
-<div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">公共<br>电<br>汽车<br>客运
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>交通运输、仓储和邮政业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">公共<br>电<br>汽车<br>客运
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>公共电汽车客运
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/公共电汽车客运.png' 
          alt='公共电汽车客运' 

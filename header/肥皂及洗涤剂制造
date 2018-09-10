@@ -1,6 +1,8 @@
-<div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">肥皂<br>及<br>洗涤剂<br>制造
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">肥皂<br>及<br>洗涤剂<br>制造
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>肥皂及洗涤剂制造
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/肥皂及洗涤剂制造.png' 
          alt='肥皂及洗涤剂制造' 

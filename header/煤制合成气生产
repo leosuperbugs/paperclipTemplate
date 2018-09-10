@@ -1,6 +1,8 @@
-<div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">煤制<br>合成气<br>生产
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">煤制<br>合成气<br>生产
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>煤制合成气生产
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/煤制合成气生产.png' 
          alt='煤制合成气生产' 

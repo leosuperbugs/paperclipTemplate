@@ -1,6 +1,8 @@
-<div style="font-size:2em;margin:30px 30px 0 30px;background: transparent ">深海<br>石油<br>钻探<br>设备<br>制造
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">深海<br>石油<br>钻探<br>设备<br>制造
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>深海石油钻探设备制造
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/深海石油钻探设备制造.png' 
          alt='深海石油钻探设备制造' 

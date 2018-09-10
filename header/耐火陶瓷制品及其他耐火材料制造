@@ -1,6 +1,8 @@
-<div style="font-size:2em;margin:30px 30px 0 30px;background: transparent ">耐火<br>陶瓷制品<br>及其他<br>耐火材料<br>制造
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">耐火<br>陶瓷制品<br>及其他<br>耐火材料<br>制造
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>耐火陶瓷制品及其他耐火材料制造
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/耐火陶瓷制品及其他耐火材料制造.png' 
          alt='耐火陶瓷制品及其他耐火材料制造' 

@@ -1,6 +1,8 @@
-<div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">机动车<br>燃油<br>零售
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>批发和零售业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">机动车<br>燃油<br>零售
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>机动车燃油零售
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/机动车燃油零售.png' 
          alt='机动车燃油零售' 

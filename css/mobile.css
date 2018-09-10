@@ -85,6 +85,21 @@
 .paperclip__title {
     background-image: url(images/circle.png)
 }
-
+.desktop__title {
+    display: none ;
+}
+.desktop__class {
+    display: none;
+}
+.mobile__title {
+    margin:30px 30px 0 30px;
+    background: transparent;
+}
+.mobile__break {
+    width:60px;
+    font-size:10px;
+    height:10px;
+    background-color:white;
+}
 
 } /* /@media */

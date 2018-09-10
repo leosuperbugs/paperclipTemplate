@@ -1,6 +1,8 @@
-<div style="font-size:2em;margin:30px 30px 0 30px;background: transparent ">地质勘探<br>和地震<br>专用<br>仪器<br>制造
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">地质勘探<br>和地震<br>专用<br>仪器<br>制造
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>地质勘探和地震专用仪器制造
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/地质勘探和地震专用仪器制造.png' 
          alt='地质勘探和地震专用仪器制造' 

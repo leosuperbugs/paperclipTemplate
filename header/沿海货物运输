@@ -1,6 +1,8 @@
-<div style="font-size:6em;margin:30px 30px 0 30px;background: transparent ">沿海<br>货物运输
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>交通运输、仓储和邮政业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">沿海<br>货物运输
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>沿海货物运输
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/沿海货物运输.png' 
          alt='沿海货物运输' 

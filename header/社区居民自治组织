@@ -1,6 +1,8 @@
-<div style="font-size:3em;margin:30px 30px 0 30px;background: transparent ">社区<br>居民<br>自治<br>组织
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>公共管理、社会保障和社会组织<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">社区<br>居民<br>自治<br>组织
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>社区居民自治组织
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/社区居民自治组织.png' 
          alt='社区居民自治组织' 

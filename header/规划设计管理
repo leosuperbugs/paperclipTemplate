@@ -1,6 +1,8 @@
-<div style="font-size:6em;margin:30px 30px 0 30px;background: transparent ">规划设计<br>管理
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>科学研究和技术服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">规划设计<br>管理
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>规划设计管理
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/规划设计管理.png' 
          alt='规划设计管理' 

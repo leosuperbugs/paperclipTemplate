@@ -1,6 +1,8 @@
-<div style="font-size:4em;margin:30px 30px 0 30px;background: transparent ">其他<br>原油<br>制造
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">其他<br>原油<br>制造
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>其他原油制造
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/其他原油制造.png' 
          alt='其他原油制造' 

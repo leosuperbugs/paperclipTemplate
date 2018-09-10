@@ -1,6 +1,8 @@
-<div style="font-size:1em;margin:30px 30px 0 30px;background: transparent ">交通<br>及<br>公共<br>管理<br>用<br>金属<br>标牌<br>制造
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:1em; ">交通<br>及<br>公共<br>管理<br>用<br>金属<br>标牌<br>制造
+<hr class="mobile__break">
     </div>
+    <div class='desktop__title'>交通及公共管理用金属标牌制造
+</div>
     <img id='title_img' 
          src='lib/tpl/starter/images/交通及公共管理用金属标牌制造.png' 
          alt='交通及公共管理用金属标牌制造' 
