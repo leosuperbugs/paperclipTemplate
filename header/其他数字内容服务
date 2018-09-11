@@ -1,8 +1,9 @@
-<div class='desktop__class'>信息传输、软件和信息技术服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">其他<br>数字<br>内容<br>服务
+<div class='desktop__class'>信息传输/软件/信息技术服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">其他<br>数字<br>内容<br>服务
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>其他数字内容服务
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/其他数字内容服务.png' 
          alt='其他数字内容服务' 

@@ -1,8 +1,9 @@
-<div class='desktop__class'>公共管理、社会保障和社会组织<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">公共安全<br>管理机构
+<div class='desktop__class'>公共管理/社会保障/社会组织<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">公共安全<br>管理机构
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>公共安全管理机构
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/公共安全管理机构.png' 
          alt='公共安全管理机构' 

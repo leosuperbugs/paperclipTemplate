@@ -1,8 +1,9 @@
-<div class='desktop__class'>租赁和商务服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">体育<br>咨询
+<div class='desktop__class'>租赁和商务服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">体育<br>咨询
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>体育咨询
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/体育咨询.png' 
          alt='体育咨询' 

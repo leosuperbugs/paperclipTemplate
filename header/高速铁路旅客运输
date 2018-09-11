@@ -1,8 +1,9 @@
-<div class='desktop__class'>交通运输、仓储和邮政业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">高速铁路<br>旅客<br>运输
+<div class='desktop__class'>交通运输/仓储/邮政<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">高速铁路<br>旅客<br>运输
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>高速铁路旅客运输
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/高速铁路旅客运输.png' 
          alt='高速铁路旅客运输' 

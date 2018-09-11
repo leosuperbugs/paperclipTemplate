@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>风动和电动工具制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/风动和电动工具制造.png' 
          alt='风动和电动工具制造' 

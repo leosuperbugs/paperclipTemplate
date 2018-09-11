@@ -1,8 +1,9 @@
-<div class='desktop__class'>交通运输、仓储和邮政业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">货物运输<br>代理
+<div class='desktop__class'>交通运输/仓储/邮政<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">货物运输<br>代理
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>货物运输代理
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/货物运输代理.png' 
          alt='货物运输代理' 

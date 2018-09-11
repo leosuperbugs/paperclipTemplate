@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>灯用电器附件及其他照明器具制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/灯用电器附件及其他照明器具制造.png' 
          alt='灯用电器附件及其他照明器具制造' 

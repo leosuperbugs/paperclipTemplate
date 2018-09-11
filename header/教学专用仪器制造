@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>教学专用仪器制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/教学专用仪器制造.png' 
          alt='教学专用仪器制造' 

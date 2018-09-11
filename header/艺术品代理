@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>艺术品代理
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/艺术品代理.png' 
          alt='艺术品代理' 

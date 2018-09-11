@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>机械化农业及园艺机具制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/机械化农业及园艺机具制造.png' 
          alt='机械化农业及园艺机具制造' 

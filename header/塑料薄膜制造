@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>塑料薄膜制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/塑料薄膜制造.png' 
          alt='塑料薄膜制造' 

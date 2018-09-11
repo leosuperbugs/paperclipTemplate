@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>餐饮配送服务
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/餐饮配送服务.png' 
          alt='餐饮配送服务' 

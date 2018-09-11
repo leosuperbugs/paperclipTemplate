@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>轻质建筑材料制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/轻质建筑材料制造.png' 
          alt='轻质建筑材料制造' 

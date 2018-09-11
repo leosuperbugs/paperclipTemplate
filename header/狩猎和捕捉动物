@@ -1,8 +1,9 @@
-<div class='desktop__class'>农、林、牧、渔业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">狩猎<br>和捕捉<br>动物
+<div class='desktop__class'>农/林/牧/渔<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">狩猎<br>和捕捉<br>动物
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>狩猎和捕捉动物
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/狩猎和捕捉动物.png' 
          alt='狩猎和捕捉动物' 

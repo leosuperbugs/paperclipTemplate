@@ -1,8 +1,9 @@
-<div class='desktop__class'>卫生和社会工作<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">干部<br>休养所
+<div class='desktop__class'>卫生/社会工作<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">干部<br>休养所
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>干部休养所
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/干部休养所.png' 
          alt='干部休养所' 

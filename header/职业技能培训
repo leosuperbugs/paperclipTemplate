@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>职业技能培训
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/职业技能培训.png' 
          alt='职业技能培训' 

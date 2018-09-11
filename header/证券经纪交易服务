@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>证券经纪交易服务
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/证券经纪交易服务.png' 
          alt='证券经纪交易服务' 

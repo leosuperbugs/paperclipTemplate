@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>建筑物拆除活动
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/建筑物拆除活动.png' 
          alt='建筑物拆除活动' 

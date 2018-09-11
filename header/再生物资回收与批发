@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>再生物资回收与批发
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/再生物资回收与批发.png' 
          alt='再生物资回收与批发' 

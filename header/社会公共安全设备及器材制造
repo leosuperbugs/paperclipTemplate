@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>社会公共安全设备及器材制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/社会公共安全设备及器材制造.png' 
          alt='社会公共安全设备及器材制造' 

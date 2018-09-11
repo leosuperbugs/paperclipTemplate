@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>消费金融公司服务
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/消费金融公司服务.png' 
          alt='消费金融公司服务' 

@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>石油和天然气开采专业及辅助性活动
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/石油和天然气开采专业及辅助性活动.png' 
          alt='石油和天然气开采专业及辅助性活动' 

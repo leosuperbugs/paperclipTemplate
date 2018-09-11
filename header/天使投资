@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>天使投资
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/天使投资.png' 
          alt='天使投资' 

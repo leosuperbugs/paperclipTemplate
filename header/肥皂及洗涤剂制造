@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>肥皂及洗涤剂制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/肥皂及洗涤剂制造.png' 
          alt='肥皂及洗涤剂制造' 

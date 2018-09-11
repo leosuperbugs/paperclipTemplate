@@ -1,8 +1,9 @@
-<div class='desktop__class'>卫生和社会工作<hr class="desktop__break"></div><div class='mobile__title' style="font-size:12em; ">专科医院
+<div class='desktop__class'>卫生/社会工作<hr class="desktop__break"></div><div class='mobile__title' style="font-size:12em; ">专科医院
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>专科医院
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/专科医院.png' 
          alt='专科医院' 

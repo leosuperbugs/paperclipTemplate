@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>卫生洁具零售
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/卫生洁具零售.png' 
          alt='卫生洁具零售' 

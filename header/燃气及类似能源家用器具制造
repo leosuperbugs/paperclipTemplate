@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>燃气及类似能源家用器具制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/燃气及类似能源家用器具制造.png' 
          alt='燃气及类似能源家用器具制造' 

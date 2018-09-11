@@ -1,8 +1,9 @@
-<div class='desktop__class'>科学研究和技术服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">新能源<br>技术推广<br>服务
+<div class='desktop__class'>科学研究和技术服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">新能源<br>技术推广<br>服务
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>新能源技术推广服务
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/新能源技术推广服务.png' 
          alt='新能源技术推广服务' 

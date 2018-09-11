@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>运动休闲针织服装制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/运动休闲针织服装制造.png' 
          alt='运动休闲针织服装制造' 

@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>石灰和石膏制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/石灰和石膏制造.png' 
          alt='石灰和石膏制造' 

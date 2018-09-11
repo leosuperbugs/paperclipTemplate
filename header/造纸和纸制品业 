@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>造纸和纸制品业 
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/造纸和纸制品业 .png' 
          alt='造纸和纸制品业 ' 

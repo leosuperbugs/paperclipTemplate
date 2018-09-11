@@ -1,8 +1,9 @@
-<div class='desktop__class'>卫生和社会工作<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">提供<br>住宿<br>社会工作
+<div class='desktop__class'>卫生/社会工作<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">提供<br>住宿<br>社会工作
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>提供住宿社会工作
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/提供住宿社会工作.png' 
          alt='提供住宿社会工作' 

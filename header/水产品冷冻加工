@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>水产品冷冻加工
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/水产品冷冻加工.png' 
          alt='水产品冷冻加工' 

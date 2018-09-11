@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>海洋天然气及可燃冰开采
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/海洋天然气及可燃冰开采.png' 
          alt='海洋天然气及可燃冰开采' 

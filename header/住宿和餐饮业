@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>住宿和餐饮业
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/住宿和餐饮业.png' 
          alt='住宿和餐饮业' 

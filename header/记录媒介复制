@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>记录媒介复制
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/记录媒介复制.png' 
          alt='记录媒介复制' 

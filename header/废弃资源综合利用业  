@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>废弃资源综合利用业  
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/废弃资源综合利用业  .png' 
          alt='废弃资源综合利用业  ' 

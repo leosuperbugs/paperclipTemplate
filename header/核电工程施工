@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>核电工程施工
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/核电工程施工.png' 
          alt='核电工程施工' 

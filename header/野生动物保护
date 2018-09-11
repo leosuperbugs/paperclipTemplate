@@ -1,8 +1,9 @@
-<div class='desktop__class'>水利、环境和公共设施管理业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">野生动物<br>保护
+<div class='desktop__class'>水利/环境/公共设施管理<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">野生动物<br>保护
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>野生动物保护
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/野生动物保护.png' 
          alt='野生动物保护' 

@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>非公路休闲车及零配件制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/非公路休闲车及零配件制造.png' 
          alt='非公路休闲车及零配件制造' 

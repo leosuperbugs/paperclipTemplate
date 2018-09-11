@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>邮政专用机械及器材制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/邮政专用机械及器材制造.png' 
          alt='邮政专用机械及器材制造' 

@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>仪器仪表制造业
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/仪器仪表制造业.png' 
          alt='仪器仪表制造业' 

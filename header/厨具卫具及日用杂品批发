@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>厨具卫具及日用杂品批发
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/厨具卫具及日用杂品批发.png' 
          alt='厨具卫具及日用杂品批发' 

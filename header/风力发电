@@ -1,8 +1,9 @@
-<div class='desktop__class'>电力、热力、燃气及水生产和供应业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">风力<br>发电
+<div class='desktop__class'>电力/热力/燃气/水<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">风力<br>发电
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>风力发电
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/风力发电.png' 
          alt='风力发电' 

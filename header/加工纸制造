@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>加工纸制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/加工纸制造.png' 
          alt='加工纸制造' 

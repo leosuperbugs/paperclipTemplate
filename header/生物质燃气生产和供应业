@@ -1,8 +1,9 @@
-<div class='desktop__class'>电力、热力、燃气及水生产和供应业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">生物质<br>燃气<br>生产<br>和供应<br>业
+<div class='desktop__class'>电力/热力/燃气/水<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">生物质<br>燃气<br>生产<br>和供应<br>业
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>生物质燃气生产和供应业
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/生物质燃气生产和供应业.png' 
          alt='生物质燃气生产和供应业' 

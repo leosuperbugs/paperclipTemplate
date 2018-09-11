@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>包装装潢及其他印刷
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/包装装潢及其他印刷.png' 
          alt='包装装潢及其他印刷' 

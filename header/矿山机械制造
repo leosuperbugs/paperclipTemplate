@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>矿山机械制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/矿山机械制造.png' 
          alt='矿山机械制造' 

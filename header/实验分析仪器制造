@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>实验分析仪器制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/实验分析仪器制造.png' 
          alt='实验分析仪器制造' 

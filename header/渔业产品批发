@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>渔业产品批发
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/渔业产品批发.png' 
          alt='渔业产品批发' 

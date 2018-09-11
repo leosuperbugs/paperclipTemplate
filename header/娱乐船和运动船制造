@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>娱乐船和运动船制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/娱乐船和运动船制造.png' 
          alt='娱乐船和运动船制造' 

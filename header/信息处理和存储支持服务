@@ -1,8 +1,9 @@
-<div class='desktop__class'>信息传输、软件和信息技术服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">信息处理<br>和存储<br>支持<br>服务
+<div class='desktop__class'>信息传输/软件/信息技术服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">信息处理<br>和存储<br>支持<br>服务
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>信息处理和存储支持服务
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/信息处理和存储支持服务.png' 
          alt='信息处理和存储支持服务' 

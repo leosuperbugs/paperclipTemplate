@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>其他智能消费设备制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/其他智能消费设备制造.png' 
          alt='其他智能消费设备制造' 

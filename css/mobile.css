@@ -83,9 +83,13 @@
     z-index: 1;
 }
 .paperclip__title {
+    padding-top: 0em;
+    padding-bottom: 0em;
     background-image: url(images/circle.png);
     margin: 0;
+    background-size: initial;
 }
+
 .desktop__title {
     display: none ;
 }

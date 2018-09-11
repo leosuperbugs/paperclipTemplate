@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>纺织业
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/纺织业.png' 
          alt='纺织业' 

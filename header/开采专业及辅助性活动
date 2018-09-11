@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>开采专业及辅助性活动
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/开采专业及辅助性活动.png' 
          alt='开采专业及辅助性活动' 

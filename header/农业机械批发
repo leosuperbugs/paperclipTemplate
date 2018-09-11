@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>农业机械批发
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/农业机械批发.png' 
          alt='农业机械批发' 

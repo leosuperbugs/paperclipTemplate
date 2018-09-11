@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>化学矿开采
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/化学矿开采.png' 
          alt='化学矿开采' 

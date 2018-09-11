@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>贵金属冶炼
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/贵金属冶炼.png' 
          alt='贵金属冶炼' 

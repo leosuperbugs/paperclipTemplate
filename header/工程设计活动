@@ -1,8 +1,9 @@
-<div class='desktop__class'>科学研究和技术服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">工程设计<br>活动
+<div class='desktop__class'>科学研究和技术服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">工程设计<br>活动
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>工程设计活动
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/工程设计活动.png' 
          alt='工程设计活动' 

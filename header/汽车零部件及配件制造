@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>汽车零部件及配件制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/汽车零部件及配件制造.png' 
          alt='汽车零部件及配件制造' 

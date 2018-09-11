@@ -1,8 +1,9 @@
-<div class='desktop__class'>文化、体育和娱乐业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">文物<br>及<br>非<br>物质<br>文化遗产<br>保护
+<div class='desktop__class'>文化/体育/娱乐业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">文物<br>及<br>非<br>物质<br>文化遗产<br>保护
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>文物及非物质文化遗产保护
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/文物及非物质文化遗产保护.png' 
          alt='文物及非物质文化遗产保护' 

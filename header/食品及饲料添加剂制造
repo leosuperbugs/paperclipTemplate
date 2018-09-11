@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>食品及饲料添加剂制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/食品及饲料添加剂制造.png' 
          alt='食品及饲料添加剂制造' 

@@ -1,8 +1,9 @@
-<div class='desktop__class'>农、林、牧、渔业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">猪的<br>饲养
+<div class='desktop__class'>农/林/牧/渔<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">猪的<br>饲养
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>猪的饲养
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/猪的饲养.png' 
          alt='猪的饲养' 

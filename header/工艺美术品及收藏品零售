@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>工艺美术品及收藏品零售
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/工艺美术品及收藏品零售.png' 
          alt='工艺美术品及收藏品零售' 

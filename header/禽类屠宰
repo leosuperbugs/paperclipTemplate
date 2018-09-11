@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>禽类屠宰
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/禽类屠宰.png' 
          alt='禽类屠宰' 

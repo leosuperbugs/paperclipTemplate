@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>提供施工设备服务
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/提供施工设备服务.png' 
          alt='提供施工设备服务' 

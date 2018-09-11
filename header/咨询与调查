@@ -1,8 +1,9 @@
-<div class='desktop__class'>租赁和商务服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">咨询<br>与调查
+<div class='desktop__class'>租赁和商务服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">咨询<br>与调查
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>咨询与调查
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/咨询与调查.png' 
          alt='咨询与调查' 

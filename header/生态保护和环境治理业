@@ -1,8 +1,9 @@
-<div class='desktop__class'>水利、环境和公共设施管理业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">生态<br>保护<br>和环境治理<br>业
+<div class='desktop__class'>水利/环境/公共设施管理<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">生态<br>保护<br>和环境治理<br>业
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>生态保护和环境治理业
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/生态保护和环境治理业.png' 
          alt='生态保护和环境治理业' 

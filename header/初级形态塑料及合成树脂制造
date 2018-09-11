@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>初级形态塑料及合成树脂制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/初级形态塑料及合成树脂制造.png' 
          alt='初级形态塑料及合成树脂制造' 

@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>海底设施铺设工程建筑
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/海底设施铺设工程建筑.png' 
          alt='海底设施铺设工程建筑' 

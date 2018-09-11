@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>弹簧制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/弹簧制造.png' 
          alt='弹簧制造' 

@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>金属包装容器及材料制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/金属包装容器及材料制造.png' 
          alt='金属包装容器及材料制造' 

@@ -1,8 +1,9 @@
-<div class='desktop__class'>租赁和商务服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">汽车<br>租赁
+<div class='desktop__class'>租赁和商务服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">汽车<br>租赁
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>汽车租赁
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/汽车租赁.png' 
          alt='汽车租赁' 

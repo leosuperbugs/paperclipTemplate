@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>其他运输设备修理
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/其他运输设备修理.png' 
          alt='其他运输设备修理' 

@@ -1,8 +1,9 @@
-<div class='desktop__class'>农、林、牧、渔业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">其他<br>未列明<br>畜牧业
+<div class='desktop__class'>农/林/牧/渔<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">其他<br>未列明<br>畜牧业
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>其他未列明畜牧业
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/其他未列明畜牧业.png' 
          alt='其他未列明畜牧业' 

@@ -1,8 +1,9 @@
-<div class='desktop__class'>文化、体育和娱乐业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">体育竞赛<br>组织
+<div class='desktop__class'>文化/体育/娱乐业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">体育竞赛<br>组织
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>体育竞赛组织
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/体育竞赛组织.png' 
          alt='体育竞赛组织' 

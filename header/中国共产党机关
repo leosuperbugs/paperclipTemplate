@@ -1,8 +1,9 @@
-<div class='desktop__class'>公共管理、社会保障和社会组织<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">中国共产党<br>机关
+<div class='desktop__class'>公共管理/社会保障/社会组织<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">中国共产党<br>机关
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>中国共产党机关
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/中国共产党机关.png' 
          alt='中国共产党机关' 

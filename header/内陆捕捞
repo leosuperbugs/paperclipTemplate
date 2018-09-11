@@ -1,8 +1,9 @@
-<div class='desktop__class'>农、林、牧、渔业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">内陆<br>捕捞
+<div class='desktop__class'>农/林/牧/渔<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">内陆<br>捕捞
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>内陆捕捞
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/内陆捕捞.png' 
          alt='内陆捕捞' 

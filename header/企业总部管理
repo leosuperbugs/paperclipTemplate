@@ -1,8 +1,9 @@
-<div class='desktop__class'>租赁和商务服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">企业<br>总部<br>管理
+<div class='desktop__class'>租赁和商务服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">企业<br>总部<br>管理
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>企业总部管理
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/企业总部管理.png' 
          alt='企业总部管理' 

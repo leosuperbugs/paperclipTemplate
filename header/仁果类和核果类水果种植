@@ -1,8 +1,9 @@
-<div class='desktop__class'>农、林、牧、渔业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">仁果类<br>和核果类<br>水果<br>种植
+<div class='desktop__class'>农/林/牧/渔<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">仁果类<br>和核果类<br>水果<br>种植
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>仁果类和核果类水果种植
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/仁果类和核果类水果种植.png' 
          alt='仁果类和核果类水果种植' 

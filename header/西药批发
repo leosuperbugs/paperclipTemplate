@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>西药批发
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/西药批发.png' 
          alt='西药批发' 

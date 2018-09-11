@@ -1,8 +1,9 @@
-<div class='desktop__class'>科学研究和技术服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">新<br>材料<br>技术推广<br>服务
+<div class='desktop__class'>科学研究和技术服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">新<br>材料<br>技术推广<br>服务
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>新材料技术推广服务
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/新材料技术推广服务.png' 
          alt='新材料技术推广服务' 

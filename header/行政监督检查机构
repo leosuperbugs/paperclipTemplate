@@ -1,8 +1,9 @@
-<div class='desktop__class'>公共管理、社会保障和社会组织<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">行政监督<br>检查<br>机构
+<div class='desktop__class'>公共管理/社会保障/社会组织<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">行政监督<br>检查<br>机构
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>行政监督检查机构
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/行政监督检查机构.png' 
          alt='行政监督检查机构' 

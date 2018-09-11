@@ -1,8 +1,9 @@
-<div class='desktop__class'>租赁和商务服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">环保<br>咨询
+<div class='desktop__class'>租赁和商务服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">环保<br>咨询
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>环保咨询
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/环保咨询.png' 
          alt='环保咨询' 

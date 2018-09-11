@@ -1,8 +1,9 @@
-<div class='desktop__class'>信息传输、软件和信息技术服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">互联网<br>平台
+<div class='desktop__class'>信息传输/软件/信息技术服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">互联网<br>平台
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>互联网平台
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/互联网平台.png' 
          alt='互联网平台' 

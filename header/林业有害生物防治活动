@@ -1,8 +1,9 @@
-<div class='desktop__class'>农、林、牧、渔业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">林业<br>有害<br>生物防治<br>活动
+<div class='desktop__class'>农/林/牧/渔<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">林业<br>有害<br>生物防治<br>活动
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>林业有害生物防治活动
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/林业有害生物防治活动.png' 
          alt='林业有害生物防治活动' 

@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>平板玻璃制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/平板玻璃制造.png' 
          alt='平板玻璃制造' 

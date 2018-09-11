@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>金融信托与管理服务
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/金融信托与管理服务.png' 
          alt='金融信托与管理服务' 

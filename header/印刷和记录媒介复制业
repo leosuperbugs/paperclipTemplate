@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>印刷和记录媒介复制业
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/印刷和记录媒介复制业.png' 
          alt='印刷和记录媒介复制业' 

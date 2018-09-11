@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>烟煤和无烟煤开采洗选
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/烟煤和无烟煤开采洗选.png' 
          alt='烟煤和无烟煤开采洗选' 

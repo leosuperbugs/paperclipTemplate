@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>计算器及货币专用设备制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/计算器及货币专用设备制造.png' 
          alt='计算器及货币专用设备制造' 

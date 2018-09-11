@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>药用辅料及包装材料
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/药用辅料及包装材料.png' 
          alt='药用辅料及包装材料' 

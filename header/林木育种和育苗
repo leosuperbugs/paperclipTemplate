@@ -1,8 +1,9 @@
-<div class='desktop__class'>农、林、牧、渔业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">林木<br>育种<br>和育苗
+<div class='desktop__class'>农/林/牧/渔<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">林木<br>育种<br>和育苗
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>林木育种和育苗
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/林木育种和育苗.png' 
          alt='林木育种和育苗' 

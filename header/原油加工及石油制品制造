@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>原油加工及石油制品制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/原油加工及石油制品制造.png' 
          alt='原油加工及石油制品制造' 

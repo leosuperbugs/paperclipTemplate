@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>深海石油钻探设备制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/深海石油钻探设备制造.png' 
          alt='深海石油钻探设备制造' 

@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>其他输配电及控制设备制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/其他输配电及控制设备制造.png' 
          alt='其他输配电及控制设备制造' 

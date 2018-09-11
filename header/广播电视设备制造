@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>广播电视设备制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/广播电视设备制造.png' 
          alt='广播电视设备制造' 

@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>家用电器及电子产品专门零售
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/家用电器及电子产品专门零售.png' 
          alt='家用电器及电子产品专门零售' 

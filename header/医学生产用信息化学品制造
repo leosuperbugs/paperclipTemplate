@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>医学生产用信息化学品制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/医学生产用信息化学品制造.png' 
          alt='医学生产用信息化学品制造' 

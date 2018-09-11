@@ -1,8 +1,9 @@
-<div class='desktop__class'>居民服务、修理和其他服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">家用电器<br>修理
+<div class='desktop__class'>居民服务/修理/其他服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">家用电器<br>修理
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>家用电器修理
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/家用电器修理.png' 
          alt='家用电器修理' 

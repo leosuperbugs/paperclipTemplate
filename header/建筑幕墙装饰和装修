@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>建筑幕墙装饰和装修
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/建筑幕墙装饰和装修.png' 
          alt='建筑幕墙装饰和装修' 

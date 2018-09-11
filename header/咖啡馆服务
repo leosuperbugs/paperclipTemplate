@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>咖啡馆服务
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/咖啡馆服务.png' 
          alt='咖啡馆服务' 

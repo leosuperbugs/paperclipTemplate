@@ -1,8 +1,9 @@
-<div class='desktop__class'>租赁和商务服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">农村<br>集体经济<br>组织<br>管理
+<div class='desktop__class'>租赁和商务服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">农村<br>集体经济<br>组织<br>管理
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>农村集体经济组织管理
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/农村集体经济组织管理.png' 
          alt='农村集体经济组织管理' 

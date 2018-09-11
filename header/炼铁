@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>炼铁
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/炼铁.png' 
          alt='炼铁' 

@@ -1,8 +1,9 @@
-<div class='desktop__class'>信息传输、软件和信息技术服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">互联网<br>接入<br>及<br>相关<br>服务
+<div class='desktop__class'>信息传输/软件/信息技术服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">互联网<br>接入<br>及<br>相关<br>服务
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>互联网接入及相关服务
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/互联网接入及相关服务.png' 
          alt='互联网接入及相关服务' 

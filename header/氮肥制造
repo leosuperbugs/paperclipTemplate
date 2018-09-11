@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>氮肥制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/氮肥制造.png' 
          alt='氮肥制造' 

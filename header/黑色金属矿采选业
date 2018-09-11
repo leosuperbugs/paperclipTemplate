@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>黑色金属矿采选业
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/黑色金属矿采选业.png' 
          alt='黑色金属矿采选业' 

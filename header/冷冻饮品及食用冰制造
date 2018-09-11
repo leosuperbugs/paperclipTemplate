@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>冷冻饮品及食用冰制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/冷冻饮品及食用冰制造.png' 
          alt='冷冻饮品及食用冰制造' 

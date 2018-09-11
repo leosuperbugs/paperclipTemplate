@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>人造板制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/人造板制造.png' 
          alt='人造板制造' 

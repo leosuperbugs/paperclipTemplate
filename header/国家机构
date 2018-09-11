@@ -1,8 +1,9 @@
-<div class='desktop__class'>公共管理、社会保障和社会组织<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">国家<br>机构
+<div class='desktop__class'>公共管理/社会保障/社会组织<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">国家<br>机构
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>国家机构
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/国家机构.png' 
          alt='国家机构' 

@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>服务消费机器人制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/服务消费机器人制造.png' 
          alt='服务消费机器人制造' 

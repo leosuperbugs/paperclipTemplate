@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>创业投资基金
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/创业投资基金.png' 
          alt='创业投资基金' 

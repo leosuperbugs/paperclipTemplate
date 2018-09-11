@@ -107,6 +107,8 @@ $imagePrefix = 'lib/tpl/starter/images';
                                 'login'     => tpl_action('login', 1, 'li', 1),
                             )); ?>
                         </ul>
+                        <div class="paperclip__gradient"></div>
+                        <div class="clear"></div>
                     </div>
                 <?php endif ?>
 
@@ -161,7 +163,7 @@ $imagePrefix = 'lib/tpl/starter/images';
                 <?php tpl_flush() /* flush the output buffer */ ?>
                 <?php tpl_includeFile('pageheader.html') ?>
                 <div class="paperclip__title">
-                    <?php 
+                    <?php
                         $entryTitle = tpl_pagetitle(null, true); 
                         $filename ='lib/tpl/starter/header/'.$entryTitle;
                         // need some fix here

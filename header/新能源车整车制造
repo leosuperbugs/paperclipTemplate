@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>新能源车整车制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/新能源车整车制造.png' 
          alt='新能源车整车制造' 

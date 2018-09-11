@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>放射性金属矿采选
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/放射性金属矿采选.png' 
          alt='放射性金属矿采选' 

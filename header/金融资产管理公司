@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>金融资产管理公司
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/金融资产管理公司.png' 
          alt='金融资产管理公司' 

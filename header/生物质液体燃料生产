@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>生物质液体燃料生产
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/生物质液体燃料生产.png' 
          alt='生物质液体燃料生产' 

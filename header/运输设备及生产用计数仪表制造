@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>运输设备及生产用计数仪表制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/运输设备及生产用计数仪表制造.png' 
          alt='运输设备及生产用计数仪表制造' 

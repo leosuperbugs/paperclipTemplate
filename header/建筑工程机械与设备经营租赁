@@ -1,8 +1,9 @@
-<div class='desktop__class'>租赁和商务服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">建筑工程<br>机械<br>与设备<br>经营<br>租赁
+<div class='desktop__class'>租赁和商务服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">建筑工程<br>机械<br>与设备<br>经营<br>租赁
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>建筑工程机械与设备经营租赁
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/建筑工程机械与设备经营租赁.png' 
          alt='建筑工程机械与设备经营租赁' 

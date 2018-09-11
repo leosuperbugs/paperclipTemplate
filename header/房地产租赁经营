@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>房地产租赁经营
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/房地产租赁经营.png' 
          alt='房地产租赁经营' 

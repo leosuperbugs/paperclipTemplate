@@ -1,8 +1,9 @@
-<div class='desktop__class'>租赁和商务服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">休闲<br>娱乐<br>用品<br>设备<br>出租
+<div class='desktop__class'>租赁和商务服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">休闲<br>娱乐<br>用品<br>设备<br>出租
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>休闲娱乐用品设备出租
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/休闲娱乐用品设备出租.png' 
          alt='休闲娱乐用品设备出租' 

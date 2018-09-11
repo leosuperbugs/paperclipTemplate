@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>环境污染处理专用药剂材料制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/环境污染处理专用药剂材料制造.png' 
          alt='环境污染处理专用药剂材料制造' 

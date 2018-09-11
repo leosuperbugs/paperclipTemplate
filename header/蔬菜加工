@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>蔬菜加工
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/蔬菜加工.png' 
          alt='蔬菜加工' 

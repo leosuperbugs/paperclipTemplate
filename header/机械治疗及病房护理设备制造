@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>机械治疗及病房护理设备制造
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/机械治疗及病房护理设备制造.png' 
          alt='机械治疗及病房护理设备制造' 

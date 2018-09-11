@@ -1,8 +1,9 @@
-<div class='desktop__class'>科学研究和技术服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">环境<br>与生态<br>监测<br>检测<br>服务
+<div class='desktop__class'>科学研究和技术服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">环境<br>与生态<br>监测<br>检测<br>服务
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>环境与生态监测检测服务
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/环境与生态监测检测服务.png' 
          alt='环境与生态监测检测服务' 

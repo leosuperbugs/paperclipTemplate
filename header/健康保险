@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>健康保险
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/健康保险.png' 
          alt='健康保险' 

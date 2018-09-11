@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>珠宝首饰零售
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/珠宝首饰零售.png' 
          alt='珠宝首饰零售' 

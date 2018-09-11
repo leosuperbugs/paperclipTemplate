@@ -1,8 +1,9 @@
-<div class='desktop__class'>信息传输、软件和信息技术服务业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">基础<br>软件开发
+<div class='desktop__class'>信息传输/软件/信息技术服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">基础<br>软件开发
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>基础软件开发
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/基础软件开发.png' 
          alt='基础软件开发' 

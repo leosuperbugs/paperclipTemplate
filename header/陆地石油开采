@@ -3,6 +3,7 @@
     </div>
     <div class='desktop__title'>陆地石油开采
 </div>
+    <div class="intro"></div>
     <img id='title_img' 
          src='lib/tpl/starter/images/陆地石油开采.png' 
          alt='陆地石油开采' 
