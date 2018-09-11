@@ -44,7 +44,7 @@ $imagePrefix = 'lib/tpl/starter/images';
         <div id="dokuwiki__header"><div class="pad">
 
             <div class="headings">
-                <h1><?php tpl_link(wl(),$conf['title'],'accesskey="h" title="[H]"') ?></h1>
+<!--                <h1>--><?php ////tpl_link(wl(),$conf['title'],'accesskey="h" title="[H]"') ?><!--</h1>-->
                 <?php /* how to insert logo instead (if no CSS image replacement technique is used):
                         upload your logo into the data/media folder (root of the media manager) and replace 'logo.png' accordingly:
                         tpl_link(wl(),'<img src="'.ml('logo.png').'" alt="'.$conf['title'].'" />','id="dokuwiki__top" accesskey="h" title="[H]"') */ ?>
@@ -63,7 +63,32 @@ $imagePrefix = 'lib/tpl/starter/images';
                 <?php if ($conf['useacl'] && $showTools): ?>
                     <div id="dokuwiki__usertools">
                         <h3 class="a11y"><?php echo $lang['user_tools'] ?></h3>
-                        <ul>
+                        <ul id="logo_area">
+                            <li class="desktop__header">
+                                <a href="/doku.php">
+                                    <img id="brand" src="lib/tpl/starter/images/brand_white.png" />
+                                </a>
+                            </li>
+                            <li class="desktop__header">
+                                <a href="">
+                                    <img class="social" id="wechat"  src="lib/tpl/starter/images/wechat_bw.png">
+                                </a>
+                                <!-- Tongyu: the position of the qrcode is wired, need to be fixed -->
+                                <img id="qrcode" src="lib/tpl/starter/images/qrcode.jpg">
+                            </li>
+                            <li class="desktop__header">
+                                <a href="https://www.weibo.com/p/1005056414205745">
+                                    <img class="social"  src="lib/tpl/starter/images/weibo_bw.png"/>
+                                </a>
+                            </li>
+                            <li class="desktop__header">
+                                <a href="">
+                                    <img class="social"  src="lib/tpl/starter/images/video.png">
+                                </a>
+                            </li>
+                            <div class="clear"></div>
+                        </ul>
+                        <ul id="tag_area">
                             <?php
                                 if (!empty($_SERVER['REMOTE_USER'])) {
                                     echo '<li class="user">';
@@ -76,8 +101,8 @@ $imagePrefix = 'lib/tpl/starter/images';
                             ?>
                             <?php tpl_toolsevent('usertools', array(
                                 'admin'     => tpl_action('admin', 1, 'li', 1),
-                                'userpage'  => _tpl_action('userpage', 1, 'li', 1),
-                                'profile'   => tpl_action('profile', 1, 'li', 1),
+//                                'userpage'  => _tpl_action('userpage', 1, 'li', 1),
+//                                'profile'   => tpl_action('profile', 1, 'li', 1),
                                 'register'  => tpl_action('register', 1, 'li', 1),
                                 'login'     => tpl_action('login', 1, 'li', 1),
                             )); ?>
@@ -88,7 +113,7 @@ $imagePrefix = 'lib/tpl/starter/images';
                 <!-- SITE TOOLS -->
                 <div id="dokuwiki__sitetools">
                     <h3 class="a11y"><?php echo $lang['site_tools'] ?></h3>
-                    <?php tpl_searchform() ?>
+<!--                    --><?php //tpl_searchform() ?>
                     <ul>
                         <?php tpl_toolsevent('sitetools', array(
                             'recent'    => tpl_action('recent', 1, 'li', 1),
@@ -118,7 +143,7 @@ $imagePrefix = 'lib/tpl/starter/images';
             <!-- the cover of entry -->
             <div class="dokuwiki_overture">
                 <div class='dokuwiki_decoration'></div>
-                <?php tpl_searchform() ?>
+<!--                --><?php //tpl_searchform() ?>
             </div>
 
             <!-- ********** ASIDE ********** -->
@@ -146,22 +171,6 @@ $imagePrefix = 'lib/tpl/starter/images';
                             fclose($file);
                         }
                     ?>
-                    <!-- <div style="font-size:6em;
-                                margin:30px 30px 0 30px;
-                                background: transparent ">
-                                玉米<br>种植
-                                <hr style="width:60px;
-                                    font-size:10px;
-                                    height:10px;
-                                    background-color:white;">
-                    </div>
-                    <img id='title_img' 
-                        src='lib/tpl/starter/images/玉米种植.png' 
-                        alt='玉米种植' 
-                        style="height:10em;
-                            margin-left:-6em;"
-                    > -->
-                    <!--  <div class="circle"></div> -->
                 </div>
                 
 

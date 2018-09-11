@@ -8,6 +8,14 @@ jQuery( document ).ready(function($) {
         $(this).append('&nbsp;&nbsp; <img border="0" class="plus" src="' + im + '"><div class="clear"></div>');
     });
     $(".secedit").remove();
+    $(".login").css("color", "#e0ba7e");
+    $(".logout").css("color", "#e0ba7e");
+    // display of wechat qrcode
+    $("#wechat").hover(function () {
+       $("#qrcode").css("display", "block");
+    }, function () {
+       $("#qrcode").css("display", "none");
+    })
 });
 
 // var Paperclip = {
