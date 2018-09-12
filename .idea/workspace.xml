@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af632cfa-bafe-4ae3-855e-514a33ad308d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/basic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/design.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/design.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mobile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.ini" beforeDir="false" afterPath="$PROJECT_DIR$/style.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,30 +25,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="9" />
+          <entry key="css" value="10" />
+          <entry key="ini" value="1" />
           <entry key="js" value="1" />
           <entry key="php" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="9" />
+          <entry key="CSS" value="10" />
+          <entry key="Ini" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="PHP" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2165" />
+          <entry key="css" value="2817" />
+          <entry key="ini" value="162" />
           <entry key="js" value="1322" />
-          <entry key="php" value="2716" />
+          <entry key="php" value="3120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2165" />
+          <entry key="CSS" value="2817" />
+          <entry key="Ini" value="162" />
           <entry key="JavaScript" value="1322" />
-          <entry key="PHP" value="2716" />
+          <entry key="PHP" value="3120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -60,14 +64,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.67469877">
+    <splitter split-orientation="vertical" split-proportion="0.42409638">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1560">
-                  <caret line="202" column="3" selection-start-line="202" selection-start-column="3" selection-end-line="202" selection-end-column="3" />
+                <state relative-caret-position="430">
+                  <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
                   <folding>
                     <element signature="e#2101#2460#0#PHP" expanded="true" />
                   </folding>
@@ -105,54 +109,62 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1444">
-                  <caret line="156" selection-start-line="156" selection-end-line="156" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/content.css">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/basic.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="16" selection-start-line="16" selection-end-line="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/design.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="311">
-                  <caret line="122" selection-start-line="122" selection-end-line="122" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/mobile.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/structure.css">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="vertical" split-proportion="0.35983264">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/main.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="-1444">
+                      <caret line="165" selection-start-line="165" selection-end-line="165" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/css/content.css">
+                  <provider selected="true" editor-type-id="text-editor" />
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/css/basic.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="384">
+                      <caret line="16" selection-start-line="16" selection-end-line="16" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/css/design.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="119">
+                      <caret line="343" column="1" lean-forward="true" selection-start-line="343" selection-start-column="1" selection-end-line="343" selection-end-column="1" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/css/structure.css">
+                  <provider selected="true" editor-type-id="text-editor" />
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/css/mobile.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="620">
+                      <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-second>
     </splitter>
   </component>
@@ -166,13 +178,16 @@
       <find>bread</find>
       <find>page</find>
       <find>usertools {</find>
-      <find>h</find>
       <find>usertool</find>
       <find>gradi</find>
       <find>gradien</find>
       <find>usertoo</find>
       <find>tool</find>
+      <find>__background_alt__</find>
       <find>opa</find>
+      <find>#e</find>
+      <find>h</find>
+      <find>#</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -183,9 +198,10 @@
       <list>
         <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/css/basic.css" />
-        <option value="$PROJECT_DIR$/css/mobile.css" />
+        <option value="$PROJECT_DIR$/style.ini" />
         <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/css/design.css" />
+        <option value="$PROJECT_DIR$/css/mobile.css" />
       </list>
     </option>
   </component>
@@ -258,12 +274,12 @@
       <option name="presentableId" value="Default" />
       <updated>1536557402463</updated>
       <workItem from="1536557404299" duration="26122000" />
-      <workItem from="1536648572382" duration="19289000" />
+      <workItem from="1536648572382" duration="24983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45411000" />
+    <option name="totallyTimeSpent" value="51105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-1342" width="1440" height="2560" extended-state="0" />
@@ -354,29 +370,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/basic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="384">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mobile.css">
+    <entry file="file://$PROJECT_DIR$/style.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="329">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1444">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        <state relative-caret-position="430">
+          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+          <folding>
+            <element signature="e#2101#2460#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/design.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        <state relative-caret-position="96">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
         </state>
       </provider>
     </entry>

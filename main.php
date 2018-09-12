@@ -146,7 +146,16 @@ $imagePrefix = 'lib/tpl/starter/images';
             fclose($file);
         }
         ?>
+        <div class="pet_warpper">
+            <hr class="vertical_upper"/>
+            <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+        </div>
     </div>
+    <div class="pet_warpper">
+        <img id="pet_lower" src="lib/tpl/starter/images/pet_lower.png"/>
+        <hr class="vertical_lower"/>
+    </div>
+    <div class="clear"></div>
 
     <div id="dokuwiki__site"><div id="dokuwiki__top" class="site <?php echo tpl_classes(); ?> <?php
         echo ($showSidebar) ? 'hasSidebar' : ''; ?>">

@@ -25,6 +25,9 @@ body {
 .dokuwiki_title {
     font-size: 3em;
 }
+.pet_warpper {
+    display: none;
+}
 
 #dokuwiki__aside {
     width: 100%;

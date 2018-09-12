@@ -291,8 +291,8 @@
 }
 .paperclip__title {
     padding-top: 6em;
-    padding-bottom: 5em;
     padding-left: 5%;
+    padding-right: 5%;
     background-image: url(images/bg/玉米种植.jpg);
     background-size: 100%;
     position: relative;
@@ -309,7 +309,7 @@
     width:100%;
     font-size:10px;
     height:5px;
-    background-color:#e0ba7e;
+    background-color: __paperclip__gold__;
 }
 .mobile__title {
     display: none;
@@ -326,4 +326,36 @@
 .intro {
     width: 45%;
     font-size: 1.2em;
+}
+.vertical_lower, .vertical_upper{
+    width: 3px;
+    background-color: __paperclip__gold__;
+}
+.vertical_upper {
+    margin-top: 5em;
+    margin-bottom: 0;
+    height: 10em;
+}
+.vertical_lower {
+    margin-top: -3em;
+    margin-left: 5%;
+    height: 5em;
+    float: left;
+}
+.pet_warpper {
+    height: auto;
+    width: 100%;
+}
+#pet_upper,
+#pet_lower{
+    float: right;
+    right: 5%;
+}
+#pet_upper {
+    position: absolute;
+    bottom: 0;
+}
+#pet_lower {
+    top: 0;
+    position: relative;
 }
