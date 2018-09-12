@@ -35,16 +35,10 @@ $imagePrefix = 'lib/tpl/starter/images';
     <?php /* the "dokuwiki__top" id is needed somewhere at the top, because that's where the "back to top" button/link links to */ ?>
     <?php /* tpl_classes() provides useful CSS classes; if you choose not to use it, the 'dokuwiki' class at least
              should always be in one of the surrounding elements (e.g. plugins and templates depend on it) */ ?>
-    <div id="dokuwiki__site"><div id="dokuwiki__top" class="site <?php echo tpl_classes(); ?> <?php
-        echo ($showSidebar) ? 'hasSidebar' : ''; ?>">
-        <?php html_msgarea() /* occasional error and info messages on top of the page */ ?>
-        <?php tpl_includeFile('header.html') ?>
-
-        <!-- ********** HEADER ********** -->
-        <div id="dokuwiki__header"><div class="pad">
+    <div id="dokuwiki__header"><div class="pad">
 
             <div class="headings">
-<!--                <h1>--><?php ////tpl_link(wl(),$conf['title'],'accesskey="h" title="[H]"') ?><!--</h1>-->
+                <!--                <h1>--><?php ////tpl_link(wl(),$conf['title'],'accesskey="h" title="[H]"') ?><!--</h1>-->
                 <?php /* how to insert logo instead (if no CSS image replacement technique is used):
                         upload your logo into the data/media folder (root of the media manager) and replace 'logo.png' accordingly:
                         tpl_link(wl(),'<img src="'.ml('logo.png').'" alt="'.$conf['title'].'" />','id="dokuwiki__top" accesskey="h" title="[H]"') */ ?>
@@ -90,11 +84,11 @@ $imagePrefix = 'lib/tpl/starter/images';
                         </ul>
                         <ul id="tag_area">
                             <?php
-                                if (!empty($_SERVER['REMOTE_USER'])) {
-                                    echo '<li class="user">';
-                                    tpl_userinfo(); /* 'Logged in as ...' */
-                                    echo '</li>';
-                                }
+                            if (!empty($_SERVER['REMOTE_USER'])) {
+                                echo '<li class="user">';
+                                tpl_userinfo(); /* 'Logged in as ...' */
+                                echo '</li>';
+                            }
                             ?>
                             <?php /* the optional second parameter of tpl_action() switches between a link and a button,
                                      e.g. a button inside a <li> would be: tpl_action('edit', 0, 'li') */
@@ -107,7 +101,7 @@ $imagePrefix = 'lib/tpl/starter/images';
                                 'login'     => tpl_action('login', 1, 'li', 1),
                             )); ?>
                         </ul>
-                        <div class="paperclip__gradient"></div>
+                        <!--                        <div class="paperclip__gradient"></div>-->
                         <div class="clear"></div>
                     </div>
                 <?php endif ?>
@@ -115,7 +109,7 @@ $imagePrefix = 'lib/tpl/starter/images';
                 <!-- SITE TOOLS -->
                 <div id="dokuwiki__sitetools">
                     <h3 class="a11y"><?php echo $lang['site_tools'] ?></h3>
-<!--                    --><?php //tpl_searchform() ?>
+                    <!--                    --><?php //tpl_searchform() ?>
                     <ul>
                         <?php tpl_toolsevent('sitetools', array(
                             'recent'    => tpl_action('recent', 1, 'li', 1),
@@ -138,7 +132,28 @@ $imagePrefix = 'lib/tpl/starter/images';
 
             <div class="clearer"></div>
             <hr class="a11y" />
-        </div></div><!-- /header -->
+        </div>
+    </div><!-- /header -->
+
+    <div class="paperclip__title">
+        <?php
+        $entryTitle = tpl_pagetitle(null, true);
+        $filename ='lib/tpl/starter/header/'.$entryTitle;
+        // need some fix here
+        $file = fopen($filename, "r");
+        if ($file) {
+            echo fread($file, filesize($filename));
+            fclose($file);
+        }
+        ?>
+    </div>
+
+    <div id="dokuwiki__site"><div id="dokuwiki__top" class="site <?php echo tpl_classes(); ?> <?php
+        echo ($showSidebar) ? 'hasSidebar' : ''; ?>">
+        <?php html_msgarea() /* occasional error and info messages on top of the page */ ?>
+        <?php tpl_includeFile('header.html') ?>
+
+        <!-- ********** HEADER ********** -->
 
 
         <div class="wrapper">
@@ -162,19 +177,7 @@ $imagePrefix = 'lib/tpl/starter/images';
             <div id="dokuwiki__content"><div class="pad">
                 <?php tpl_flush() /* flush the output buffer */ ?>
                 <?php tpl_includeFile('pageheader.html') ?>
-                <div class="paperclip__title">
-                    <?php
-                        $entryTitle = tpl_pagetitle(null, true); 
-                        $filename ='lib/tpl/starter/header/'.$entryTitle;
-                        // need some fix here
-                        $file = fopen($filename, "r");
-                        if ($file) {
-                            echo fread($file, filesize($filename));
-                            fclose($file);
-                        }
-                    ?>
-                </div>
-                
+
 
                 <div class="page">
                     <!-- wikipage start -->

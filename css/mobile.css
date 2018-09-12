@@ -5,6 +5,10 @@
  */
 
 @media only screen and (max-width: 42em) {
+html,
+body {
+    background-color: #262626;
+}
 #dokuwiki__header {
     display: none;
 }

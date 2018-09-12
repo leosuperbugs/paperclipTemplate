@@ -14,7 +14,7 @@
 }
 
 #dokuwiki__header {
-    margin: 2em 0 0;
+    margin: 2.5em 0 0;
 }
 
 #dokuwiki__header .headings {
@@ -110,26 +110,29 @@
     top: 0;
     right: 0;
     width: 100%;
-    background-color: #262626;
-    margin-bottom: 3em;
+    background: linear-gradient(to bottom, #262626, #000000);
 }
 #dokuwiki__pagetools ul {
     margin: 0 auto;
 }
 #dokuwiki__usertools ul,
 #dokuwiki__pagetools ul {
-    background-color: #262626;
     font-size: 1.2em;
     /* imitate #dokuwiki__site */
     max-width: __site_width__;
-    padding: 0 1em;
     display: inline-block;
 }
 #logo_area {
     float: left;
+    margin-left: 5%;
+    background-color: rgba(0,0,0,0);
+    margin-block-start: 0em;
+    padding-inline-start: 0px
 }
 #tag_area {
     margin-top: 40px;
+    margin-right: 5%;
+    background-color: rgba(0,0,0,0);
 }
 
 #brand {
@@ -289,9 +292,7 @@
 .paperclip__title {
     padding-top: 6em;
     padding-bottom: 5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    margin: 0 -1em;
+    padding-left: 5%;
     background-image: url(images/bg/玉米种植.jpg);
     background-size: 100%;
     position: relative;

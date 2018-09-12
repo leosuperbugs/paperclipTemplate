@@ -26,6 +26,14 @@ jQuery( document ).ready(function($) {
         $(this).append('&nbsp;&nbsp; <img border="0" class="plus" src="' + im + '"><div class="clear"></div>');
         $(this).nextUntil("h1").toggle();
     });
+    // set the width of paperclip__title to document.body.clientWidth
+    // let widthOfScreen = document.body.clientWidth;
+    // let marginValue = (widthOfScreen - $('.paperclip__title').width()) / 2;
+    // $('.paperclip__title').css('margin-left', -marginValue);
+    // $('.paperclip__title').css('margin-right', -marginValue);
+    // $('.paperclip__title').css('padding-left', 0.05 * widthOfScreen);
+    // $('.paperclip__title').css('padding-right', 0.05 * widthOfScreen);
+    // console.log(document.body.clientWidth);
 });
 
 // var Paperclip = {
