@@ -1,6 +1,8 @@
 jQuery( document ).ready(function($) {
 
     var im = DOKU_BASE+"lib/tpl/starter/images/plus.png";
+    var screenMode = $('#screen__mode').css('z-index') + '';
+
     //$(".secedit").remove();
     $(".login").css("color", "#e0ba7e");
     $(".logout").css("color", "#e0ba7e");
@@ -23,8 +25,14 @@ jQuery( document ).ready(function($) {
         this.onclick=function() {
             $(this).nextUntil("h1").toggle();
         };
-        $(this).append('&nbsp;&nbsp; <img border="0" class="plus" src="' + im + '"><div class="clear"></div>');
-        $(this).nextUntil("h1").toggle();
+        // add icons for images
+        if (screenMode == 1) {
+            $(this).append('&nbsp;&nbsp; <img border="0" class="plus" src="' + im + '"><div class="clear"></div>');
+            $(this).nextUntil("h1").toggle();
+        }
+        else {
+            $(this).prepend('&nbsp;&nbsp; <span style="color:#e0ab7e; font-size: 0.5em">▋</span>  ');
+        }
     });
     // set the width of paperclip__title to document.body.clientWidth
     // let widthOfScreen = document.body.clientWidth;
@@ -34,6 +42,7 @@ jQuery( document ).ready(function($) {
     // $('.paperclip__title').css('padding-left', 0.05 * widthOfScreen);
     // $('.paperclip__title').css('padding-right', 0.05 * widthOfScreen);
     // console.log(document.body.clientWidth);
+
 });
 
 // var Paperclip = {

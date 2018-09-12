@@ -477,6 +477,13 @@ option {
     width: 1.25em;
     float: right;
 }
+.desktop__prefix {
+    height: 1.25em;
+    width: 1.25em;
+    float: left;
+    display: inline-block;
+
+}
 #wiki__text {
      color: #000;
 }
