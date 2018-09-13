@@ -9,8 +9,7 @@ body {
 }
 #dokuwiki__site {
     margin: 0 auto;
-    max-width: __site_width__;
-    padding: 1.4em 1em;
+    padding: 0 5%;
 }
 #dokuwiki__site > .site {
 }

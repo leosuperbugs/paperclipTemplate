@@ -13,15 +13,18 @@
 html,
 body {
     background-color: #262626;
+    color: white;
 }
-
 #screen__mode {
     position: relative;
     z-index: 1;
 }
 
-    #dokuwiki__header {
+#dokuwiki__header {
     display: none;
+}
+h1 {
+    background-color: __paperclip__dark__grey__;
 }
 .notify {
     display: none;

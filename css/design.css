@@ -296,6 +296,7 @@
     background-image: url(images/bg/玉米种植.jpg);
     background-size: 100%;
     position: relative;
+    color: white;
 }
 .desktop__title {
     font-size: 5em;

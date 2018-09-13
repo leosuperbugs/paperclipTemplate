@@ -14,7 +14,6 @@ html {
 }
 html,
 body {
-    color: white;
     margin: 0;
     padding: 0;
 }
@@ -52,9 +51,6 @@ h6 {
 h1 {
     font-size: 2.25em;
     margin: 0 0 0.444em;
-    padding: 0.25em 1em;
-    background-color: #333333;
-    color: white;
 }
 h2 {
     font-size: 1.5em;

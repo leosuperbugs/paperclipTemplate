@@ -31,7 +31,7 @@ jQuery( document ).ready(function($) {
             $(this).nextUntil("h1").toggle();
         }
         else {
-            $(this).prepend('&nbsp;&nbsp; <span style="color:#e0ab7e; font-size: 0.5em">▋</span>  ');
+            $(this).prepend('<span style="color:#e0ab7e; font-size: 0.5em">▋</span>  ');
         }
     });
     // set the width of paperclip__title to document.body.clientWidth
