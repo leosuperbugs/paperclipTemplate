@@ -41,7 +41,14 @@ jQuery( document ).ready(function($) {
     // $('.paperclip__title').css('margin-right', -marginValue);
     // $('.paperclip__title').css('padding-left', 0.05 * widthOfScreen);
     // $('.paperclip__title').css('padding-right', 0.05 * widthOfScreen);
-    // console.log(document.body.clientWidth);
+    // console.log(document.body.clientWidth)
+
+    // cut the toc and paste it to the side
+    let toc = $('.dw__toc');
+    $('.dw__toc').remove();
+    $('#dokuwiki__site').append(toc);
+
+
 
 });
 

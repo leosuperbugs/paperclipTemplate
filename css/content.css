@@ -171,4 +171,8 @@
 
 #dw__toc {
     background-color: #333;
+    position: absolute;
+    width: 100px;
+    right: 0;
+    top: 0;
 }
