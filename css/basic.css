@@ -115,7 +115,6 @@ div {
 ul,
 ol {
     padding: 0 0 0 1.5em;
-    background-color: #333333;
 }
 [dir=rtl] ul,
 [dir=rtl] ol {
@@ -213,7 +212,7 @@ a {
 a:link,
 a:visited {
     text-decoration: none;
-    color: #ffffff; /* §colour */
+    color: __paperclip__darkgrey__; /* §colour */
 }
 #config__manager a:link, 
 #config__manager a:visited {
@@ -495,4 +494,7 @@ option {
 
 bdi {
     color: white;
+}
+#dokuwiki__footer bdi {
+    color: __paperclip__darkgrey__;
 }

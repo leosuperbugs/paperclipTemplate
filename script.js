@@ -48,6 +48,12 @@ jQuery( document ).ready(function($) {
     $('.dw__toc').remove();
     $('#dokuwiki__site').append(toc);
 
+    // scroll to the top
+    $('.paperclip__backToTop').click(function () {
+        $('html,body').animate({ scrollTop: 0 }, 500);
+    });
+
+    //
 
 
 });

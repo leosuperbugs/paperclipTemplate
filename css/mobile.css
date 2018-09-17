@@ -35,6 +35,9 @@ h1 {
 .secedit button{
     display: none;
 }
+#dokuwiki__site {
+    padding-right: 0;
+}
 
 .dokuwiki_title {
     font-size: 3em;

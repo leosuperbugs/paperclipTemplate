@@ -74,9 +74,7 @@
 
 /* make wiki links look the same as tool links in tool bars */
 #dokuwiki__usertools a.wikilink1,
-#dokuwiki__pagetools a.wikilink1,
-#dokuwiki__usertools a.wikilink2,
-#dokuwiki__pagetools a.wikilink2 {
+#dokuwiki__usertools a.wikilink2 {
     color: #ffffff;
     border-bottom-width: 0;
 }
@@ -176,6 +174,9 @@
 }
 #dokuwiki__pagetools ul li a.action.top {
     float: right;
+}
+#dokuwiki__pagetools a {
+    color: __paperclip__darkgrey__;
 }
 [dir=rtl] #dokuwiki__pagetools ul li a.action.top {
     float: left;
@@ -359,4 +360,14 @@
 #pet_lower {
     top: 0;
     position: relative;
+}
+
+.paperclip__backToTop {
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+}
+.paperclip__backToTop svg{
+    width: 60px;
+    height: 50px;
 }

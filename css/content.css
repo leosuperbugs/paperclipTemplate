@@ -170,9 +170,19 @@
 }
 
 #dw__toc {
-    background-color: #333;
-    position: absolute;
+    background-color: __paperclip__tocgrey__;
+    position: fixed;
     width: 100px;
-    right: 0;
-    top: 0;
+    right: 50px;
+    top: 200px;
+    opacity: 0.5;
+}
+
+.li a {
+    margin: 0 auto;
+    display: block;
+}
+
+.li a {
+    color: __paperclip__darkgrey__;
 }
