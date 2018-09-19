@@ -293,8 +293,7 @@
     background: linear-gradient(to bottom, #262626, #000000);
 }
 .paperclip__title {
-    margin-top: 1em;
-    padding-top: 5em;
+    padding-top: 6em;
     padding-left: 5%;
     padding-right: 5%;
     background-size: 100%;
