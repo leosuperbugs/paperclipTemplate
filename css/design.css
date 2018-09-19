@@ -108,7 +108,8 @@
     top: 0;
     right: 0;
     width: 100%;
-    background: linear-gradient(to bottom, #262626, #000000);
+    /*background: linear-gradient(to bottom, #, #222222);*/
+    background-color: #222222;
 }
 #dokuwiki__pagetools ul {
     margin: 0 auto;
@@ -292,7 +293,8 @@
     background: linear-gradient(to bottom, #262626, #000000);
 }
 .paperclip__title {
-    padding-top: 6em;
+    margin-top: 1em;
+    padding-top: 5em;
     padding-left: 5%;
     padding-right: 5%;
     background-size: 100%;

@@ -1,0 +1,19 @@
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/51批发业.jpg);">
+        <div class='desktop__class'>
+    START<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:4em; ">START<hr class="mobile__break">
+    </div>
+    <div class='desktop__title'>START</div>
+    <div class="intro"></div>
+    <img id='title_img'
+         src='lib/tpl/starter/images/一般物品拍卖.png'
+         alt='一般物品拍卖'
+        style="height:10em;
+                margin-left:-6em;"
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
+    
