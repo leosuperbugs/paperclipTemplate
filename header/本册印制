@@ -1,13 +1,19 @@
-<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">本册<br>印制
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/23印刷和记录媒介复制业.jpg);">
+        <div class='desktop__class'>
+    制造业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:6em; ">本册<br>印制<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>本册印制
-</div>
+    <div class='desktop__title'>本册印制</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/本册印制.png' 
-         alt='本册印制' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/本册印制.png'
+         alt='本册印制'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

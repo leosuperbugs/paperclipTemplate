@@ -1,13 +1,19 @@
-<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:12em; ">炼钢
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/31黑色金属冶炼和压延加工业 .jpg);">
+        <div class='desktop__class'>
+    制造业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:12em; ">炼钢<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>炼钢
-</div>
+    <div class='desktop__title'>炼钢</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/炼钢.png' 
-         alt='炼钢' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/炼钢.png'
+         alt='炼钢'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

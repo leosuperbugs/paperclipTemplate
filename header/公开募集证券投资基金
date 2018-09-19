@@ -1,13 +1,19 @@
-<div class='desktop__class'>金融业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">公开<br>募集<br>证券<br>投资<br>基金
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/67资本市场服务.jpg);">
+        <div class='desktop__class'>
+    金融业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:2em; ">公开<br>募集<br>证券<br>投资<br>基金<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>公开募集证券投资基金
-</div>
+    <div class='desktop__title'>公开募集证券投资基金</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/公开募集证券投资基金.png' 
-         alt='公开募集证券投资基金' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/公开募集证券投资基金.png'
+         alt='公开募集证券投资基金'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

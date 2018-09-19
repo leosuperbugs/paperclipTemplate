@@ -1,13 +1,19 @@
-<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">白酒<br>制造
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/15酒、饮料和精制茶制造业.jpg);">
+        <div class='desktop__class'>
+    制造业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:6em; ">白酒<br>制造<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>白酒制造
-</div>
+    <div class='desktop__title'>白酒制造</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/白酒制造.png' 
-         alt='白酒制造' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/白酒制造.png'
+         alt='白酒制造'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

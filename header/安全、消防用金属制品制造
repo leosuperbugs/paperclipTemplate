@@ -1,0 +1,19 @@
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/33金属制品业 .jpg);">
+        <div class='desktop__class'>
+    制造业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:2em; ">安全<br>、<br>消防<br>用<br>金属制品<br>制造<hr class="mobile__break">
+    </div>
+    <div class='desktop__title'>安全、消防用金属制品制造</div>
+    <div class="intro"></div>
+    <img id='title_img'
+         src='lib/tpl/starter/images/安全、消防用金属制品制造.png'
+         alt='安全、消防用金属制品制造'
+        style="height:10em;
+                margin-left:-6em;"
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
+    

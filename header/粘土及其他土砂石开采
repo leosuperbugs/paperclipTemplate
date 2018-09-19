@@ -1,13 +1,19 @@
-<div class='desktop__class'>采矿业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">粘土及<br>其他<br>土砂石<br>开采
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/10非金属矿采选业.jpg);">
+        <div class='desktop__class'>
+    采矿业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:2em; ">粘土<br>及其<br>他土<br>砂石<br>开采<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>粘土及其他土砂石开采
-</div>
+    <div class='desktop__title'>粘土及其他土砂石开采</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/粘土及其他土砂石开采.png' 
-         alt='粘土及其他土砂石开采' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/粘土及其他土砂石开采.png'
+         alt='粘土及其他土砂石开采'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

@@ -1,0 +1,19 @@
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/88文化艺术业.jpg);">
+        <div class='desktop__class'>
+    文化、体育和娱乐业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:4em; ">烈士陵园<br>、<br>纪念馆<hr class="mobile__break">
+    </div>
+    <div class='desktop__title'>烈士陵园、纪念馆</div>
+    <div class="intro"></div>
+    <img id='title_img'
+         src='lib/tpl/starter/images/烈士陵园、纪念馆.png'
+         alt='烈士陵园、纪念馆'
+        style="height:10em;
+                margin-left:-6em;"
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
+    

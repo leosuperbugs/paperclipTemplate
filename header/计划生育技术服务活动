@@ -1,13 +1,19 @@
-<div class='desktop__class'>卫生/社会工作<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">计划生育<br>技术<br>服务<br>活动
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/84卫生.jpg);">
+        <div class='desktop__class'>
+    卫生和社会工作<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:3em; ">计划生育<br>技术<br>服务<br>活动<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>计划生育技术服务活动
-</div>
+    <div class='desktop__title'>计划生育技术服务活动</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/计划生育技术服务活动.png' 
-         alt='计划生育技术服务活动' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/计划生育技术服务活动.png'
+         alt='计划生育技术服务活动'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

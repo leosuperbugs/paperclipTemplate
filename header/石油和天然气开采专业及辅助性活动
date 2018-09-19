@@ -1,13 +1,19 @@
-<div class='desktop__class'>采矿业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:1em; ">石油<br>和天然气<br>开采<br>专业<br>及<br>辅助性<br>活动
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/11开采专业及辅助性活动.jpg);">
+        <div class='desktop__class'>
+    采矿业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:1em; ">石油<br>和<br>天然气<br>开采<br>专业<br>及<br>辅助性<br>活动<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>石油和天然气开采专业及辅助性活动
-</div>
+    <div class='desktop__title'>石油和天然气开采专业及辅助性活动</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/石油和天然气开采专业及辅助性活动.png' 
-         alt='石油和天然气开采专业及辅助性活动' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/石油和天然气开采专业及辅助性活动.png'
+         alt='石油和天然气开采专业及辅助性活动'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

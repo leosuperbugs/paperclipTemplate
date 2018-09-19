@@ -1,13 +1,19 @@
-<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">原油<br>加工<br>及<br>石油制品<br>制造
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/25石油、煤炭及其他燃料加工业.jpg);">
+        <div class='desktop__class'>
+    制造业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:2em; ">原油<br>加工<br>及<br>石油制品<br>制造<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>原油加工及石油制品制造
-</div>
+    <div class='desktop__title'>原油加工及石油制品制造</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/原油加工及石油制品制造.png' 
-         alt='原油加工及石油制品制造' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/原油加工及石油制品制造.png'
+         alt='原油加工及石油制品制造'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

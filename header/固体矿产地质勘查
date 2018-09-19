@@ -1,13 +1,19 @@
-<div class='desktop__class'>科学研究和技术服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">固体<br>矿产<br>地质<br>勘查
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/74专业技术服务业.jpg);">
+        <div class='desktop__class'>
+    科学研究和技术服务业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:3em; ">固体<br>矿产<br>地质<br>勘查<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>固体矿产地质勘查
-</div>
+    <div class='desktop__title'>固体矿产地质勘查</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/固体矿产地质勘查.png' 
-         alt='固体矿产地质勘查' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/固体矿产地质勘查.png'
+         alt='固体矿产地质勘查'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

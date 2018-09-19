@@ -1,13 +1,19 @@
-<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">装订<br>及<br>印刷<br>相关<br>服务
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/23印刷和记录媒介复制业.jpg);">
+        <div class='desktop__class'>
+    制造业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:2em; ">装订<br>及<br>印刷<br>相关<br>服务<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>装订及印刷相关服务
-</div>
+    <div class='desktop__title'>装订及印刷相关服务</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/装订及印刷相关服务.png' 
-         alt='装订及印刷相关服务' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/装订及印刷相关服务.png'
+         alt='装订及印刷相关服务'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

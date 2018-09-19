@@ -1,13 +1,19 @@
-<div class='desktop__class'>租赁和商务服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">其他<br>专业<br>咨询<br>与调查
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/72商务服务业.jpg);">
+        <div class='desktop__class'>
+    租赁和商务服务业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:2em; ">其他<br>专业<br>咨询<br>与<br>调查<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>其他专业咨询与调查
-</div>
+    <div class='desktop__title'>其他专业咨询与调查</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/其他专业咨询与调查.png' 
-         alt='其他专业咨询与调查' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/其他专业咨询与调查.png'
+         alt='其他专业咨询与调查'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

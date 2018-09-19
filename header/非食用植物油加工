@@ -1,13 +1,19 @@
-<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">非<br>食用<br>植物油<br>加工
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/13农副食品加工业.jpg);">
+        <div class='desktop__class'>
+    制造业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:3em; ">非<br>食用<br>植物油<br>加工<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>非食用植物油加工
-</div>
+    <div class='desktop__title'>非食用植物油加工</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/非食用植物油加工.png' 
-         alt='非食用植物油加工' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/非食用植物油加工.png'
+         alt='非食用植物油加工'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

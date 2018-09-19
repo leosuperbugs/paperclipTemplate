@@ -1,13 +1,19 @@
-<div class='desktop__class'>科学研究和技术服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">自然科学<br>研究<br>和试验<br>发展
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/73研究和试验发展.jpg);">
+        <div class='desktop__class'>
+    科学研究和技术服务业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:2em; ">自然科学<br>研究<br>和<br>试验<br>发展<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>自然科学研究和试验发展
-</div>
+    <div class='desktop__title'>自然科学研究和试验发展</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/自然科学研究和试验发展.png' 
-         alt='自然科学研究和试验发展' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/自然科学研究和试验发展.png'
+         alt='自然科学研究和试验发展'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

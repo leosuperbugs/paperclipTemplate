@@ -1,10 +1,19 @@
-<div style="font-size:6em;margin:30px 30px 0 30px;background: transparent "> 日用品<br>出租
-<hr style="width:60px;font-size:10px;height:10px;background-color:white;">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/71租赁业.jpg);">
+        <div class='desktop__class'>
+    租赁和商务服务业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:3em; "> <br> <br>日用品<br>出租<hr class="mobile__break">
     </div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/  日用品出租.png' 
-         alt='  日用品出租' 
+    <div class='desktop__title'>  日用品出租</div>
+    <div class="intro"></div>
+    <img id='title_img'
+         src='lib/tpl/starter/images/  日用品出租.png'
+         alt='  日用品出租'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

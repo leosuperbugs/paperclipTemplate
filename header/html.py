@@ -43,8 +43,12 @@ for (line, br) in zip(name, jieba):
     print line
 
     newHTML = open(line[:-1], 'w')
-    newHTML.write("""<div class='desktop__class'>""" + classes[i] +"""<hr class=\"desktop__break\"></div>"""
-    """<div class='mobile__title' style=\"font-size:"""+ str(fontSize) +"""em; \">"""+ br +"""<hr class=\"mobile__break\">
+    newHTML.write(
+    """<div class=\"paperclip__title\" style=\"background-image: url(images/bg/""" + 玉米种植 + """.jpg);\">
+        <div class='desktop__class'>
+    """ + classes[i] + """<hr class=\"desktop__break\"></div>"""
+    """
+        <div class='mobile__title' style=\"font-size:"""+ str(fontSize) +"""em; \">"""+ br +"""<hr class=\"mobile__break\">
     </div>
     <div class='desktop__title'>""" + line +"""</div>
     <div class="intro"></div>
@@ -53,7 +57,12 @@ for (line, br) in zip(name, jieba):
          alt='"""+ line[:-1] +"""' 
         style=\"height:10em;
                 margin-left:-6em;\"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     """)
     newHTML.close()
     counter += 1;

@@ -1,13 +1,19 @@
-<div class='desktop__class'>交通运输/仓储/邮政<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">公路<br>管理<br>与养护
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/54道路运输业.jpg);">
+        <div class='desktop__class'>
+    交通运输、仓储和邮政业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:3em; ">公路<br>管理<br>与<br>养护<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>公路管理与养护
-</div>
+    <div class='desktop__title'>公路管理与养护</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/公路管理与养护.png' 
-         alt='公路管理与养护' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/公路管理与养护.png'
+         alt='公路管理与养护'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

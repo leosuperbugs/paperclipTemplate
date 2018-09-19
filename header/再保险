@@ -1,13 +1,19 @@
-<div class='desktop__class'>金融业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:12em; ">再保险
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/68保险业.jpg);">
+        <div class='desktop__class'>
+    金融业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:12em; ">再保险<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>再保险
-</div>
+    <div class='desktop__title'>再保险</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/再保险.png' 
-         alt='再保险' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/再保险.png'
+         alt='再保险'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

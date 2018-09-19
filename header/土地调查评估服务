@@ -1,13 +1,19 @@
-<div class='desktop__class'>水利/环境/公共设施管理<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">土地<br>调查<br>评估<br>服务
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/79土地管理业.jpg);">
+        <div class='desktop__class'>
+    水利、环境和公共设施管理业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:3em; ">土地<br>调查<br>评估<br>服务<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>土地调查评估服务
-</div>
+    <div class='desktop__title'>土地调查评估服务</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/土地调查评估服务.png' 
-         alt='土地调查评估服务' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/土地调查评估服务.png'
+         alt='土地调查评估服务'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

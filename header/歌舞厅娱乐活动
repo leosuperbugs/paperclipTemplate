@@ -1,13 +1,19 @@
-<div class='desktop__class'>文化/体育/娱乐业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">歌舞厅<br>娱乐活动
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/90娱乐业.jpg);">
+        <div class='desktop__class'>
+    文化、体育和娱乐业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:6em; ">歌舞厅<br>娱乐活动<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>歌舞厅娱乐活动
-</div>
+    <div class='desktop__title'>歌舞厅娱乐活动</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/歌舞厅娱乐活动.png' 
-         alt='歌舞厅娱乐活动' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/歌舞厅娱乐活动.png'
+         alt='歌舞厅娱乐活动'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

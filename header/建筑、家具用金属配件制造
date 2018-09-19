@@ -1,0 +1,19 @@
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/33金属制品业 .jpg);">
+        <div class='desktop__class'>
+    制造业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:1em; ">建筑<br>、<br>家具<br>用<br>金属<br>配件<br>制造<hr class="mobile__break">
+    </div>
+    <div class='desktop__title'>建筑、家具用金属配件制造</div>
+    <div class="intro"></div>
+    <img id='title_img'
+         src='lib/tpl/starter/images/建筑、家具用金属配件制造.png'
+         alt='建筑、家具用金属配件制造'
+        style="height:10em;
+                margin-left:-6em;"
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
+    

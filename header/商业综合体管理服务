@@ -1,13 +1,19 @@
-<div class='desktop__class'>租赁和商务服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">商业<br>综合体<br>管理<br>服务
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/72商务服务业.jpg);">
+        <div class='desktop__class'>
+    租赁和商务服务业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:3em; ">商业<br>综合体<br>管理<br>服务<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>商业综合体管理服务
-</div>
+    <div class='desktop__title'>商业综合体管理服务</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/商业综合体管理服务.png' 
-         alt='商业综合体管理服务' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/商业综合体管理服务.png'
+         alt='商业综合体管理服务'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

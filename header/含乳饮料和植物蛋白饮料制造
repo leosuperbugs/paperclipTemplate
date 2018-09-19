@@ -1,13 +1,19 @@
-<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">含<br>乳饮料<br>和植物蛋白<br>饮料<br>制造
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/15酒、饮料和精制茶制造业.jpg);">
+        <div class='desktop__class'>
+    制造业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:2em; ">含<br>乳饮料<br>和<br>植物蛋白<br>饮料<br>制造<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>含乳饮料和植物蛋白饮料制造
-</div>
+    <div class='desktop__title'>含乳饮料和植物蛋白饮料制造</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/含乳饮料和植物蛋白饮料制造.png' 
-         alt='含乳饮料和植物蛋白饮料制造' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/含乳饮料和植物蛋白饮料制造.png'
+         alt='含乳饮料和植物蛋白饮料制造'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

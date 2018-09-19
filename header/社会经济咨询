@@ -1,13 +1,19 @@
-<div class='desktop__class'>租赁和商务服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">社会<br>经济<br>咨询
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/72商务服务业.jpg);">
+        <div class='desktop__class'>
+    租赁和商务服务业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:4em; ">社会<br>经济<br>咨询<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>社会经济咨询
-</div>
+    <div class='desktop__title'>社会经济咨询</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/社会经济咨询.png' 
-         alt='社会经济咨询' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/社会经济咨询.png'
+         alt='社会经济咨询'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

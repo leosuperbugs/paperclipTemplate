@@ -1,13 +1,19 @@
-<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">园艺<br>陶瓷<br>制造
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/30非金属矿物制品业.jpg);">
+        <div class='desktop__class'>
+    制造业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:4em; ">园艺<br>陶瓷<br>制造<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>园艺陶瓷制造
-</div>
+    <div class='desktop__title'>园艺陶瓷制造</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/园艺陶瓷制造.png' 
-         alt='园艺陶瓷制造' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/园艺陶瓷制造.png'
+         alt='园艺陶瓷制造'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

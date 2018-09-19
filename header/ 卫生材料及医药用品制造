@@ -1,0 +1,19 @@
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/27医药制造业 .jpg);">
+        <div class='desktop__class'>
+    制造业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:1em; "> <br>卫生<br>材料<br>及<br>医药<br>用品<br>制造<hr class="mobile__break">
+    </div>
+    <div class='desktop__title'> 卫生材料及医药用品制造</div>
+    <div class="intro"></div>
+    <img id='title_img'
+         src='lib/tpl/starter/images/ 卫生材料及医药用品制造.png'
+         alt=' 卫生材料及医药用品制造'
+        style="height:10em;
+                margin-left:-6em;"
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
+    

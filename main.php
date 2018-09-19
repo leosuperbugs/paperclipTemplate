@@ -135,22 +135,22 @@ $imagePrefix = 'lib/tpl/starter/images';
         </div>
     </div><!-- /header -->
 
-    <div class="paperclip__title">
-        <?php
-        $entryTitle = tpl_pagetitle(null, true);
-        $filename ='lib/tpl/starter/header/'.$entryTitle;
-        // need some fix here
-        $file = fopen($filename, "r");
-        if ($file) {
-            echo fread($file, filesize($filename));
-            fclose($file);
-        }
-        ?>
-        <div class="pet_warpper">
-            <hr class="vertical_upper"/>
-            <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
-        </div>
-    </div>
+<!--    <div class="paperclip__title">-->
+    <?php
+    $entryTitle = tpl_pagetitle(null, true);
+    $filename ='lib/tpl/starter/header/'.$entryTitle;
+    // need some fix here
+    $file = fopen($filename, "r");
+    if ($file) {
+        echo fread($file, filesize($filename));
+        fclose($file);
+    }
+    ?>
+<!--        <div class="pet_warpper">-->
+<!--            <hr class="vertical_upper"/>-->
+<!--            <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>-->
+<!--        </div>-->
+<!--    </div>-->
     <div class="pet_warpper">
         <img id="pet_lower" src="lib/tpl/starter/images/pet_lower.png"/>
         <hr class="vertical_lower"/>

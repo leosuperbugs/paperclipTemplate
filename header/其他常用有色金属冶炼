@@ -1,13 +1,19 @@
-<div class='desktop__class'>制造业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">其他<br>常用<br>有色金属<br>冶炼
-<hr class="mobile__break">
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/32有色金属冶炼和压延加工业 .jpg);">
+        <div class='desktop__class'>
+    制造业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:3em; ">其他<br>常用<br>有色金属<br>冶炼<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>其他常用有色金属冶炼
-</div>
+    <div class='desktop__title'>其他常用有色金属冶炼</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/其他常用有色金属冶炼.png' 
-         alt='其他常用有色金属冶炼' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/其他常用有色金属冶炼.png'
+         alt='其他常用有色金属冶炼'
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     
