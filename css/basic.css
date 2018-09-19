@@ -209,6 +209,9 @@ th {
 
 a {
 }
+#dokuwiki__usertools a:visited{
+    color: __paperclip__textarea__; /* §colour */
+}
 a:link,
 a:visited {
     text-decoration: none;
@@ -216,7 +219,7 @@ a:visited {
 }
 #config__manager a:link, 
 #config__manager a:visited {
-    color: #000;
+    color: __paperclip__textarea__; /* §colour */
 }
 a:link:hover,
 a:visited:hover,
@@ -493,7 +496,7 @@ option {
 }
 
 bdi {
-    color: white;
+    color: __paperclip__textarea__;
 }
 #dokuwiki__footer bdi {
     color: __paperclip__darkgrey__;

@@ -75,7 +75,7 @@
 /* make wiki links look the same as tool links in tool bars */
 #dokuwiki__usertools a.wikilink1,
 #dokuwiki__usertools a.wikilink2 {
-    color: #ffffff;
+    color: __paperclip__textarea__;
     border-bottom-width: 0;
 }
 #dokuwiki__usertools a.wikilink2:hover,
@@ -286,6 +286,9 @@
 #extension__manager .panelHeader {
     background-color: #333333;
 }
+#dokuwiki__usertools .user{
+    color: __paperclip__textarea__;
+}
 .paperclip__gradient {
     position: absolute;
     width: 100%;
@@ -299,6 +302,7 @@
     background-size: 100%;
     position: relative;
     color: white;
+    height: 50vw;
 }
 .desktop__title {
     font-size: 5em;
@@ -335,9 +339,10 @@
     background-color: __paperclip__gold__;
 }
 .vertical_upper {
-    margin-top: 5em;
-    margin-bottom: 0;
     height: 10em;
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 0;
 }
 .vertical_lower {
     margin-top: -3em;

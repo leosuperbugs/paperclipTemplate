@@ -5347,17 +5347,23 @@ def HTMLgen(classid, classname, photoname, photoid, bigclass):
     """)
     newHTML.close()
 
+
+list = open('list', 'w')
+
 for classlv1 in industry:
     bigclass = classlv1['name']
-    print bigclass
+    list.write( ' * ' + bigclass + '\n')
     for classlv2 in classlv1['subclass']:
         lv2name = classlv2['name']
         lv2id = classlv2['id']
-        print ' '+lv2class
+        list.write('  * '+lv2name + '\n')
         for classlv3 in classlv2['subclass']:
-            print '     '+classlv3['name']
+            list.write('   * '+classlv3['name']+ '\n')
             if len(classlv3['subclass']) == 0:
-                print '         \\\\ [['+classlv3['name'] + ']]'
+                list.write('    * [['+classlv3['name'] + ']]\n')
                 continue
             for classlv4 in classlv3['subclass']:
-                print '         \\\\ [['+classlv4['name'] + ']]'
+                list.write('    * [['+classlv4['name'] + ']]\n')
+
+
+list.close()

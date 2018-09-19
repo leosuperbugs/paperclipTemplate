@@ -707,7 +707,7 @@ industry = [{'id': "A",	 'name' :"农、林、牧、渔业",			'open': '', 'subc
 
 		]},
 	]},
-	{'id': "16",	 'name' :"烟草制品业 ",				'open': '', 'subclass':[
+	{'id': "16",	 'name' :"烟草制品业",				'open': '', 'subclass':[
 
 		{'id': "161",	 'name' :"烟叶复烤",				'open': '', 'subclass':[
 
@@ -977,7 +977,7 @@ industry = [{'id': "A",	 'name' :"农、林、牧、渔业",			'open': '', 'subc
 			]},
 		]},
 	]},
-	{'id': "21",	 'name' :"家具制造业 ",				'open': '', 'subclass':[
+	{'id': "21",	 'name' :"家具制造业",				'open': '', 'subclass':[
 
 		{'id': "211",	 'name' :"木质家具制造",				'open': '', 'subclass':[
 
@@ -995,7 +995,7 @@ industry = [{'id': "A",	 'name' :"农、林、牧、渔业",			'open': '', 'subc
 
 		]},
 	]},
-	{'id': "22",	 'name' :"造纸和纸制品业 ",				'open': '', 'subclass':[
+	{'id': "22",	 'name' :"造纸和纸制品业",				'open': '', 'subclass':[
 
 		{'id': "221",	 'name' :"纸浆制造",				'open': '', 'subclass':[
 
@@ -2839,6 +2839,7 @@ industry = [{'id': "A",	 'name' :"农、林、牧、渔业",			'open': '', 'subc
 
 	{'id': "47",	 'name' :"房屋建筑业",				'open': '', 'subclass':[
 
+	]},
 		{'id': "471",	 'name' :"住宅房屋建筑",				'open': '', 'subclass':[
 
 		]},
@@ -2846,7 +2847,6 @@ industry = [{'id': "A",	 'name' :"农、林、牧、渔业",			'open': '', 'subc
 
 		]},
 		{'id': "479",	 'name' :"其他房屋建筑业",				'open': '', 'subclass':[
-	]},
 
 	]},
 	{'id': "48",	 'name' :"土木工程建筑业",				'open': '', 'subclass':[
@@ -5314,50 +5314,19 @@ industry = [{'id': "A",	 'name' :"农、林、牧、渔业",			'open': '', 'subc
 	]},
 ]}]
 
-def HTMLgen(classid, classname, photoname, photoid, bigclass):
-    line = classname
-    result = jieba.cut(classname, cut_all=False)
-    br = "<br>".join(result).encode('utf-8')
-    brCount = br.count('<br>')
-    fontSize = 12 / (brCount + 1)
 
-    print classid
-    newHTML = open(line, 'w')
 
-    newHTML.write(
-            """<div class=\"paperclip__title\" style=\"background-image: url(lib/tpl/starter/images/bg/""" + photoid +  photoname + """.jpg);\">
-        <div class='desktop__class'>
-    """ + bigclass + """<hr class=\"desktop__break\"></div>"""
-    """
-        <div class='mobile__title' style=\"font-size:"""+ str(fontSize) +"""em; \">"""+ br +"""<hr class=\"mobile__break\">
-    </div>
-    <div class='desktop__title'>""" + line +"""</div>
-    <div class="intro"></div>
-    <img id='title_img'
-         src='lib/tpl/starter/images/"""+ line +""".png'
-         alt='"""+ line +"""'
-        style=\"height:10em;
-                margin-left:-6em;\"
-    >
-    <div class="pet_warpper">
-    <hr class="vertical_upper"/>
-    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
-    </div>
-    </div>
-    """)
-    newHTML.close()
+def checkName(id, name):
+    name = name.strip()
+    name = 'bg/' + id+name+'.jpg' 
+    
+    if os.path.exists(name) == False:
+        print name
+
 
 for classlv1 in industry:
     bigclass = classlv1['name']
-    print bigclass
     for classlv2 in classlv1['subclass']:
         lv2name = classlv2['name']
         lv2id = classlv2['id']
-        print ' '+lv2class
-        for classlv3 in classlv2['subclass']:
-            print '     '+classlv3['name']
-            if len(classlv3['subclass']) == 0:
-                print '         \\\\ [['+classlv3['name'] + ']]'
-                continue
-            for classlv4 in classlv3['subclass']:
-                print '         \\\\ [['+classlv4['name'] + ']]'
+        checkName(lv2id, lv2name)

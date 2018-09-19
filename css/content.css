@@ -37,7 +37,7 @@
 
 /* existing wikipage */
 .dokuwiki a.wikilink1 {
-    color: __existing__;
+    color: __paperclip__textarea__;
     background-color: inherit;
 }
 /* not existing wikipage */
