@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af632cfa-bafe-4ae3-855e-514a33ad308d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/basic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/design.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/design.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg/13农副产品加工业02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg/13农副食品加工业.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg/16烟草制品业 .jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg/1农业.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg/1农业.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg/32有色金属冶炼和压延加工业.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg/33金属制品业.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg/47房屋建筑业 .jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg/5农林牧渔专业及辅助性活动.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg/66货币金融服务.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg/77生态保护和环境治理业.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg/93人民政协 、 民主党派.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +15,7 @@
     <session id="279802533">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
@@ -52,7 +38,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="4575" />
+          <entry key="css" value="4602" />
           <entry key="ini" value="562" />
           <entry key="js" value="2168" />
           <entry key="php" value="3389" />
@@ -60,7 +46,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="4575" />
+          <entry key="CSS" value="4602" />
           <entry key="Ini" value="562" />
           <entry key="JavaScript" value="2168" />
           <entry key="PHP" value="3389" />
@@ -148,8 +134,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/basic.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="866">
-                  <caret line="498" column="33" selection-start-line="498" selection-start-column="33" selection-end-line="498" selection-end-column="33" />
+                <state relative-caret-position="94">
+                  <caret line="217" column="31" selection-start-line="217" selection-start-column="31" selection-end-line="217" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -176,7 +162,6 @@
       <find>site</find>
       <find>wikilin</find>
       <find>max</find>
-      <find>a:link</find>
       <find>qrcode</find>
       <find>text</find>
       <find>玉米</find>
@@ -190,6 +175,7 @@
       <find>p,</find>
       <find>a.wikilin</find>
       <find>bdi</find>
+      <find>a:link</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,8 +191,8 @@
         <option value="$PROJECT_DIR$/css/structure.css" />
         <option value="$PROJECT_DIR$/css/mobile.css" />
         <option value="$PROJECT_DIR$/css/content.css" />
-        <option value="$PROJECT_DIR$/css/basic.css" />
         <option value="$PROJECT_DIR$/css/design.css" />
+        <option value="$PROJECT_DIR$/css/basic.css" />
       </list>
     </option>
   </component>
@@ -219,7 +205,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="1280" />
     <option name="y" value="-1342" />
     <option name="width" value="1440" />
@@ -280,15 +266,15 @@
       <option name="presentableId" value="Default" />
       <updated>1536557402463</updated>
       <workItem from="1536557404299" duration="26122000" />
-      <workItem from="1536648572382" duration="62204000" />
+      <workItem from="1536648572382" duration="62428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88326000" />
+    <option name="totallyTimeSpent" value="88550000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="-1342" width="1440" height="2560" extended-state="6" />
+    <frame x="1280" y="-1342" width="1440" height="2560" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18597998" />
@@ -404,6 +390,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/design.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="289" column="33" selection-start-line="289" selection-start-column="33" selection-end-line="289" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="888">
@@ -420,15 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/basic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="866">
-          <caret line="498" column="33" selection-start-line="498" selection-start-column="33" selection-end-line="498" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/design.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="289" column="33" selection-start-line="289" selection-start-column="33" selection-end-line="289" selection-end-column="33" />
+        <state relative-caret-position="94">
+          <caret line="217" column="31" selection-start-line="217" selection-start-column="31" selection-end-line="217" selection-end-column="31" />
         </state>
       </provider>
     </entry>
