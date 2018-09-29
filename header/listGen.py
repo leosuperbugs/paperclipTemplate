@@ -5356,14 +5356,14 @@ for classlv1 in industry:
     for classlv2 in classlv1['subclass']:
         lv2name = classlv2['name']
         lv2id = classlv2['id']
-        list.write('  * '+lv2name + '\n')
+        list.write('   * '+lv2name + '\n')
         for classlv3 in classlv2['subclass']:
-            list.write('   * '+classlv3['name']+ '\n')
+            list.write('    * '+classlv3['name']+ '\n')
             if len(classlv3['subclass']) == 0:
-                list.write('    * [['+classlv3['name'] + ']]\n')
+                list.write('      * [['+classlv3['name'] + ']]\n')
                 continue
             for classlv4 in classlv3['subclass']:
-                list.write('    * [['+classlv4['name'] + ']]\n')
+                list.write('      * [['+classlv4['name'] + ']]\n')
 
 
 list.close()
