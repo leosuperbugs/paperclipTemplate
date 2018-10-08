@@ -53,7 +53,9 @@ jQuery( document ).ready(function($) {
         $('html,body').animate({ scrollTop: 0 }, 500);
     });
 
-    //
+    // remove the text in search button
+    let btn  = $("[title='搜索']");
+    btn.text('');
 
 
 });

@@ -1,0 +1,70 @@
+.paperclip__home {
+    background-image: url("images/home/bg.jpg");
+    padding: 0 5%;
+    height: calc(100vh - 100px);
+    height: -webkit-calc(100vh - 100px);
+    height: calc(~"100vh - 72px");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: __paperclip__darkgrey__;
+}
+
+.paperclip__doddle {
+    padding: 10rem 0rem 3rem 5rem;
+}
+
+.paperclip__logo svg{
+    height: 8rem;
+    margin-bottom: 1rem;
+}
+
+.paperclip__doddle p {
+    color: __paperclip__edititem__;
+    font-size: 1.5rem;
+}
+
+.paperclip__search__recommend {
+    margin: 0 ;
+}
+
+.paperclip__search__recommend p {
+    color: white;
+    display: inline-block;
+    font-size: 2rem;
+    float: right;
+    right: 0;
+}
+
+.paperclip__search__recommend .no {
+    display: inline-block;
+}
+
+.no input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 60rem;
+    font-size: 1.6rem;
+    border: 2px solid white;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    background-color: __paperclip__inputbg__;
+    opacity: 0.7;
+}
+
+.no button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+
+    height: 2.5rem;
+    width: 2.5rem;
+
+    border: 0;
+    background-color: transparent;
+    background-image: url("images/search.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

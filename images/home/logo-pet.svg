@@ -1,0 +1,72 @@
+<svg id="回形针手册" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480.095 79.143">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #484848;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #222;
+      }
+
+      .cls-4 {
+        opacity: 0.8;
+      }
+
+      .cls-6 {
+        fill: #e8e8e8;
+      }
+    </style>
+  </defs>
+  <g id="Major_Group" data-name="Major Group">
+    <rect id="Bar-Rectangle" class="cls-1" width="480" height="20" transform="translate(0 42.667)"/>
+    <g id="Text" transform="translate(0)">
+      <path id="Shape" class="cls-2" d="M57.486,70.756H0V0H57.486V70.755ZM8.9,8.889V62.044H48.587V8.889Z" transform="translate(0 4.978)"/>
+      <path id="Shape-2" data-name="Shape" class="cls-2" d="M28.121,33.6H0V0H28.121ZM8.009,7.822V25.6h12.1V7.822Z" transform="translate(14.594 23.644)"/>
+      <rect id="Rectangle-path" class="cls-2" width="35.061" height="8.889" transform="translate(87.03 3.378)"/>
+      <rect id="Rectangle-path-2" data-name="Rectangle-path" class="cls-2" width="38.621" height="8.889" transform="translate(85.25 31.289)"/>
+      <path id="Shape-3" data-name="Shape" class="cls-2" d="M0,69.867V60.978A8.161,8.161,0,0,0,8.187,52.8V0h8.9V52.8A17.081,17.081,0,0,1,0,69.867Z" transform="translate(83.826 7.644)"/>
+      <rect id="Rectangle-path-3" data-name="Rectangle-path" class="cls-2" width="8.899" height="69.689" transform="translate(108.565 7.644)"/>
+      <path id="Shape-4" data-name="Shape" class="cls-2" d="M7.3,34.133,0,29.156C7.831,17.422,9.611,13.156,14.95,0l8.187,3.2C17.62,17.067,15.484,21.867,7.3,34.133Z" transform="translate(167.831 0.533)"/>
+      <rect id="Rectangle-path-4" data-name="Rectangle-path" class="cls-2" width="20.823" height="8.889" transform="translate(182.781 8.533)"/>
+      <rect id="Rectangle-path-5" data-name="Rectangle-path" class="cls-2" width="20.111" height="8.889" transform="translate(179.933 25.956)"/>
+      <rect id="Rectangle-path-6" data-name="Rectangle-path" class="cls-2" width="24.027" height="8.889" transform="translate(177.976 43.2)"/>
+      <rect id="Rectangle-path-7" data-name="Rectangle-path" class="cls-2" width="8.899" height="40.356" transform="translate(184.205 30.222)"/>
+      <path id="Shape-5" data-name="Shape" class="cls-2" d="M0,12.622V3.733A70.069,70.069,0,0,0,22.6,0L26.34,8C22.6,9.778,11.39,12.622,0,12.622Z" transform="translate(179.399 64.533)"/>
+      <rect id="Rectangle-path-8" data-name="Rectangle-path" class="cls-2" width="31.324" height="8.889" transform="translate(203.96 31.289)"/>
+      <rect id="Rectangle-path-9" data-name="Rectangle-path" class="cls-2" width="9.789" height="74.133" transform="translate(214.638 3.378)"/>
+      <path id="Shape-6" data-name="Shape" class="cls-2" d="M3.2,25.067,0,16.889C.356,16.711,9.077,12.978,15.128,0l8.009,3.556C15.484,19.911,3.737,24.889,3.2,25.067Z" transform="translate(120.489 1.6)"/>
+      <path id="Shape-7" data-name="Shape" class="cls-2" d="M3.2,24.178,0,16S9.789,12.089,19.221,0l6.941,5.511C15.128,19.556,3.56,24,3.2,24.178Z" transform="translate(120.489 28.622)"/>
+      <path id="Shape-8" data-name="Shape" class="cls-2" d="M3.382,26.489,0,18.311A68.615,68.615,0,0,0,23.849,0l6.763,5.689a76.325,76.325,0,0,1-27.23,20.8Z" transform="translate(120.311 52.267)"/>
+      <path id="Shape-9" data-name="Shape" class="cls-2" d="M0,17.244V8.356c6.941,0,26.518-1.6,34.527-8.356l5.7,6.756C35.061,11.2,26.7,14.4,15.306,16.178A147.586,147.586,0,0,1,0,17.244Z" transform="translate(267.675)"/>
+      <rect id="Rectangle-path-10" data-name="Rectangle-path" class="cls-2" width="48.587" height="8.889" transform="translate(263.226 27.022)"/>
+      <rect id="Rectangle-path-11" data-name="Rectangle-path" class="cls-2" width="55.706" height="8.889" transform="translate(259.666 41.067)"/>
+      <path id="Shape-10" data-name="Shape" class="cls-2" d="M0,67.2V58.311A12.108,12.108,0,0,0,12.1,46.222V0H21V46.222A21.028,21.028,0,0,1,0,67.2Z" transform="translate(273.014 9.956)"/>
+      <path id="Shape-11" data-name="Shape" class="cls-2" d="M26.518,74.844H17.8V8.711H8.9V74.844H0V0H26.518Z" transform="translate(342.781 2.311)"/>
+      <path id="Shape-12" data-name="Shape" class="cls-2" d="M26.7,74.844H17.8V8.711H8.9V74.844H0V0H26.7Z" transform="translate(371.791 2.311)"/>
+      <rect id="Rectangle-path-12" data-name="Rectangle-path" class="cls-2" width="72.436" height="8.889" transform="translate(339.221 33.956)"/>
+    </g>
+    <g id="LOGO" transform="translate(438.667)">
+      <path id="Shape-13" data-name="Shape" class="cls-3" d="M0,.1V23.524a3.191,3.191,0,0,0,3.143,3.238,3.233,3.233,0,0,0,3.333-3.238V0H.1C0,0,0,0,0,.1Z" transform="translate(24.476 42.857)"/>
+      <path id="Shape-14" data-name="Shape" class="cls-4" d="M13.238,0V25.333a2.358,2.358,0,0,1-2.381,2.381h-.1a2.4,2.4,0,0,1-2.286-2.381V1.81A5.569,5.569,0,0,0,8.1,0H.381A3.865,3.865,0,0,0,0,1.81V25.238A11.061,11.061,0,0,0,10.762,36.286h.1A10.954,10.954,0,0,0,21.81,25.333V0Z" transform="translate(19.619 42.857)"/>
+      <path id="Shape-15" data-name="Shape" class="cls-5" d="M23.9,75.714A11,11,0,0,1,13.143,64.667V41.238a4.286,4.286,0,0,1,8.571,0V64.667A2.339,2.339,0,0,0,24,67.048h.1a2.358,2.358,0,0,0,2.381-2.381V17.714a9,9,0,0,0-8.857-9.048h-.1a8.942,8.942,0,0,0-8.952,8.952V41.143H0V17.714A17.641,17.641,0,0,1,17.524,0h.1A17.538,17.538,0,0,1,35.143,17.524V64.667A10.954,10.954,0,0,1,24.19,75.619l-.286.1Z" transform="translate(3.619 1.714)"/>
+      <path id="Shape-16" data-name="Shape" class="cls-2" d="M25.048,77.429h-.1A11.368,11.368,0,0,1,16.667,73.9a12.089,12.089,0,0,1-3.429-8.381V42.095a5.143,5.143,0,1,1,10.286,0V65.619a1.557,1.557,0,0,0,1.428,1.524,1.507,1.507,0,0,0,1.524-1.524V18.572A8.226,8.226,0,0,0,24.119,12.8a7.845,7.845,0,0,0-5.643-2.417h-.1a8.129,8.129,0,0,0-8.095,8.1V42H8.572V18.476a9.8,9.8,0,0,1,9.809-9.809h.1a9.548,9.548,0,0,1,6.893,2.916,9.956,9.956,0,0,1,2.822,6.988V65.524a3.2,3.2,0,0,1-3.238,3.238h-.1a3.2,3.2,0,0,1-3.143-3.238V42.095a3.429,3.429,0,1,0-6.857,0V65.428a10.232,10.232,0,0,0,10,10.191h.1a10.107,10.107,0,0,0,10.1-10.1V18.381a16.667,16.667,0,0,0-33.333.191V42H0V18.572A18.5,18.5,0,0,1,18.381,0,18.62,18.62,0,0,1,36.857,18.476V65.619a11.807,11.807,0,0,1-11.809,11.81Z" transform="translate(2.667 0.857)"/>
+      <g id="Group" transform="translate(0 10.476)">
+        <circle id="Oval" class="cls-2" cx="12.762" cy="12.762" r="12.762" transform="translate(0.476 0.381)"/>
+        <circle id="Oval-2" data-name="Oval" class="cls-2" cx="11.619" cy="11.619" r="11.619" transform="translate(1.619 1.524)"/>
+        <path id="Shape-17" data-name="Shape" class="cls-5" d="M12.191,24.476A12.2,12.2,0,0,1,0,12.286,12.04,12.04,0,0,1,.967,7.554,12.474,12.474,0,0,1,3.6,3.643,12.343,12.343,0,0,1,7.473.982,11.793,11.793,0,0,1,12.191,0,12.194,12.194,0,0,1,23.427,16.923a12.389,12.389,0,0,1-2.606,3.911A12.034,12.034,0,0,1,12.191,24.476Zm0-23.333A11.048,11.048,0,1,0,23.238,12.191,11.06,11.06,0,0,0,12.191,1.143Z" transform="translate(1.048 0.952)"/>
+        <circle id="Oval-3" data-name="Oval" class="cls-5" cx="4.476" cy="4.476" r="4.476" transform="translate(6.095 11.048)"/>
+        <path id="Shape-18" data-name="Shape" class="cls-6" d="M15.238.857A10.308,10.308,0,0,0,11.048,0,11.056,11.056,0,0,0,0,11.048C2.857,6.476,6.952,2.286,15.238.857Z" transform="translate(2.19 2)"/>
+        <circle id="Oval-4" data-name="Oval" class="cls-2" cx="1.619" cy="1.619" r="1.619" transform="translate(6.476 15.429)"/>
+      </g>
+    </g>
+  </g>
+</svg>

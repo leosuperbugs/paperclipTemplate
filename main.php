@@ -137,12 +137,27 @@ $imagePrefix = 'lib/tpl/starter/images';
 
     <!--   Paperclip: this part is for the customization of the start page -->
     <?php
-    global $ID, $conf;
+    global $ID, $conf, $ACT;
 //    if ($ID == $conf['start']) {
-    if (False) {
+    if ($ID == $conf['start'] && $ACT === 'show') {
         ?>
     <!--   Paperclip's start page     -->
-       <div>test</div>
+       <div class="paperclip__home">
+           <div class="paperclip__doddle">
+               <div class="paperclip__logo">
+                   <?php
+                   include 'images/home/logo-pet.svg'
+                   ?>
+               </div>
+               <p>回形针手册是一本涵盖了日常生活所涉及方方面面的百科手册，<br>你可以试着检索一个条目</p>
+           </div>
+           <div class="paperclip__search__recommend">
+               <?php tpl_searchform()?>
+               <p>推荐阅读：<a href="https://weibo.com">硫铁矿是怎么开采的？</a></p>
+               <div class="clear"></div>
+           </div>
+       </div>
+
     <?php } else {?>
     <!--   Normal content page     -->
         <div>nothing</div>
