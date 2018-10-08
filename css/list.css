@@ -1,0 +1,38 @@
+.paperclip__list {
+    margin: 0 5%;
+}
+
+.firstlv {
+    margin-left: 0;
+    font-size: 2rem;
+}
+
+.firstlv_icon {
+    height: 1rem;
+}
+
+.secondlv {
+    margin-left: 7rem;
+}
+
+.thirdlv {
+    margin-left: 8rem;
+}
+
+.fourthlv {
+    margin-left: 9rem;
+}
+
+.lowerlv {
+    color: __paperclip__edititem__;
+    font-size: 1.4rem;
+}
+
+.paperclip__list a {
+}
+
+.noshow {
+    display: none;
+}
+
+

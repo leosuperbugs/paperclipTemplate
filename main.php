@@ -157,6 +157,18 @@ $imagePrefix = 'lib/tpl/starter/images';
                <div class="clear"></div>
            </div>
        </div>
+        <div class="paperclip__list">
+            <?php include 'header/listForHome' ?>
+<!--            <div class="firstlv higherlv">-->
+<!--                <img class="firstlv_icon" src="lib/tpl/starter/images/trinity.svg">-->
+<!--                A. &nbsp&nbsp 农林牧渔-->
+<!--            </div>-->
+<!--            <div class="secondlv lowerlv">农业</div>-->
+<!--            <div class="thirdlv lowerlv">谷物种植</div>-->
+<!--            <a class="fourthlv lowerlv" href="/doku.php?id=水稻种植">水稻种植</a>-->
+        </div>
+
+
 
     <?php } else {?>
     <!--   Normal content page     -->

@@ -3,7 +3,6 @@ jQuery( document ).ready(function($) {
     var im = DOKU_BASE+"lib/tpl/starter/images/plus.png";
     var screenMode = $('#screen__mode').css('z-index') + '';
 
-    //$(".secedit").remove();
     $(".login").css("color", "#e0ba7e");
     $(".logout").css("color", "#e0ba7e");
     // display of wechat qrcode
@@ -16,7 +15,12 @@ jQuery( document ).ready(function($) {
     let intro = $('p:first');
     let editbtn = $('div.editbutton_1');
     $('div.editbutton_1').remove();
-    $('h1:first').remove();
+    // don't cut at start
+    let home = $('.paperclip__home');
+    if (home == null)  {
+        let firsth1 = $('h1:first');
+        firsth1.remove();
+    }
     $(".intro").append(intro);
     $(".intro").append(editbtn);
     console.log($('.page > p:first'));
@@ -33,6 +37,21 @@ jQuery( document ).ready(function($) {
         else {
             $(this).prepend('<span style="color:#e0ab7e; font-size: 0.5em">▋</span>  ');
         }
+    });
+    // fold all the firstlv divs and add click action
+    $(".firstlv").each(function () {
+        this.onclick=function () {
+            if ($(this).next().hasClass("noshow"))  {
+                $(this).nextUntil(".firstlv").removeClass("noshow");
+                $(this).find('img').css({'transform': 'rotate(90deg)'});
+            }
+            else {
+                $(this).nextUntil(".firstlv").addClass("noshow");
+                $(this).find('img').css({'transform': 'rotate(0deg)'});
+                    // style.transform = "rotate(90deg)";
+            }
+        };
+        $(this).nextUntil(".firstlv").addClass("noshow");
     });
     // set the width of paperclip__title to document.body.clientWidth
     // let widthOfScreen = document.body.clientWidth;

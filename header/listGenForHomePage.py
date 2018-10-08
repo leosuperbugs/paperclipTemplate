@@ -5348,22 +5348,53 @@ def HTMLgen(classid, classname, photoname, photoid, bigclass):
     newHTML.close()
 
 
-list = open('list', 'w')
+list = open('listForHome', 'w')
 
 for classlv1 in industry:
     bigclass = classlv1['name']
-    list.write( ' * ' + bigclass + '\n')
+    lv1id = classlv1['id']
+    list.write("""
+        <div class="firstlv higherlv">
+        <img class="firstlv_icon" src="lib/tpl/starter/images/trinity.svg">"""
+        + lv1id +
+        """. &nbsp&nbsp
+        """
+        + bigclass +
+        """
+        </div>
+        """)
     for classlv2 in classlv1['subclass']:
         lv2name = classlv2['name']
         lv2id = classlv2['id']
-        list.write('   * '+lv2name + '\n')
+        list.write("""
+            <div class="secondlv lowerlv">
+            """
+            + lv2name +
+            """</div>
+            """)
         for classlv3 in classlv2['subclass']:
-            list.write('    * '+classlv3['name']+ '\n')
+            lv3id = classlv3['id']
+            lv3name = classlv3['name']
+            list.write("""
+                <div class="thirdlv lowerlv">"""+ lv3name +"""</div>
+                """)
             if len(classlv3['subclass']) == 0:
-                list.write('      * [['+classlv3['name'] + ']]\n')
+                list.write("""
+                    <a class="fourthlv lowerlv" href="/doku.php?id=
+                    """
+                +lv3name+
+                """ ">"""+lv3name+"""</a><br>
+                    """)
                 continue
             for classlv4 in classlv3['subclass']:
-                list.write('      * [['+classlv4['name'] + ']]\n')
+                lv4name = classlv4['name']
+                
+                list.write("""
+                    <a class="fourthlv lowerlv" href="/doku.php?id=
+                    """
+                           +lv4name+
+                           """ ">"""+lv4name+"""</a><br>
+                    """)
 
 
 list.close()

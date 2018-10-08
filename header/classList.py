@@ -6,7 +6,7 @@ import jieba
 
 
 
-industry = [{'id': "A",	 'name' :"农、林、牧、渔业",			'open': '', 'subclass':[
+industry = [{'id': "A",	 'name' :"农/林/牧/渔业",			'open': '', 'subclass':[
 	{'id': "1",	 'name' :"农业",					'open': '', 'subclass':[
 		{'id': "11",	 'name' :"谷物种植",				'open': '', 'subclass':[
 
@@ -2763,7 +2763,7 @@ industry = [{'id': "A",	 'name' :"农、林、牧、渔业",			'open': '', 'subc
 		]},
 	]},
 ]},
-{'id': "D",	 'name' :"电力、热力、燃气及水生产和供应业",				'open': '', 'subclass':[
+{'id': "D",	 'name' :"电力/热力/燃气/水",				'open': '', 'subclass':[
 
 	{'id': "44",	 'name' :"电力、热力生产和供应业",				'open': '', 'subclass':[
 
@@ -3459,7 +3459,7 @@ industry = [{'id': "A",	 'name' :"农、林、牧、渔业",			'open': '', 'subc
 		]},
 	]},
 ]},
-{'id': "G",	 'name' :"交通运输、仓储和邮政业",				'open': '', 'subclass':[
+{'id': "G",	 'name' :"交通运输/仓储/邮政",				'open': '', 'subclass':[
 
 	{'id': "53",	 'name' :"铁路运输业",				'open': '', 'subclass':[
 
@@ -3801,7 +3801,7 @@ industry = [{'id': "A",	 'name' :"农、林、牧、渔业",			'open': '', 'subc
 		]},
 	]},
 ]},
-{'id': "I",	 'name' :"信息传输、软件和信息技术服务业",				'open': '', 'subclass':[
+{'id': "I",	 'name' :"信息传输/软件/信息技术服务业",				'open': '', 'subclass':[
 
 	{'id': "63",	 'name' :"电信、广播电视和卫星传输服务",				'open': '', 'subclass':[
 
@@ -4542,7 +4542,7 @@ industry = [{'id': "A",	 'name' :"农、林、牧、渔业",			'open': '', 'subc
 		]},
 	]},
 ]},
-{'id': "N",	 'name' :"水利、环境和公共设施管理业",				'open': '', 'subclass':[
+{'id': "N",	 'name' :"水利/环境/公共设施管理业",				'open': '', 'subclass':[
 
 	{'id': "76",	 'name' :"水利管理业",				'open': '', 'subclass':[
 
@@ -4665,7 +4665,7 @@ industry = [{'id': "A",	 'name' :"农、林、牧、渔业",			'open': '', 'subc
 		]},
 	]},
 ]},
-{'id': "O",	 'name' :"居民服务、修理和其他服务业",				'open': '', 'subclass':[
+{'id': "O",	 'name' :"居民服务/修理/其他服务业",				'open': '', 'subclass':[
 
 	{'id': "80",	 'name' :"居民服务业",				'open': '', 'subclass':[
 
@@ -4860,7 +4860,7 @@ industry = [{'id': "A",	 'name' :"农、林、牧、渔业",			'open': '', 'subc
 		]},
 	]},
 ]},
-{'id': "Q",	 'name' :"卫生和社会工作",				'open': '', 'subclass':[
+{'id': "Q",	 'name' :"卫生/社会工作",				'open': '', 'subclass':[
 
 	{'id': "84",	 'name' :"卫生",				'open': '', 'subclass':[
 
@@ -4977,7 +4977,7 @@ industry = [{'id': "A",	 'name' :"农、林、牧、渔业",			'open': '', 'subc
 		]},
 	]},
 ]},
-{'id': "R",	 'name' :"文化、体育和娱乐业",				'open': '', 'subclass':[
+{'id': "R",	 'name' :"文化/体育/娱乐业",				'open': '', 'subclass':[
 
 	{'id': "86",	 'name' :"新闻和出版业",				'open': '', 'subclass':[
 
@@ -5160,7 +5160,7 @@ industry = [{'id': "A",	 'name' :"农、林、牧、渔业",			'open': '', 'subc
 		]},
 	]},
 ]},
-{'id': "S",	 'name' :"公共管理、社会保障和社会组织",				'open': '', 'subclass':[
+{'id': "S",	 'name' :"公共管理/社会保障/社会组织",				'open': '', 'subclass':[
 
 	{'id': "91",	 'name' :"中国共产党机关",				'open': '', 'subclass':[
 
