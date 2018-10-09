@@ -38,25 +38,31 @@
 
 .paperclip__search__recommend .no {
     display: inline-block;
+    background-color: __paperclip__inputbg__;
+    border-radius: 1.5rem;
+    height: 100%;
+    width: 45rem;
+    border: 2px solid white;
+    padding-left: 1rem;
 }
 
-.no input {
+.paperclip__search__recommend input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    width: 45rem;
     font-size: 1.6rem;
-    border: 2px solid white;
+    background-color: transparent;
+    width: 40rem;
     height: 2.5rem;
-    border-radius: 1.5rem;
-    background-color: __paperclip__inputbg__;
     opacity: 0.7;
+    border: 0px;
 }
 
-.no button {
+.paperclip__search__recommend button {
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none; 
+    appearance: none;
+    display: inline;
 
     height: 2.5rem;
     width: 2.5rem;
@@ -67,4 +73,5 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    float: right;
 }

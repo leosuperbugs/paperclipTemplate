@@ -377,3 +377,8 @@
     width: 60px;
     height: 50px;
 }
+
+.paperclip__title {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
