@@ -9,7 +9,6 @@ body {
 }
 #dokuwiki__site {
     margin: 0 5% 0 5%;
-    margin-top: 2rem;
     position: relative;
 }
 #dokuwiki__site > .site {
