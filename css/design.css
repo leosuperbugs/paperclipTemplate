@@ -14,7 +14,6 @@
 }
 
 #dokuwiki__header {
-    margin: 2.5em 0 0;
 }
 
 #dokuwiki__header .headings {
@@ -104,12 +103,14 @@
 /*____________ user tools ____________*/
 
 #dokuwiki__usertools {
-    position: absolute;
-    top: 0;
-    right: 0;
+    float: none;
     width: 100%;
     /*background: linear-gradient(to bottom, #, #222222);*/
     background-color: #222222;
+}
+#dokuwiki__header .tools {
+    margin-bottom: 0;
+    float: none;
 }
 #dokuwiki__pagetools ul {
     margin: 0 auto;

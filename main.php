@@ -109,7 +109,7 @@ $imagePrefix = 'lib/tpl/starter/images';
                             )); ?>
                         </ul>
                         <!--                        <div class="paperclip__gradient"></div>-->
-                        <div class="clear"></div>
+                        <div class="clear"></div><div class="clear">
                     </div>
                 <?php endif ?>
 
@@ -181,7 +181,12 @@ $imagePrefix = 'lib/tpl/starter/images';
         <?php
         $entryTitle = tpl_pagetitle(null, true);
         $filename ='lib/tpl/starter/header/'.$entryTitle;
-        include $filename;
+//        include $filename;
+
+
+
+
+
         // need some fix here
 //        $file = fopen($filename, "r");
 //        if ($file) {
