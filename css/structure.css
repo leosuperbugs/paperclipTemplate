@@ -9,7 +9,7 @@ body {
 }
 #dokuwiki__site {
     margin: 0 5% 0 5%;
-    padding-right: 150px;
+    padding-top: 2rem;
     position: relative;
 }
 #dokuwiki__site > .site {

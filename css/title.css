@@ -14,7 +14,8 @@
     padding: 10rem 0rem 3rem 5rem;
 }
 
-.paperclip__logo svg{
+.paperclip__logo svg,
+.paperclip__logo img{
     height: 3.5rem;
     margin-bottom: 1rem;
 }

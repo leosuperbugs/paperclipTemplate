@@ -106,7 +106,7 @@
     float: none;
     width: 100%;
     /*background: linear-gradient(to bottom, #, #222222);*/
-    background-color: #222222;
+    background-color: __paperclip__stdbg__;
 }
 #dokuwiki__header .tools {
     margin-bottom: 0;

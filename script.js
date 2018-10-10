@@ -76,6 +76,9 @@ jQuery( document ).ready(function($) {
     let btn  = $("[title='搜索']");
     btn.text('');
 
+    // remove the br and put them behind p
+    $('.paperclip__login br').remove();
+    $('.paperclip__login p').append('<br>');
 
 });
 

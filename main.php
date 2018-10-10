@@ -181,18 +181,8 @@ $imagePrefix = 'lib/tpl/starter/images';
         <?php
         $entryTitle = tpl_pagetitle(null, true);
         $filename ='lib/tpl/starter/header/'.$entryTitle;
-//        include $filename;
+        include $filename;
 
-
-
-
-
-        // need some fix here
-//        $file = fopen($filename, "r");
-//        if ($file) {
-//            echo fread($file, filesize($filename));
-//            fclose($file);
-//        }
         if (file_exists($filename)) {
             ?>
             <div class="pet_warpper">
