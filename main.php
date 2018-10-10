@@ -58,11 +58,18 @@ $imagePrefix = 'lib/tpl/starter/images';
                     <div id="dokuwiki__usertools">
                         <h3 class="a11y"><?php echo $lang['user_tools'] ?></h3>
                         <ul id="logo_area">
-                            <li class="desktop__header">
-                                <a href="/doku.php">
-                                    <img id="brand" src="lib/tpl/starter/images/brand_white.png" />
-                                </a>
-                            </li>
+                            <?php
+                            global $ID, $conf, $ACT;
+                            //    if ($ID == $conf['start']) {
+                            if (!($ID === $conf['start'] && $ACT === 'show')) {
+                                ?>
+                                <li class="desktop__header">
+                                    <a href="/doku.php">
+                                        <img id="brand" src="lib/tpl/starter/images/brand_white.png" />
+                                    </a>
+                                </li>
+                            <?php } ?>
+
                             <li class="desktop__header">
                                 <a href="">
                                     <img class="social" id="wechat"  src="lib/tpl/starter/images/wechat_bw.png">
@@ -137,57 +144,60 @@ $imagePrefix = 'lib/tpl/starter/images';
 
     <!--   Paperclip: this part is for the customization of the start page -->
     <?php
-    global $ID, $conf, $ACT;
+    global $ID, $conf, $ACT, $INFO;
 //    if ($ID == $conf['start']) {
-    if ($ID == $conf['start'] && $ACT === 'show') {
-        ?>
-    <!--   Paperclip's start page     -->
-       <div class="paperclip__home">
-           <div class="paperclip__doddle">
-               <div class="paperclip__logo">
-                   <?php
-                   include 'images/home/logo-pet.svg'
-                   ?>
+    if ($ID == $conf['start'] && $ACT === 'show') { ?>
+
+        <!--   Paperclip's start page     -->
+           <div class="paperclip__home">
+               <div class="paperclip__doddle">
+                   <div class="paperclip__logo">
+                       <?php
+                       include 'images/home/logo-pet.svg'
+                       ?>
+                   </div>
+                   <p>回形针手册是一本涵盖了日常生活所涉及方方面面的百科手册，<br>你可以试着检索一个条目</p>
                </div>
-               <p>回形针手册是一本涵盖了日常生活所涉及方方面面的百科手册，<br>你可以试着检索一个条目</p>
+               <div class="paperclip__search__recommend">
+                   <?php tpl_searchform()?>
+                   <p>推荐阅读：<a href="https://weibo.com">硫铁矿是怎么开采的？</a></p>
+                   <div class="clear"></div>
+               </div>
            </div>
-           <div class="paperclip__search__recommend">
-               <?php tpl_searchform()?>
-               <p>推荐阅读：<a href="https://weibo.com">硫铁矿是怎么开采的？</a></p>
-               <div class="clear"></div>
-           </div>
-       </div>
-        <div class="paperclip__list">
-            <?php include 'header/listForHome' ?>
-<!--            <div class="firstlv higherlv">-->
-<!--                <img class="firstlv_icon" src="lib/tpl/starter/images/trinity.svg">-->
-<!--                A. &nbsp&nbsp 农林牧渔-->
-<!--            </div>-->
-<!--            <div class="secondlv lowerlv">农业</div>-->
-<!--            <div class="thirdlv lowerlv">谷物种植</div>-->
-<!--            <a class="fourthlv lowerlv" href="/doku.php?id=水稻种植">水稻种植</a>-->
-        </div>
+            <div class="paperclip__list">
+                <?php include 'header/listForHome' ?>
+    <!--            <div class="firstlv higherlv">-->
+    <!--                <img class="firstlv_icon" src="lib/tpl/starter/images/trinity.svg">-->
+    <!--                A. &nbsp&nbsp 农林牧渔-->
+    <!--            </div>-->
+    <!--            <div class="secondlv lowerlv">农业</div>-->
+    <!--            <div class="thirdlv lowerlv">谷物种植</div>-->
+    <!--            <a class="fourthlv lowerlv" href="/doku.php?id=水稻种植">水稻种植</a>-->
+            </div>
 
-
-
-    <?php } else {?>
+    <?php
+    } else { ?>
     <!--   Normal content page     -->
-        <div>nothing</div>
         <?php
         $entryTitle = tpl_pagetitle(null, true);
         $filename ='lib/tpl/starter/header/'.$entryTitle;
+        include $filename;
         // need some fix here
-        $file = fopen($filename, "r");
-        if ($file) {
-            echo fread($file, filesize($filename));
-            fclose($file);
+//        $file = fopen($filename, "r");
+//        if ($file) {
+//            echo fread($file, filesize($filename));
+//            fclose($file);
+//        }
+        if (file_exists($filename)) {
+            ?>
+            <div class="pet_warpper">
+                <img id="pet_lower" src="lib/tpl/starter/images/pet_lower.png"/>
+                <hr class="vertical_lower"/>
+            </div>
+            <div class="clear"></div>
+            <?php
         }
         ?>
-        <div class="pet_warpper">
-            <img id="pet_lower" src="lib/tpl/starter/images/pet_lower.png"/>
-            <hr class="vertical_lower"/>
-        </div>
-        <div class="clear"></div>
         <div id="dokuwiki__site"><div id="dokuwiki__top" class="site <?php echo tpl_classes(); ?> <?php
             echo ($showSidebar) ? 'hasSidebar' : ''; ?>">
                 <?php html_msgarea() /* occasional error and info messages on top of the page */ ?>

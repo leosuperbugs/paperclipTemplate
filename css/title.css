@@ -15,13 +15,14 @@
 }
 
 .paperclip__logo svg{
-    height: 5rem;
+    height: 3.5rem;
     margin-bottom: 1rem;
 }
 
 .paperclip__doddle p {
     color: __paperclip__edititem__;
     font-size: 1.5rem;
+    width: 30rem;
 }
 
 .paperclip__search__recommend {
@@ -41,7 +42,7 @@
     background-color: __paperclip__inputbg__;
     border-radius: 1.5rem;
     height: 100%;
-    width: 45rem;
+    width: 40rem;
     border: 2px solid white;
     padding-left: 1rem;
 }
@@ -52,7 +53,7 @@
     appearance: none;
     font-size: 1.6rem;
     background-color: transparent;
-    width: 40rem;
+    width: 28rem;
     height: 2.5rem;
     opacity: 0.7;
     border: 0px;
