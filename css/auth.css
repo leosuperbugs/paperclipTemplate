@@ -1,6 +1,6 @@
 .paperclip__login {
     margin: 0 -5.55%;
-    padding-top: 20vw;
+    padding-top: 20vh;
     color: white;
     background-color: __paperclip__stdbg__;
     background-image: url("images/home/invt-bg.svg");
@@ -77,5 +77,5 @@
 
 .paperclip__login .no a {
     color: __paperclip__gold__;
-    text-underline: __paperclip__gold__;
+    text-decoration: underline;
 }
