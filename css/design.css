@@ -48,7 +48,7 @@
 
 #dokuwiki__header form.search {
     margin: .5em 0 0;
-    display: block;
+    display: inline-block;
 }
 #dokuwiki__header form.search #qsearch__in {
     width: 12em;
