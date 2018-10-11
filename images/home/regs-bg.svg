@@ -2,7 +2,7 @@
   <defs>
     <style>
       .cls-1 {
-        clip-path: url(#clip-Invitation);
+        clip-path: url(#clip-Invitation-Signup);
       }
 
       .cls-2, .cls-5 {
@@ -10,7 +10,7 @@
       }
 
       .cls-3 {
-        opacity: 0.254;
+        opacity: 0.195;
       }
 
       .cls-4 {
@@ -29,16 +29,16 @@
         fill: #e8e8e8;
       }
     </style>
-    <clipPath id="clip-Invitation">
+    <clipPath id="clip-Invitation-Signup">
       <rect width="1920" height="1080"/>
     </clipPath>
   </defs>
-  <g id="Invitation" class="cls-1">
+  <g id="Invitation-Signup" class="cls-1">
     <rect class="cls-6" width="1920" height="1080"/>
     <g id="BG">
       <rect id="_282828" data-name="282828" class="cls-2" width="1920" height="1080"/>
     </g>
-    <g id="Group_2" data-name="Group 2" class="cls-3" transform="translate(59.482 -588.304) rotate(11)">
+    <g id="Group_2" data-name="Group 2" class="cls-3" transform="matrix(0.454, -0.891, 0.891, 0.454, -779.549, 1401.129)">
       <g id="回形针手册-logo" transform="translate(400 1136.469) rotate(-47)">
         <path id="Path_1" data-name="Path 1" class="cls-4" d="M0,1.744V430.8c0,31.394,24.418,59.3,57.556,59.3,33.138,1.744,61.044-26.162,61.044-59.3V0H1.744C0,0,0,0,0,1.744Z" transform="translate(439.519 769.159)"/>
         <path id="Path_2" data-name="Path 2" class="cls-5" d="M242.433,0V463.937a43.18,43.18,0,0,1-43.6,43.6h-1.744c-22.674,0-41.859-20.929-41.859-43.6V33.138c0-12.209-3.488-22.674-6.976-33.138H6.976C1.744,10.465,0,20.929,0,33.138V462.193c0,109.88,88.95,200.574,197.086,202.318h1.744c109.88,0,200.574-88.95,200.574-200.574V0Z" transform="translate(350.569 769.159)"/>

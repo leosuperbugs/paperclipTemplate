@@ -80,6 +80,8 @@ jQuery( document ).ready(function($) {
     $('.paperclip__login br').remove();
     $('.paperclip__login p').append('<br>');
 
+    $('.paperclip__register br').remove();
+    $('.paperclip__register p').append('<br>');
 });
 
 // var Paperclip = {

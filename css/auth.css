@@ -1,36 +1,61 @@
-.paperclip__login {
+.paperclip__login,
+.paperclip__register {
     margin: 0 -5.55%;
     padding-top: 20vh;
     color: white;
     background-color: __paperclip__stdbg__;
-    background-image: url("images/home/invt-bg.svg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
 }
 
+.paperclip__login {
+    background-image: url("images/home/invt-bg.svg");
+}
+
+.paperclip__register {
+    background-image: url("images/home/regs-bg.svg");
+}
+
 .paperclip__doddlemid {
-    margin-bottom: 10vw;
     text-align: center;
+}
+
+.paperclip__login .paperclip__doddlemid {
+    margin-bottom: 10vh;
+}
+
+.paperclip__register .paperclip__doddlemid {
+    margin-bottom: 5vh;
 }
 
 .paperclip__doddlemid p {
     color: __paperclip__edititem__;
 }
 
-.paperclip__login label {
+.paperclip__login label,
+.paperclip__register label{
     float: none;
+}
+
+.paperclip__login label {
     width: 34rem;
     margin-left: calc(~"50vw - 20rem");
 }
+.paperclip__register label {
+    width: 38rem;
+    margin-left: calc(~"50vw - 24rem");
+}
 
-.paperclip__login span {
+.paperclip__login span ,
+.paperclip__register span {
     width: 5rem;
     font-size: 1.2rem;
     font-weight: lighter !important;
 }
 
-.paperclip__login input {
+.paperclip__login input ,
+.paperclip__register input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -45,7 +70,8 @@
     margin-left: 1rem;
 }
 
-.paperclip__login button {
+.paperclip__login button ,
+.paperclip__register button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -58,12 +84,21 @@
     color: white;
     font-weight: lighter !important;
 
+}
+
+.paperclip__login button {
     margin-left: calc(~"50% - 2rem");
     margin-top: 1rem;
 }
+.paperclip__register button {
+    float: left;
+    margin-left: calc(~"50% + 16rem");
+    margin-top: -3.3rem;
+}
 
-.paperclip__login .block {
-    margin-bottom: 0.5rem;
+.paperclip__login .block ,
+.paperclip__register .block{
+    margin-bottom: 1rem;
 }
 
 .paperclip__login .no p {
@@ -74,8 +109,16 @@
     /*float: left;*/
     margin-left: calc(~"50% + 16rem");
 }
+.paperclip__register .no p{
+    float: left;
+    margin-top: -3rem;
+    margin-left: calc(~"50% + 16rem");
+    color: __paperclip__gold__;
+    height: 0;
+}
 
-.paperclip__login .no a {
+.paperclip__login .no a,
+.paperclip__register .no a{
     color: __paperclip__gold__;
     text-decoration: underline;
 }
