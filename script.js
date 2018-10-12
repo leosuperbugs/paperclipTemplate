@@ -17,7 +17,7 @@ jQuery( document ).ready(function($) {
     $('div.editbutton_1').remove();
     // don't cut at start
     let home = $('.paperclip__home');
-    if (home == null)  {
+    if (home.length == 0)  {
         let firsth1 = $('h1:first');
         firsth1.remove();
     }
