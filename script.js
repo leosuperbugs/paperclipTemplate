@@ -12,7 +12,7 @@ jQuery( document ).ready(function($) {
     // cut the toc and paste it to the side
     let toc = $('.dw__toc');
     $('.dw__toc').remove();
-    $('#dokuwiki__site').append(toc);
+    $('.paperclip__tocwarpper').append(toc);
     toc.addClass('noshow');
     // mouse move to the paperclip__toc to show the toc
     let sider = $('.paperclip__toc');
@@ -39,6 +39,8 @@ jQuery( document ).ready(function($) {
         )
     }
 
+    // remove the <strong> -
+    $('#dw__toc > h3 > strong').remove();
     // display of wechat qrcode
     $("#wechat").hover(function () {
        $("#qrcode").css("display", "block");
