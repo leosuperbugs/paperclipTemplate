@@ -3,8 +3,42 @@ jQuery( document ).ready(function($) {
     var im = DOKU_BASE+"lib/tpl/starter/images/plus.png";
     var screenMode = $('#screen__mode').css('z-index') + '';
 
+    // remove the text in search button
+    let btn  = $("[title='搜索']");
+    btn.text('');
+    // set the color
     $(".login").css("color", "#e0ba7e");
     $(".logout").css("color", "#e0ba7e");
+    // cut the toc and paste it to the side
+    let toc = $('.dw__toc');
+    $('.dw__toc').remove();
+    $('#dokuwiki__site').append(toc);
+    toc.addClass('noshow');
+    // mouse move to the paperclip__toc to show the toc
+    let sider = $('.paperclip__toc');
+
+    if (sider) {
+
+        sider.hover(
+            function() {
+                toc.removeClass('noshow');
+                sider.addClass('noshow');
+            },
+            function() {
+            }
+        );
+
+        toc.hover(
+            function () {
+
+            },
+            function () {
+                sider.removeClass('noshow');
+                toc.addClass('noshow');
+            }
+        )
+    }
+
     // display of wechat qrcode
     $("#wechat").hover(function () {
        $("#qrcode").css("display", "block");
@@ -62,19 +96,11 @@ jQuery( document ).ready(function($) {
     // $('.paperclip__title').css('padding-right', 0.05 * widthOfScreen);
     // console.log(document.body.clientWidth)
 
-    // cut the toc and paste it to the side
-    let toc = $('.dw__toc');
-    $('.dw__toc').remove();
-    $('#dokuwiki__site').append(toc);
-
     // scroll to the top
     $('.paperclip__backToTop').click(function () {
         $('html,body').animate({ scrollTop: 0 }, 500);
     });
 
-    // remove the text in search button
-    let btn  = $("[title='搜索']");
-    btn.text('');
 
     // remove the br and put them behind p
     $('.paperclip__login br').remove();

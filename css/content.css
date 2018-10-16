@@ -173,9 +173,13 @@
     background-color: __paperclip__tocgrey__;
     position: fixed;
     width: 100px;
-    right: 50px;
-    top: 200px;
+    right: 0;
+    top: 40%;
     opacity: 0.5;
+}
+
+.noshow {
+    display: none;
 }
 
 .li a {
@@ -185,6 +189,17 @@
 
 .li a {
     color: __paperclip__darkgrey__;
+}
+
+.paperclip__toc {
+    position: fixed;
+    top: 40%;
+    right: 0;
+    width: 1.5rem;
+    height: 4rem;
+    columns: white;
+    background-color: __paperclip__tocgrey__;
+    z-index: 10;
 }
 
 
