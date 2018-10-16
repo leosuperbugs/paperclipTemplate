@@ -1,32 +1,58 @@
 .paperclip__list {
-    margin: 0 5%;
+    background-size: 40px 40px;
+    background-image: linear-gradient(to right, __paperclip__tocgrey__ 1px, transparent 1px), linear-gradient(to bottom, __paperclip__tocgrey__ 1px, transparent 1px);
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 15rem;
+}
+
+.higherlv {
+    cursor: pointer;
+}
+
+.lowerlv {
+    cursor: pointer;
 }
 
 .firstlv {
     margin-left: 0;
-    font-size: 2rem;
+    font-size: 1.66rem;
+    font-weight: bold;
+    color: __paperclip__stdbg__;
+    margin-bottom: 1rem;
 }
 
 .firstlv_icon {
-    height: 1rem;
+    height: 1.6rem;
 }
 
 .secondlv {
     margin-left: 7rem;
+    font-size: 1.5rem;
+    color: __paperclip__stdbg__;
+    margin-bottom: 1rem;
 }
 
 .thirdlv {
     margin-left: 8rem;
+    font-size: 1.25rem;
+    color: __paperclip__stdbg__;
+    margin-bottom: 0.5rem;
+}
+
+.lowestgrp {
+    margin-left: 8rem;
+    display: inline-block;
 }
 
 .fourthlv {
-    margin-left: 9rem;
-}
-
-.lowerlv {
-    color: __paperclip__edititem__;
-    font-size: 1.4rem;
+    font-size: 1rem;
+    font-weight: lighter !important;
+    color: white !important;
+    background-color: __paperclip__stdbg__;
+    cursor: pointer;
+    display: inherit;
+    margin-bottom: 0.5rem;
 }
 
 .paperclip__list a {
@@ -36,4 +62,13 @@
     display: none;
 }
 
+.paperclip__listwarpper {
+    width: 60%;
+}
+
+.paperclip__listtitle {
+    float: right;
+    font-size: 3rem;
+    color: __paperclip__stdbg__;
+}
 

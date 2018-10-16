@@ -5359,42 +5359,54 @@ for classlv1 in industry:
         + lv1id +
         """. &nbsp&nbsp
         """
-        + bigclass +
+        + bigclass
+        +
         """
         </div>
-        """)
+        """
+        )
+    list.write("""<div class='firstlv_warpper noshow'>""")
     for classlv2 in classlv1['subclass']:
         lv2name = classlv2['name']
         lv2id = classlv2['id']
         list.write("""
             <div class="secondlv lowerlv">
             """
-            + lv2name +
+            + lv2name
+            +
             """</div>
-            """)
+            """
+            )
+        list.write("""<div class='secondlv_warpper noshow'>""")
         for classlv3 in classlv2['subclass']:
             lv3id = classlv3['id']
             lv3name = classlv3['name']
             list.write("""
                 <div class="thirdlv lowerlv">"""+ lv3name +"""</div>
                 """)
+            list.write("""<div class="lowestgrp noshow">""")
             if len(classlv3['subclass']) == 0:
                 list.write("""
-                    <a class="fourthlv lowerlv" href="/doku.php?id=
-                    """
+                    <a class="fourthlv lowerlv" href="/doku.php?id="""
                 +lv3name+
-                """ ">"""+lv3name+"""</a><br>
+                """ ">"""
+                    +lv3id+ """."""
+                +lv3name+"""</a>
                     """)
-                continue
-            for classlv4 in classlv3['subclass']:
-                lv4name = classlv4['name']
-                
-                list.write("""
-                    <a class="fourthlv lowerlv" href="/doku.php?id=
-                    """
-                           +lv4name+
-                           """ ">"""+lv4name+"""</a><br>
-                    """)
-
+                list.write('</div>')
+            else:
+                for classlv4 in classlv3['subclass']:
+                    lv4name = classlv4['name']
+                    lv4id = classlv4['id'] 
+                    list.write("""
+                        <a class="fourthlv lowerlv" href="/doku.php?id="""
+                               +lv4name+
+                               """ ">"""
+                        +lv4id+ """."""
+                               +lv4name+"""</a>
+                        """)
+                list.write('</div>')
+        list.write('</div>')
+    list.write('</div>')
 
 list.close()

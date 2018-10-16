@@ -74,21 +74,47 @@ jQuery( document ).ready(function($) {
             $(this).prepend('<span style="color:#e0ab7e; font-size: 0.5em">▋</span>  ');
         }
     });
-    // fold all the firstlv divs and add click action
+    // add click action for firstlv div
     $(".firstlv").each(function () {
         this.onclick=function () {
             if ($(this).next().hasClass("noshow"))  {
-                $(this).nextUntil(".firstlv").removeClass("noshow");
+                $(this).nextUntil(".firstlv").filter('.firstlv_warpper').removeClass("noshow");
                 $(this).find('img').css({'transform': 'rotate(90deg)'});
             }
             else {
-                $(this).nextUntil(".firstlv").addClass("noshow");
+                $(this).nextUntil(".firstlv").filter('.firstlv_warpper').addClass("noshow");
                 $(this).find('img').css({'transform': 'rotate(0deg)'});
-                    // style.transform = "rotate(90deg)";
             }
         };
-        $(this).nextUntil(".firstlv").addClass("noshow");
     });
+    // add click action for secondlv div
+    $(".secondlv").each(
+        function () {
+            this.onclick=function () {
+                if ($(this).next().hasClass("noshow"))  {
+                    $(this).nextUntil(".secondlv").filter('.secondlv_warpper').removeClass("noshow");
+                }
+                else {
+                    $(this).nextUntil(".secondlv").filter('.secondlv_warpper').addClass("noshow");
+                }
+            };
+        }
+    );
+    // add clilck action for thirdlv div
+    $(".thirdlv").each(
+        function () {
+            this.onclick=function () {
+                if ($(this).next().hasClass("noshow"))  {
+                    $(this).nextUntil(".thirdlv").filter('.lowestgrp').removeClass("noshow");
+                }
+                else {
+                    $(this).nextUntil(".thirdlv").filter('.lowestgrp').addClass("noshow");
+                }
+            }
+        }
+    );
+
+
     // set the width of paperclip__title to document.body.clientWidth
     // let widthOfScreen = document.body.clientWidth;
     // let marginValue = (widthOfScreen - $('.paperclip__title').width()) / 2;
