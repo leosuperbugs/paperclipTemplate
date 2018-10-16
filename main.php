@@ -168,7 +168,9 @@ $imagePrefix = 'lib/tpl/starter/images';
                 <div class="paperclip__listtitle">
                     全部条目
                 </div>
-                <?php include 'header/listForHome' ?>
+                <div class="paperclip__listwarpper">
+                    <?php include 'header/listForHome' ?>
+                </div>
             </div>
 
     <?php
