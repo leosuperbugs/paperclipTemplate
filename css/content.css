@@ -177,14 +177,15 @@
     /*overflow: scroll;*/
     right: 0;
     top: 30%;
-    opacity: 0.5;
     overflow-x: auto;
     overflow-y: scroll;
     border: 1px solid __border__;
+    padding: 0.5rem;
 }
 
 #dw__toc h3 {
-    text-align: center;
+    font-size: 1.5rem;
+    color: __paperclip__darkgrey__;
 }
 
 .noshow {

@@ -20,7 +20,6 @@
     margin-bottom: 2.1em;
 }
 #dokuwiki__header h1 {
-    margin-bottom: 0;
     font-size: 1.5em;
 }
 #dokuwiki__header h1 a {
@@ -303,7 +302,7 @@
     background-size: 100%;
     position: relative;
     color: white;
-    height: 60vh;
+    height: 65vh;
 }
 .desktop__title {
     font-size: 5em;
@@ -340,7 +339,7 @@
     background-color: __paperclip__gold__;
 }
 .vertical_upper {
-    height: 10em;
+    height: 10vh;
     position: absolute;
     margin-bottom: 0;
     bottom: 0;
