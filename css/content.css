@@ -172,10 +172,19 @@
 #dw__toc {
     background-color: __paperclip__tocgrey__;
     position: fixed;
-    width: 100px;
+    width: auto;
+    max-height: 40%;
+    /*overflow: scroll;*/
     right: 0;
-    top: 40%;
+    top: 25%;
     opacity: 0.5;
+    overflow-x: auto;
+    overflow-y: scroll;
+    border: 1px solid __border__;
+}
+
+#dw__toc h3 {
+    text-align: center;
 }
 
 .noshow {
@@ -193,6 +202,9 @@
 
 .paperclip__toc {
     position: fixed;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
     top: 40%;
     right: 0;
     width: 1.5rem;
@@ -201,6 +213,11 @@
     background-color: __paperclip__tocgrey__;
     z-index: 10;
 }
+
+.paperclip__tocwarpper {
+}
+
+
 
 
 
