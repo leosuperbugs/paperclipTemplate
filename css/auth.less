@@ -1,6 +1,7 @@
 .paperclip__login,
+.paperclip__update,
 .paperclip__register {
-    margin: 0 -5.55%;
+    margin: 0 -@clipbond;
     padding-top: 20vh;
     color: white;
     background-color: __paperclip__stdbg__;
@@ -13,7 +14,8 @@
     background-image: url("images/home/invt-bg.svg");
 }
 
-.paperclip__register {
+.paperclip__register,
+.paperclip__update {
     background-image: url("images/home/regs-bg.svg");
 }
 
@@ -34,6 +36,7 @@
 }
 
 .paperclip__login label,
+.paperclip__update label,
 .paperclip__register label{
     float: none;
 }
@@ -46,8 +49,13 @@
     width: 38rem;
     margin-left: calc(~"50vw - 24rem");
 }
+.paperclip__update label {
+    width: 40rem;
+    margin-left: calc(~"50vw - 26rem");
+}
 
 .paperclip__login span ,
+.paperclip__update span,
 .paperclip__register span {
     width: 5rem;
     font-size: 1.2rem;
@@ -55,6 +63,7 @@
 }
 
 .paperclip__login input ,
+.paperclip__update input ,
 .paperclip__register input {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -71,6 +80,7 @@
 }
 
 .paperclip__login button ,
+.paperclip__update button ,
 .paperclip__register button {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -95,8 +105,19 @@
     margin-left: calc(~"50% + 16rem");
     margin-top: -3.3rem;
 }
+.paperclip__update button{
+}
+.paperclip__update button[type='submit'] {
+    margin-left: calc(~"50% - 5rem");
+    margin-top: -0rem;
+}
+.paperclip__update button[type='reset'] {
+    margin-top: -3.8rem;
+    margin-left: calc(~"50%");
+}
 
 .paperclip__login .block ,
+.paperclip__update .block,
 .paperclip__register .block{
     margin-bottom: 1rem;
 }
@@ -118,6 +139,7 @@
 }
 
 .paperclip__login .no a,
+.paperclip__update .no a,
 .paperclip__register .no a{
     color: __paperclip__gold__;
     text-decoration: underline;
