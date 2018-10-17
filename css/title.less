@@ -1,6 +1,17 @@
+@import "controller.less";
+@cliplogw: 25vw;
+@cliplogh: 7.5vh;
+@cliplmgl: 4vw;     // logo margin left
+@clipdodp: 33vw;    // doddle p width
+@clipnowd: 41vw;    // .no width
+
+.paperclip__homewarpper {
+    background-color: __paperclip__darkgrey__;
+}
+
 .paperclip__home {
     background-image: url("images/home/bg.jpg");
-    padding: 0 5%;
+    margin: 0 @clipbond;
     height: calc(100vh - 100px);
     height: -webkit-calc(100vh - 100px);
     height: calc(~"100vh - 72px");
@@ -12,21 +23,21 @@
 
 .paperclip__doddle {
     padding-bottom: 3rem;
-    padding-left: 5rem;
-    padding-top: calc(~"50vh - 15rem");
+    padding-left: @cliplmgl;
+    padding-top: calc(~"50vh - 7.5vh - 9rem");
 
 }
 
 .paperclip__logo svg,
 .paperclip__logo img{
-    height: 3.5rem;
+    height:@cliplogh;
     margin-bottom: 1rem;
 }
 
 .paperclip__doddle p {
     color: __paperclip__edititem__;
     font-size: 1rem;
-    width: 30rem;
+    width: @clipdodp;
 }
 
 .paperclip__search__recommend {
@@ -47,9 +58,14 @@
     background-color: __paperclip__inputbg__;
     border-radius: 1.5rem;
     height: 100%;
-    width: 40rem;
+    width: @clipnowd;
+    min-width: 30rem;
     border: 2px solid white;
-    padding-left: 1rem;
+    padding-left: @cliplmgl;
+    padding-right: @clipnowd - @clipdodp - @cliplmgl;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .paperclip__search__recommend input {
@@ -58,7 +74,7 @@
     appearance: none;
     font-size: 1.5rem;
     background-color: transparent;
-    width: 85% !important;
+    width: auto !important;
     height: 2.5rem;
     opacity: 0.7;
     border: 0px;
