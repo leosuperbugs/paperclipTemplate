@@ -1,9 +1,12 @@
+@import "controller.less";
+@listbond: 15vw;
+
 .paperclip__list {
     background-size: 40px 40px;
     background-image: linear-gradient(to right, __paperclip__tocgrey__ 1px, transparent 1px), linear-gradient(to bottom, __paperclip__tocgrey__ 1px, transparent 1px);
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 15rem;
+    padding-left:@listbond;
+    padding-right:@listbond;
+    padding-top: @listbond;
 }
 
 .higherlv {
@@ -23,11 +26,12 @@
 }
 
 .firstlv_icon {
-    height: 1.6rem;
+    height: 1rem;
+    margin-bottom: 0.4rem;
 }
 
 .secondlv {
-    margin-left: 7rem;
+    margin-left: 6rem;
     font-size: 1.5rem;
     color: __paperclip__stdbg__;
     margin-bottom: 1rem;
@@ -69,6 +73,7 @@
 .paperclip__listtitle {
     float: right;
     font-size: 3rem;
+    font-weight: bolder;
     color: __paperclip__stdbg__;
 }
 

@@ -149,29 +149,31 @@ $imagePrefix = 'lib/tpl/starter/images';
     if ($ID == $conf['start'] && $ACT === 'show') { ?>
 
         <!--   Paperclip's start page     -->
-           <div class="paperclip__home">
-               <div class="paperclip__doddle">
-                   <div class="paperclip__logo">
-                       <?php
-                       include 'images/home/logo-pet.svg'
-                       ?>
-                   </div>
-                   <p>回形针手册是一本涵盖了日常生活所涉及方方面面的百科手册，<br>你可以试着检索一个条目</p>
-               </div>
-               <div class="paperclip__search__recommend">
-                   <?php tpl_searchform()?>
-                   <p>推荐阅读：<a href="https://weibo.com">硫铁矿是怎么开采的？</a></p>
-                   <div class="clear"></div>
-               </div>
-           </div>
-            <div class="paperclip__list">
-                <div class="paperclip__listtitle">
-                    全部条目
+        <div class="paperclip__homewarpper">
+            <div class="paperclip__home">
+                <div class="paperclip__doddle">
+                    <div class="paperclip__logo">
+                        <?php
+                        include 'images/home/logo-pet.svg'
+                        ?>
+                    </div>
+                    <p>回形针手册是一本涵盖了日常生活所涉及方方面面的百科手册，<br>你可以试着检索一个条目</p>
                 </div>
-                <div class="paperclip__listwarpper">
-                    <?php include 'header/listForHome' ?>
+                <div class="paperclip__search__recommend">
+                    <?php tpl_searchform()?>
+                    <p>推荐阅读：<a href="https://weibo.com">硫铁矿是怎么开采的？</a></p>
+                    <div class="clear"></div>
                 </div>
             </div>
+        </div>
+        <div class="paperclip__list">
+            <div class="paperclip__listtitle">
+                全部条目
+            </div>
+            <div class="paperclip__listwarpper">
+                <?php include 'header/listForHome' ?>
+            </div>
+        </div>
 
     <?php
     } else { ?>
