@@ -265,8 +265,8 @@ $imagePrefix = 'lib/tpl/starter/images';
 
                 <?php tpl_includeFile('footer.html') ?>
             </div>
-            <div class="paperclip__toc">目录</div>
-            <div class="paperclip__tocwarpper"></div>
+            <div class="paperclip__toc nomobile">目录</div>
+            <div class="paperclip__tocwarpper nomobile"></div>
         </div><!-- /site -->
         <div class="paperclip__backToTop">
             <svg id="图层_1" data-name="图层 1" viewBox="0 0 100 100"><defs><style>.cls-1{fill:#f7f7f7;}.cls-2{fill:#282828;}</style></defs><title>回形针手册-icons</title><circle class="cls-1" cx="50" cy="50" r="48"/><path class="cls-2" d="M66.2,45,51.4,30.2a1.79,1.79,0,0,0-.31-.25L51,29.87l-.2-.1a1.39,1.39,0,0,0-.19-.06l-.17-.05a1.71,1.71,0,0,0-.78,0l-.17.05a1.39,1.39,0,0,0-.19.06l-.2.1-.14.08a1.79,1.79,0,0,0-.31.25L33.8,45a2,2,0,0,0,2.79,2.79L48,36.35v36a2,2,0,0,0,3.94,0v-36L63.41,47.79a2,2,0,0,0,1.4.58,1.94,1.94,0,0,0,1.39-.58A2,2,0,0,0,66.2,45Z"/></svg>
