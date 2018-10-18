@@ -180,7 +180,9 @@ $imagePrefix = 'lib/tpl/starter/images';
     <!--   Normal content page     -->
         <?php
         $entryTitle = tpl_pagetitle(null, true);
-        $filename ='lib/tpl/starter/header/'.$ID;
+        $idname = explode(':', $ID);
+        $idname = end($idname);
+        $filename ='lib/tpl/starter/header/'.$idname;
         include $filename;
 
         if (file_exists($filename)) {
