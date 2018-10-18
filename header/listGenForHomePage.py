@@ -5387,7 +5387,7 @@ for classlv1 in industry:
             list.write("""<div class="lowestgrp noshow">""")
             if len(classlv3['subclass']) == 0:
                 list.write("""
-                    <a class="fourthlv lowerlv" href="/doku.php?id="""
+                    <a class="fourthlv lowerlv" target='_blank' href="/doku.php?id="""
                 +lv3name+
                 """ ">"""
                     +lv3id+ """."""
@@ -5399,7 +5399,7 @@ for classlv1 in industry:
                     lv4name = classlv4['name']
                     lv4id = classlv4['id'] 
                     list.write("""
-                        <a class="fourthlv lowerlv" href="/doku.php?id="""
+                        <a class="fourthlv lowerlv" target='_blank'  href="/doku.php?id="""
                                +lv4name+
                                """ ">"""
                         +lv4id+ """."""

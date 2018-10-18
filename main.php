@@ -78,12 +78,12 @@ $imagePrefix = 'lib/tpl/starter/images';
                                 <img id="qrcode" src="lib/tpl/starter/images/qrcode.jpg">
                             </li>
                             <li class="desktop__header">
-                                <a href="https://www.weibo.com/p/1005056414205745">
+                                <a href="https://www.weibo.com/p/1005056414205745" target="_blank">
                                     <img class="social"  src="lib/tpl/starter/images/weibo_bw.png"/>
                                 </a>
                             </li>
                             <li class="desktop__header">
-                                <a href="https://space.bilibili.com/258150656/">
+                                <a href="https://space.bilibili.com/258150656/" target="_blank">
                                     <img class="social"  src="lib/tpl/starter/images/video.png">
                                 </a>
                             </li>
@@ -161,7 +161,7 @@ $imagePrefix = 'lib/tpl/starter/images';
                 </div>
                 <div class="paperclip__search__recommend">
                     <?php tpl_searchform()?>
-                    <p>推荐阅读：<a href="https://weibo.com">硫铁矿是怎么开采的？</a></p>
+                    <p>推荐阅读：<a href="https://weibo.com" target="_blank">硫铁矿是怎么开采的？</a></p>
                     <div class="clear"></div>
                 </div>
             </div>
@@ -180,7 +180,7 @@ $imagePrefix = 'lib/tpl/starter/images';
     <!--   Normal content page     -->
         <?php
         $entryTitle = tpl_pagetitle(null, true);
-        $filename ='lib/tpl/starter/header/'.$entryTitle;
+        $filename ='lib/tpl/starter/header/'.$ID;
         include $filename;
 
         if (file_exists($filename)) {
