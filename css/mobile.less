@@ -135,12 +135,12 @@ h1 {
     display: block;
 }
 
-.paperclip__search__recommend .no {
-    width: 100%;
-}
-.paperclip__search__recommend input {
-    width: calc(~"100% - 6rem");
-}
+//.paperclip__search__recommend .no {
+//    width: 100%;
+//}
+//.paperclip__search__recommend input {
+//    width: calc(~"100% - 6rem");
+//}
 
 // paperclip title and list mobile version
 
@@ -175,6 +175,15 @@ h1 {
     .paperclip__login .no p,
     .paperclip__register .no p {
         display: none;
+    }
+
+    .paperclip__search__recommend .no {
+        width: 70vw;
+        min-width: 0;
+    }
+
+    .paperclip__search__recommend .no input {
+        width: 70% !important;
     }
 
     .nomobile {
