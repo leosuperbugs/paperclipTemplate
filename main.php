@@ -52,7 +52,7 @@ $imagePrefix = 'lib/tpl/starter/images';
                 <div class="ZZer"></div>
             </div>
 
-            <div class="tools">
+            <div class="tools nomobile">
                 <!-- USER TOOLS -->
                 <?php if ($conf['useacl'] && $showTools): ?>
                     <div id="dokuwiki__usertools">
