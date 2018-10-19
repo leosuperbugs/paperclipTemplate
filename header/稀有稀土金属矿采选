@@ -1,4 +1,7 @@
-<div class='desktop__class'>采矿业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">稀有<br>稀土金属<br>矿<br>采选
+<div class="paperclip__title"style="background-image: url(images/bg/1稀有稀土金属矿采选.jpg);" >
+        <div class='desktop__class'>
+    采矿业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:3em; ">稀有<br>稀土金属<br>矿<br>采选
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>稀有稀土金属矿采选
@@ -9,5 +12,10 @@
          alt='稀有稀土金属矿采选' 
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

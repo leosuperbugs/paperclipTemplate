@@ -1,4 +1,7 @@
-<div class='desktop__class'>住宿和餐饮业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">一般<br>旅馆
+<div class="paperclip__title"style="background-image: url(images/bg/7一般旅馆.jpg);" >
+        <div class='desktop__class'>
+    住宿和餐饮业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:6em; ">一般<br>旅馆
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>一般旅馆
@@ -9,5 +12,10 @@
          alt='一般旅馆' 
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

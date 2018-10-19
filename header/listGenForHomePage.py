@@ -5379,6 +5379,7 @@ for classlv1 in industry:
             """
             )
         list.write("""<div class='secondlv_warpper noshow'>""")
+        lv2name = lv2name.replace('、', '')
         for classlv3 in classlv2['subclass']:
             lv3id = classlv3['id']
             lv3name = classlv3['name']
@@ -5386,6 +5387,7 @@ for classlv1 in industry:
                 <div class="thirdlv lowerlv">"""+ lv3name +"""</div>
                 """)
             list.write("""<div class="lowestgrp noshow">""")
+            lv3name = lv3name.replace('、', '')
             base = lv1name + ':' + lv2name + ':' + lv3name + ':'
             if len(classlv3['subclass']) == 0:
                 list.write("""
@@ -5399,6 +5401,7 @@ for classlv1 in industry:
             else:
                 for classlv4 in classlv3['subclass']:
                     lv4name = classlv4['name']
+                    lv4name = lv4name.replace('、', '')
                     lv4id = classlv4['id'] 
                     list.write("""
                         <a class="fourthlv lowerlv" target='_blank'  href="/doku.php?id="""

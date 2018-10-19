@@ -1,6 +1,6 @@
 <div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/1农业.jpg);">
         <div class='desktop__class'>
-    农、林、牧、渔业<hr class="desktop__break"></div>
+    农/林/牧/渔<hr class="desktop__break"></div>
         <div class='mobile__title' style="font-size:6em; ">棉花<br>种植<hr class="mobile__break">
     </div>
     <div class='desktop__title'>棉花种植</div>

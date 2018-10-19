@@ -1,4 +1,7 @@
-<div class='desktop__class'>水利/环境/公共设施管理<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">生态<br>保护<br>和环境治理<br>业
+<div class="paperclip__title"style="background-image: url(images/bg/13生态保护和环境治理业.jpg);" >
+        <div class='desktop__class'>
+    水利/环境/公共设施管理<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:3em; ">生态<br>保护<br>和环境治理<br>业
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>生态保护和环境治理业
@@ -9,5 +12,10 @@
          alt='生态保护和环境治理业' 
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

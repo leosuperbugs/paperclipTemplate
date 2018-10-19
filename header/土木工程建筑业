@@ -1,4 +1,7 @@
-<div class='desktop__class'>建筑业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">土木工程<br>建筑业
+<div class="paperclip__title"style="background-image: url(images/bg/4土木工程建筑业.jpg);" >
+        <div class='desktop__class'>
+    建筑业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:6em; ">土木工程<br>建筑业
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>土木工程建筑业
@@ -9,5 +12,10 @@
          alt='土木工程建筑业' 
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

@@ -1,4 +1,7 @@
-<div class='desktop__class'>科学研究和技术服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">研究<br>和试验<br>发展
+<div class="paperclip__title"style="background-image: url(images/bg/12研究和试验发展.jpg);" >
+        <div class='desktop__class'>
+    科学研究和技术服务<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:4em; ">研究<br>和试验<br>发展
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>研究和试验发展
@@ -9,5 +12,10 @@
          alt='研究和试验发展' 
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

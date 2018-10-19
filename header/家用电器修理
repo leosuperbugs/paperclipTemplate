@@ -1,4 +1,7 @@
-<div class='desktop__class'>居民服务/修理/其他服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">家用电器<br>修理
+<div class="paperclip__title"style="background-image: url(images/bg/14家用电器修理.jpg);" >
+        <div class='desktop__class'>
+    居民服务/修理/其他服务<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:6em; ">家用电器<br>修理
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>家用电器修理
@@ -9,5 +12,10 @@
          alt='家用电器修理' 
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

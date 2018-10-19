@@ -1,4 +1,7 @@
-<div class='desktop__class'>租赁和商务服务<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">法律<br>服务
+<div class="paperclip__title"style="background-image: url(images/bg/11法律服务.jpg);" >
+        <div class='desktop__class'>
+    租赁和商务服务<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:6em; ">法律<br>服务
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>法律服务
@@ -9,5 +12,10 @@
          alt='法律服务' 
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

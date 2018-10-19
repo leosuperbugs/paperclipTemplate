@@ -1,4 +1,7 @@
-<div class='desktop__class'>教育<hr class="desktop__break"></div><div class='mobile__title' style="font-size:12em; ">高等教育
+<div class="paperclip__title"style="background-image: url(images/bg/15高等教育.jpg);" >
+        <div class='desktop__class'>
+    教育<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:12em; ">高等教育
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>高等教育
@@ -9,5 +12,10 @@
          alt='高等教育' 
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

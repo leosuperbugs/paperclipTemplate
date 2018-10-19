@@ -1,4 +1,7 @@
-<div class='desktop__class'>批发和零售业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:2em; ">家用电器<br>及<br>电子产品<br>专门<br>零售
+<div class="paperclip__title"style="background-image: url(images/bg/5家用电器及电子产品专门零售.jpg);" >
+        <div class='desktop__class'>
+    批发和零售业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:2em; ">家用电器<br>及<br>电子产品<br>专门<br>零售
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>家用电器及电子产品专门零售
@@ -9,5 +12,10 @@
          alt='家用电器及电子产品专门零售' 
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

@@ -547,7 +547,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 			]},
 		]},
-		{'id': "139",	 'name' :"其他农副食品加工 ",				'open': '', 'subclass':[
+		{'id': "139",	 'name' :"其他农副食品加工",				'open': '', 'subclass':[
 
 			{'id': "1391",	 'name' :"淀粉及淀粉制品制造",				'open': '', 'subclass':[
 
@@ -558,7 +558,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "1393",	 'name' :"蛋品加工",				'open': '', 'subclass':[
 
 			]},
-			{'id': "1399",	 'name' :"其他未列明农副食品加工 ",				'open': '', 'subclass':[
+			{'id': "1399",	 'name' :"其他未列明农副食品加工",				'open': '', 'subclass':[
 
 			]},
 		]},
@@ -639,7 +639,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 		]},
 		{'id': "149",	 'name' :"其他食品制造",				'open': '', 'subclass':[
 
-			{'id': "1491",	 'name' :"营养食品制造 ",				'open': '', 'subclass':[
+			{'id': "1491",	 'name' :"营养食品制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "1492",	 'name' :"保健食品制造",				'open': '', 'subclass':[
@@ -648,7 +648,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "1493",	 'name' :"冷冻饮品及食用冰制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "1494",	 'name' :"盐加工  ",				'open': '', 'subclass':[
+			{'id': "1494",	 'name' :"盐加工",				'open': '', 'subclass':[
 
 			]},
 			{'id': "1495",	 'name' :"食品及饲料添加剂制造",				'open': '', 'subclass':[
@@ -707,7 +707,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 		]},
 	]},
-	{'id': "16",	 'name' :"烟草制品业 ",				'open': '', 'subclass':[
+	{'id': "16",	 'name' :"烟草制品业",				'open': '', 'subclass':[
 
 		{'id': "161",	 'name' :"烟叶复烤",				'open': '', 'subclass':[
 
@@ -945,7 +945,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "2031",	 'name' :"建筑用木料及木材组件加工",				'open': '', 'subclass':[
 
 			]},
-			{'id': "2032",	 'name' :"木门窗制造 ",				'open': '', 'subclass':[
+			{'id': "2032",	 'name' :"木门窗制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "2033",	 'name' :"木楼梯制造",				'open': '', 'subclass':[
@@ -977,7 +977,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "21",	 'name' :"家具制造业 ",				'open': '', 'subclass':[
+	{'id': "21",	 'name' :"家具制造业",				'open': '', 'subclass':[
 
 		{'id': "211",	 'name' :"木质家具制造",				'open': '', 'subclass':[
 
@@ -995,7 +995,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 		]},
 	]},
-	{'id': "22",	 'name' :"造纸和纸制品业 ",				'open': '', 'subclass':[
+	{'id': "22",	 'name' :"造纸和纸制品业",				'open': '', 'subclass':[
 
 		{'id': "221",	 'name' :"纸浆制造",				'open': '', 'subclass':[
 
@@ -1320,7 +1320,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "2667",	 'name' :"动物胶制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "2669",	 'name' :"其他专用化学产品制造 ",				'open': '', 'subclass':[
+			{'id': "2669",	 'name' :"其他专用化学产品制造",				'open': '', 'subclass':[
 
 			]},
 		]},
@@ -1352,7 +1352,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "27",	 'name' :"医药制造业 ",				'open': '', 'subclass':[
+	{'id': "27",	 'name' :"医药制造业",				'open': '', 'subclass':[
 
 		{'id': "271",	 'name' :"化学药品原料药制造",				'open': '', 'subclass':[
 
@@ -1596,7 +1596,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "3074",	 'name' :"日用陶瓷制品制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "3075",	 'name' :"陈设艺术陶瓷制造 ",				'open': '', 'subclass':[
+			{'id': "3075",	 'name' :"陈设艺术陶瓷制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "3076",	 'name' :"园艺陶瓷制造",				'open': '', 'subclass':[
@@ -1611,7 +1611,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "3081",	 'name' :"石棉制品制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "3082",	 'name' :"云母制品制造 ",				'open': '', 'subclass':[
+			{'id': "3082",	 'name' :"云母制品制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "3089",	 'name' :"耐火陶瓷制品及其他耐火材料制造",				'open': '', 'subclass':[
@@ -1628,7 +1628,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "31",	 'name' :"黑色金属冶炼和压延加工业 ",				'open': '', 'subclass':[
+	{'id': "31",	 'name' :"黑色金属冶炼和压延加工业",				'open': '', 'subclass':[
 
 		{'id': "311",	 'name' :"炼铁",				'open': '', 'subclass':[
 
@@ -1643,7 +1643,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 		]},
 	]},
-	{'id': "32",	 'name' :"有色金属冶炼和压延加工业 ",				'open': '', 'subclass':[
+	{'id': "32",	 'name' :"有色金属冶炼和压延加工业",				'open': '', 'subclass':[
 
 		{'id': "321",	 'name' :"常用有色金属冶炼",				'open': '', 'subclass':[
 
@@ -1721,7 +1721,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "33",	 'name' :"金属制品业 ",				'open': '', 'subclass':[
+	{'id': "33",	 'name' :"金属制品业",				'open': '', 'subclass':[
 
 		{'id': "331",	 'name' :"结构性金属制品制造",				'open': '', 'subclass':[
 
@@ -2018,7 +2018,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "35",	 'name' :"专用设备制造业 ",				'open': '', 'subclass':[
+	{'id': "35",	 'name' :"专用设备制造业",				'open': '', 'subclass':[
 
 		{'id': "351",	 'name' :"采矿、冶金、建筑专用设备制造",				'open': '', 'subclass':[
 
@@ -2357,7 +2357,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "38",	 'name' :"电气机械和器材制造业 ",				'open': '', 'subclass':[
+	{'id': "38",	 'name' :"电气机械和器材制造业",				'open': '', 'subclass':[
 
 		{'id': "381",	 'name' :"电机制造",				'open': '', 'subclass':[
 
@@ -2717,7 +2717,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 		]},
 	]},
-	{'id': "42",	 'name' :"废弃资源综合利用业  ",				'open': '', 'subclass':[
+	{'id': "42",	 'name' :"废弃资源综合利用业",				'open': '', 'subclass':[
 
 		{'id': "421",	 'name' :"金属废料和碎屑加工处理",				'open': '', 'subclass':[
 
@@ -2801,7 +2801,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 		]},
 	]},
-	{'id': "45",	 'name' :"燃气生产和供应业  ",				'open': '', 'subclass':[
+	{'id': "45",	 'name' :"燃气生产和供应业",				'open': '', 'subclass':[
 
 		{'id': "451",	 'name' :"燃气生产和供应业",				'open': '', 'subclass':[
 
@@ -2819,7 +2819,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 		]},
 	]},
-	{'id': "46",	 'name' :"水的生产和供应业  ",				'open': '', 'subclass':[
+	{'id': "46",	 'name' :"水的生产和供应业",				'open': '', 'subclass':[
 
 		{'id': "461",	 'name' :"自来水生产和供应",				'open': '', 'subclass':[
 
@@ -2851,21 +2851,21 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 	]},
 	{'id': "48",	 'name' :"土木工程建筑业",				'open': '', 'subclass':[
 
-		{'id': "481",	 'name' :"铁路、道路、隧道和桥梁工程建筑 ",				'open': '', 'subclass':[
+		{'id': "481",	 'name' :"铁路、道路、隧道和桥梁工程建筑",				'open': '', 'subclass':[
 
-			{'id': "4811",	 'name' :"铁路工程建筑 ",				'open': '', 'subclass':[
-
-			]},
-			{'id': "4812",	 'name' :"公路工程建筑 ",				'open': '', 'subclass':[
+			{'id': "4811",	 'name' :"铁路工程建筑",				'open': '', 'subclass':[
 
 			]},
-			{'id': "4813",	 'name' :"市政道路工程建筑  ",				'open': '', 'subclass':[
+			{'id': "4812",	 'name' :"公路工程建筑",				'open': '', 'subclass':[
+
+			]},
+			{'id': "4813",	 'name' :"市政道路工程建筑",				'open': '', 'subclass':[
 
 			]},
 			{'id': "4814",	 'name' :"城市轨道交通工程建筑",				'open': '', 'subclass':[
 
 			]},
-			{'id': "4819",	 'name' :"其他道路、隧道和桥梁工程建筑  ",				'open': '', 'subclass':[
+			{'id': "4819",	 'name' :"其他道路、隧道和桥梁工程建筑",				'open': '', 'subclass':[
 
 			]},
 		]},
@@ -3159,7 +3159,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "5164",	 'name' :"金属及金属矿批发",				'open': '', 'subclass':[
 
 			]},
-			{'id': "5165",	 'name' :"建材批发 ",				'open': '', 'subclass':[
+			{'id': "5165",	 'name' :"建材批发",				'open': '', 'subclass':[
 
 			]},
 			{'id': "5166",	 'name' :"化肥批发",				'open': '', 'subclass':[
@@ -3171,7 +3171,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "5168",	 'name' :"农用薄膜批发",				'open': '', 'subclass':[
 
 			]},
-			{'id': "5169",	 'name' :"其他化工产品批发 ",				'open': '', 'subclass':[
+			{'id': "5169",	 'name' :"其他化工产品批发",				'open': '', 'subclass':[
 
 			]},
 		]},
@@ -3510,7 +3510,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "5414",	 'name' :"公共自行车服务",				'open': '', 'subclass':[
 
 			]},
-			{'id': "5419",	 'name' :"其他城市公共交通运输  ",				'open': '', 'subclass':[
+			{'id': "5419",	 'name' :"其他城市公共交通运输",				'open': '', 'subclass':[
 
 			]},
 		]},
@@ -3611,7 +3611,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "56",	 'name' :"航空运输业 ",				'open': '', 'subclass':[
+	{'id': "56",	 'name' :"航空运输业",				'open': '', 'subclass':[
 
 		{'id': "561",	 'name' :"航空客货运输",				'open': '', 'subclass':[
 
@@ -3650,7 +3650,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "57",	 'name' :"管道运输业 ",				'open': '', 'subclass':[
+	{'id': "57",	 'name' :"管道运输业",				'open': '', 'subclass':[
 
 		{'id': "571",	 'name' :"海底管道运输",				'open': '', 'subclass':[
 
@@ -4303,7 +4303,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 			]},
 		]},
-		{'id': "727",	 'name' :" ",	 'name' :"安全保护服务",	 'name' :"安全服务",				'open': '', 'subclass':[
+		{'id': "727",		 'name' :"安全保护服务",	 				'open': '', 'subclass':[
 
 			{'id': "7272",	 'name' :"安全系统监控服务",				'open': '', 'subclass':[
 
@@ -5076,7 +5076,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "8912",	 'name' :"体育保障组织",				'open': '', 'subclass':[
 
 			]},
-			{'id': "8919",	 'name' :"其他体育组织 ",				'open': '', 'subclass':[
+			{'id': "8919",	 'name' :"其他体育组织",				'open': '', 'subclass':[
 
 			]},
 		]},
@@ -5347,23 +5347,43 @@ def HTMLgen(classid, classname, photoname, photoid, bigclass):
     """)
     newHTML.close()
 
+#
+#list = open('list', 'w')
+#
+#for classlv1 in industry:
+#    bigclass = classlv1['name']
+#    list.write( ' * ' + bigclass + '\n')
+#    for classlv2 in classlv1['subclass']:
+#        lv2name = classlv2['name']
+#        lv2id = classlv2['id']
+#        list.write('   * '+lv2name + '\n')
+#        for classlv3 in classlv2['subclass']:
+#            list.write('    * '+classlv3['name']+ '\n')
+#            if len(classlv3['subclass']) == 0:
+#                list.write('      * [['+classlv3['name'] + ']]\n')
+#                continue
+#            for classlv4 in classlv3['subclass']:
+#                list.write('      * [['+classlv4['name'] + ']]\n')
+#
+#
+#list.close()
 
-list = open('list', 'w')
 
 for classlv1 in industry:
     bigclass = classlv1['name']
-    list.write( ' * ' + bigclass + '\n')
     for classlv2 in classlv1['subclass']:
         lv2name = classlv2['name']
         lv2id = classlv2['id']
-        list.write('   * '+lv2name + '\n')
         for classlv3 in classlv2['subclass']:
-            list.write('    * '+classlv3['name']+ '\n')
+            lv3name = classlv3['name']
+            lv3id = classlv3['id']
             if len(classlv3['subclass']) == 0:
-                list.write('      * [['+classlv3['name'] + ']]\n')
+                HTMLgen(lv3id, lv3name, lv2name, lv2id, bigclass)
                 continue
             for classlv4 in classlv3['subclass']:
-                list.write('      * [['+classlv4['name'] + ']]\n')
+                lv4name = classlv4['name']
+                lv4id = classlv4['id']
+                HTMLgen(lv4id, lv4name, lv2name, lv2id, bigclass)
 
 
-list.close()
+
