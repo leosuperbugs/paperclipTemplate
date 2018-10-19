@@ -44,7 +44,7 @@ for (line, br) in zip(name, jieba):
 
     newHTML = open(line[:-1], 'w')
     newHTML.write(
-    """<div class=\"paperclip__title\" style=\"background-image: url(images/bg/""" + 玉米种植 + """.jpg);\">
+            """<div class=\"paperclip__title\"style=\"background-image: url(images/bg/""" + str(i) + line[:-1] + """.jpg);\" >
         <div class='desktop__class'>
     """ + classes[i] + """<hr class=\"desktop__break\"></div>"""
     """

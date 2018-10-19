@@ -182,6 +182,9 @@ $imagePrefix = 'lib/tpl/starter/images';
         $entryTitle = tpl_pagetitle(null, true);
         $idname = explode(':', $ID);
         $idname = end($idname);
+        $idname = str_replace(' ', '', $idname);
+        // paperclip -- horrible customization
+        $idname = str_replace('_', '、', $idname);
         $filename ='lib/tpl/starter/header/'.$idname;
         include $filename;
 

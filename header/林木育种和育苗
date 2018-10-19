@@ -1,4 +1,7 @@
-<div class='desktop__class'>农/林/牧/渔<hr class="desktop__break"></div><div class='mobile__title' style="font-size:4em; ">林木<br>育种<br>和育苗
+<div class="paperclip__title"style="background-image: url(images/bg/0林木育种和育苗.jpg);" >
+        <div class='desktop__class'>
+    农/林/牧/渔<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:4em; ">林木<br>育种<br>和育苗
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>林木育种和育苗
@@ -9,5 +12,10 @@
          alt='林木育种和育苗' 
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

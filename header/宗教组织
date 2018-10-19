@@ -1,4 +1,7 @@
-<div class='desktop__class'>公共管理/社会保障/社会组织<hr class="desktop__break"></div><div class='mobile__title' style="font-size:6em; ">宗教<br>组织
+<div class="paperclip__title"style="background-image: url(images/bg/18宗教组织.jpg);" >
+        <div class='desktop__class'>
+    公共管理/社会保障/社会组织<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:6em; ">宗教<br>组织
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>宗教组织
@@ -9,5 +12,10 @@
          alt='宗教组织' 
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

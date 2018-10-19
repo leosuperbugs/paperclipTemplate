@@ -1,4 +1,7 @@
-<div class='desktop__class'>采矿业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">黑色<br>金属矿<br>采选<br>业
+<div class="paperclip__title"style="background-image: url(images/bg/1黑色金属矿采选业.jpg);" >
+        <div class='desktop__class'>
+    采矿业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:3em; ">黑色<br>金属矿<br>采选<br>业
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>黑色金属矿采选业
@@ -9,5 +12,10 @@
          alt='黑色金属矿采选业' 
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     

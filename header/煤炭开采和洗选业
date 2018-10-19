@@ -1,4 +1,7 @@
-<div class='desktop__class'>采矿业<hr class="desktop__break"></div><div class='mobile__title' style="font-size:3em; ">煤炭<br>开采<br>和洗选<br>业
+<div class="paperclip__title"style="background-image: url(images/bg/1煤炭开采和洗选业.jpg);" >
+        <div class='desktop__class'>
+    采矿业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:3em; ">煤炭<br>开采<br>和洗选<br>业
 <hr class="mobile__break">
     </div>
     <div class='desktop__title'>煤炭开采和洗选业
@@ -9,5 +12,10 @@
          alt='煤炭开采和洗选业' 
         style="height:10em;
                 margin-left:-6em;"
-    > 
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
     
