@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.262 43.251">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #979797;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        stroke-linecap: square;
+      }
+    </style>
+  </defs>
+  <g id="Magnifier" transform="translate(1.5 1.5)">
+    <path id="Oval" class="cls-1" d="M14.4,24.242c7.438,0,12.539-5.427,12.539-12.121S20.906,0,13.468,0,0,5.427,0,12.121,6.959,24.242,14.4,24.242Z"/>
+    <path id="Line" class="cls-2" d="M9.228,16.174,0,0" transform="translate(20.488 23.531)"/>
+  </g>
+</svg>
