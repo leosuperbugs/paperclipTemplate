@@ -47,6 +47,11 @@ jQuery( document ).ready(function($) {
     }, function () {
        $("#qrcode").css("display", "none");
     });
+    $("#wechatfooter").hover(function () {
+       $("#qrcodefooter").css("display", "block");
+    }, function () {
+       $("#qrcodefooter").css("display", "none");
+    });
     // cut the first part of the page and paste it to the title
     let intro = $('p:first');
     let editbtn = $('div.editbutton_1');

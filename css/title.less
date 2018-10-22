@@ -4,6 +4,9 @@
 @cliplmgl: 4vw;     // logo margin left
 @clipdodp: 33vw;    // doddle p width
 @clipnowd: 41vw;    // .no width
+// footer
+@clipfotu: 25px;    // define the unit of calculating the height of footer
+@clipfoth: 4 * @clipfotu; // the height of footer
 
 .paperclip__homewarpper {
     background-color: __paperclip__darkgrey__;
@@ -96,4 +99,44 @@
     background-position: center;
     background-size: cover;
     float: right;
+}
+
+.paperclip__footer {
+    background-color: __paperclip__darkgrey__;
+    padding: @clipfotu @clipbond;
+}
+
+.paperclip__links {
+    height: @clipfoth;
+    display: inline-block;
+}
+
+.paperclip__links li {
+    margin: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.paperclip__platform {
+    margin-right: 2 * @clipfotu;
+    height: @clipfotu;
+}
+
+.paperclip__ftlogo {
+    float: right;
+}
+
+.paperclip__ftlogo img {
+    height: @clipfotu;
+}
+
+#qrcodefooter {
+    position: absolute;
+    display: none;
+    height: 200px;
+    width: 200px;
+    z-index: 999;
+    top: -200px - @clipfotu;
+    left: @clipfotu;
+    max-width: none;
 }
