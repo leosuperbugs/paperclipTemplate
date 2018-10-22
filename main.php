@@ -74,7 +74,6 @@ $imagePrefix = 'lib/tpl/starter/images';
                                 <a href="">
                                     <img class="social" id="wechat"  src="lib/tpl/starter/images/wechat_bw.png">
                                 </a>
-                                <!-- Tongyu: the position of the qrcode is wired, need to be fixed -->
                                 <img id="qrcode" src="lib/tpl/starter/images/qrcode.jpg">
                             </li>
                             <li class="desktop__header">
@@ -289,6 +288,13 @@ $imagePrefix = 'lib/tpl/starter/images';
 <!--            <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>-->
 <!--        </div>-->
 <!--    </div>-->
+
+        <?php
+        global $ID, $conf, $ACT, $INFO;
+        //    if ($ID == $conf['start']) {
+        if ($ID == $conf['start'] && $ACT === 'show') {
+            include 'footer.php';
+        }?>
 
 </body>
 </html>
