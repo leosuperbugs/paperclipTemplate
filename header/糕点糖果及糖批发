@@ -1,0 +1,19 @@
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/51批发业.jpg);">
+        <div class='desktop__class'>
+    批发和零售业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:2em; ">糕点<br>、<br>糖果<br>及糖<br>批发<hr class="mobile__break">
+    </div>
+    <div class='desktop__title'>糕点、糖果及糖批发</div>
+    <div class="intro"></div>
+    <img id='title_img'
+         src='lib/tpl/starter/images/糕点、糖果及糖批发.png'
+         alt='糕点、糖果及糖批发'
+        style="height:10em;
+                margin-left:-6em;"
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
+    

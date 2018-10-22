@@ -1,15 +1,13 @@
-<div class="paperclip__title"style="background-image: url(images/bg/2木门窗制造.jpg);" >
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/20木材加工和木、竹、藤、棕、草制品业.jpg);">
         <div class='desktop__class'>
     制造业<hr class="desktop__break"></div>
-        <div class='mobile__title' style="font-size:3em; ">木<br>门窗<br>制造<br> 
-<hr class="mobile__break">
+        <div class='mobile__title' style="font-size:4em; ">木<br>门窗<br>制造<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>木门窗制造
-</div>
+    <div class='desktop__title'>木门窗制造</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/木门窗制造.png' 
-         alt='木门窗制造' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/木门窗制造.png'
+         alt='木门窗制造'
         style="height:10em;
                 margin-left:-6em;"
     >

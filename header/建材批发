@@ -1,15 +1,13 @@
-<div class="paperclip__title"style="background-image: url(images/bg/5建材批发.jpg);" >
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/51批发业.jpg);">
         <div class='desktop__class'>
     批发和零售业<hr class="desktop__break"></div>
-        <div class='mobile__title' style="font-size:4em; ">建材<br>批发<br> 
-<hr class="mobile__break">
+        <div class='mobile__title' style="font-size:6em; ">建材<br>批发<hr class="mobile__break">
     </div>
-    <div class='desktop__title'>建材批发
-</div>
+    <div class='desktop__title'>建材批发</div>
     <div class="intro"></div>
-    <img id='title_img' 
-         src='lib/tpl/starter/images/建材批发.png' 
-         alt='建材批发' 
+    <img id='title_img'
+         src='lib/tpl/starter/images/建材批发.png'
+         alt='建材批发'
         style="height:10em;
                 margin-left:-6em;"
     >

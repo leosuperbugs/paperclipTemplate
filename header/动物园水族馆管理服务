@@ -1,0 +1,19 @@
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/77生态保护和环境治理业.jpg);">
+        <div class='desktop__class'>
+    水利/环境/公共设施管理<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:2em; ">动物园<br>、<br>水族馆<br>管理<br>服务<hr class="mobile__break">
+    </div>
+    <div class='desktop__title'>动物园、水族馆管理服务</div>
+    <div class="intro"></div>
+    <img id='title_img'
+         src='lib/tpl/starter/images/动物园、水族馆管理服务.png'
+         alt='动物园、水族馆管理服务'
+        style="height:10em;
+                margin-left:-6em;"
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
+    
