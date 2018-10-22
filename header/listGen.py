@@ -5315,6 +5315,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 ]}]
 
 def HTMLgen(classid, classname, photoname, photoid, bigclass):
+    
     line = classname
     result = jieba.cut(classname, cut_all=False)
     br = "<br>".join(result).encode('utf-8')
@@ -5322,7 +5323,7 @@ def HTMLgen(classid, classname, photoname, photoid, bigclass):
     fontSize = 12 / (brCount + 1)
 
     print classid
-    newHTML = open(line, 'w')
+    newHTML = open(line.replace('、', ''), 'w')
 
     newHTML.write(
             """<div class=\"paperclip__title\" style=\"background-image: url(lib/tpl/starter/images/bg/""" + photoid +  photoname + """.jpg);\">

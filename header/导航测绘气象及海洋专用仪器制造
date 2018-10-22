@@ -1,0 +1,19 @@
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/40仪器仪表制造业.jpg);">
+        <div class='desktop__class'>
+    制造业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:1em; ">导航<br>、<br>测绘<br>、<br>气象<br>及<br>海洋<br>专用<br>仪器<br>制造<hr class="mobile__break">
+    </div>
+    <div class='desktop__title'>导航、测绘、气象及海洋专用仪器制造</div>
+    <div class="intro"></div>
+    <img id='title_img'
+         src='lib/tpl/starter/images/导航、测绘、气象及海洋专用仪器制造.png'
+         alt='导航、测绘、气象及海洋专用仪器制造'
+        style="height:10em;
+                margin-left:-6em;"
+    >
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
+    
