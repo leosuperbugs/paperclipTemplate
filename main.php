@@ -99,13 +99,15 @@ $imagePrefix = 'lib/tpl/starter/images';
                             <?php /* the optional second parameter of tpl_action() switches between a link and a button,
                                      e.g. a button inside a <li> would be: tpl_action('edit', 0, 'li') */
                             ?>
-                            <?php tpl_toolsevent('usertools', array(
-                                'admin'     => tpl_action('admin', 1, 'li', 1),
-                                'userpage'  => _tpl_action('userpage', 1, 'li', 1),
-                                'profile'   => tpl_action('profile', 1, 'li', 1),
-                                'register'  => tpl_action('register', 1, 'li', 1),
-                                'login'     => tpl_action('login', 1, 'li', 1),
-                            )); ?>
+                            <?php
+                            echo (new \dokuwiki\Menu\UserMenu())->getListItems();
+//                            tpl_toolsevent('usertools', array(
+//                                'admin'     => tpl_action('admin', 1, 'li', 1),
+//                                'userpage'  => _tpl_action('userpage', 1, 'li', 1),
+//                                'profile'   => tpl_action('profile', 1, 'li', 1),
+//                                'register'  => tpl_action('register', 1, 'li', 1),
+//                                'login'     => tpl_action('login', 1, 'li', 1),
+//                            )); ?>
                         </ul>
                         <!--                        <div class="paperclip__gradient"></div>-->
                         <div class="clear"></div><div class="clear">
@@ -175,28 +177,34 @@ $imagePrefix = 'lib/tpl/starter/images';
         </div>
 
     <?php
-    } else { ?>
+    } elseif (explode(':', $ID, 1)[0] === 'user') { ?>
+
+
+    <?php } else { ?>
     <!--   Normal content page     -->
         <?php
-        $entryTitle = tpl_pagetitle(null, true);
-        $idname = explode(':', $ID);
-        $idname = end($idname);
-        $idname = str_replace(' ', '', $idname);
-        // paperclip -- horrible customization
-        $idname = str_replace('_', '、', $idname);
-        $filename ='lib/tpl/starter/header/'.$idname;
-        include $filename;
-
-        if (file_exists($filename)) {
-            ?>
-            <div class="pet_warpper">
-                <img id="pet_lower" src="lib/tpl/starter/images/pet_lower.png"/>
-                <hr class="vertical_lower"/>
-            </div>
-            <div class="clear"></div>
-            <?php
+        global $ACT;
+        if ($ACT === 'show') {
+            $entryTitle = tpl_pagetitle(null, true);
+            $idname = explode(':', $ID);
+            $idname = end($idname);
+            $idname = str_replace(' ', '', $idname);
+            // paperclip -- horrible customization
+            $idname = str_replace('_', '、', $idname);
+            $filename ='lib/tpl/starter/header/'.$idname;
+            include $filename;
+            if (file_exists($filename)) {
+                ?>
+                <div class="pet_warpper">
+                    <img id="pet_lower" src="lib/tpl/starter/images/pet_lower.png"/>
+                    <hr class="vertical_lower"/>
+                </div>
+                <div class="clear"></div>
+                <?php
+            }
         }
         ?>
+
         <div id="dokuwiki__site"><div id="dokuwiki__top" class="site <?php echo tpl_classes(); ?> <?php
             echo ($showSidebar) ? 'hasSidebar' : ''; ?>">
                 <?php html_msgarea() /* occasional error and info messages on top of the page */ ?>

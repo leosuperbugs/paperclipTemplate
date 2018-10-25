@@ -7,8 +7,8 @@ jQuery( document ).ready(function($) {
     let btn  = $("[title='搜索']");
     btn.text('');
     // set the color
-    $(".login").css("color", "#e0ba7e");
-    $(".logout").css("color", "#e0ba7e");
+    $(".login a").css("color", "#e0ba7e");
+    $(".logout a").css("color", "#e0ba7e");
     // cut the toc and paste it to the side
     let toc = $('.dw__toc');
     $('.dw__toc').remove();
