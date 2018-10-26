@@ -59,9 +59,10 @@ $imagePrefix = 'lib/tpl/starter/images';
                         <h3 class="a11y"><?php echo $lang['user_tools'] ?></h3>
                         <ul id="logo_area">
                             <?php
-                            global $ID, $conf, $ACT;
+                            global $ID, $conf, $ACT, $_GET;
+                            $show = $_GET['show'];
                             //    if ($ID == $conf['start']) {
-                            if (!($ID === $conf['start'] && $ACT === 'show')) {
+                            if (!($ID === $conf['start'] && $ACT === 'show' && !isset($show))) {
                                 ?>
                                 <li class="desktop__header">
                                     <a href="/doku.php">
@@ -145,9 +146,10 @@ $imagePrefix = 'lib/tpl/starter/images';
 
     <!--   Paperclip: this part is for the customization of the start page -->
     <?php
-    global $ID, $conf, $ACT, $INFO;
+    global $ID, $_GET, $conf, $ACT, $INFO;
+    $show = $_GET['show'];
 //    if ($ID == $conf['start']) {
-    if ($ID == $conf['start'] && $ACT === 'show') { ?>
+    if ($ID == $conf['start'] && $ACT === 'show' && !isset($show)) { ?>
 
         <!--   Paperclip's start page     -->
         <div class="paperclip__homewarpper">
@@ -167,7 +169,7 @@ $imagePrefix = 'lib/tpl/starter/images';
                 </div>
             </div>
         </div>
-        <div class="paperclip__list">
+        <div class="paperclip__list gridbackground">
             <div class="paperclip__listtitle">
                 全部条目
             </div>
@@ -270,12 +272,7 @@ $imagePrefix = 'lib/tpl/starter/images';
                 </div><!-- /wrapper -->
 
                 <!-- ********** FOOTER ********** -->
-                <div id="dokuwiki__footer"><div class="pad">
-                        <div class="doc"><?php tpl_pageinfo() /* 'Last modified' etc */ ?></div>
-                        <?php tpl_license('button') /* content license, parameters: img=*badge|button|0, imgonly=*0|1, return=*0|1 */ ?>
-                    </div></div><!-- /footer -->
 
-                <?php tpl_includeFile('footer.html') ?>
             </div>
             <div class="paperclip__toc nomobile">目录</div>
             <div class="paperclip__tocwarpper nomobile"></div>
@@ -284,9 +281,9 @@ $imagePrefix = 'lib/tpl/starter/images';
             <svg id="图层_1" data-name="图层 1" viewBox="0 0 100 100"><defs><style>.cls-1{fill:#f7f7f7;}.cls-2{fill:#282828;}</style></defs><title>回形针手册-icons</title><circle class="cls-1" cx="50" cy="50" r="48"/><path class="cls-2" d="M66.2,45,51.4,30.2a1.79,1.79,0,0,0-.31-.25L51,29.87l-.2-.1a1.39,1.39,0,0,0-.19-.06l-.17-.05a1.71,1.71,0,0,0-.78,0l-.17.05a1.39,1.39,0,0,0-.19.06l-.2.1-.14.08a1.79,1.79,0,0,0-.31.25L33.8,45a2,2,0,0,0,2.79,2.79L48,36.35v36a2,2,0,0,0,3.94,0v-36L63.41,47.79a2,2,0,0,0,1.4.58,1.94,1.94,0,0,0,1.39-.58A2,2,0,0,0,66.2,45Z"/></svg>
         </div>
 
-        <div class="no"><?php tpl_indexerWebBug() /* provide DokuWiki housekeeping, required in all templates */ ?></div>
+        <div class="no noshow"><?php tpl_indexerWebBug() /* provide DokuWiki housekeeping, required in all templates */ ?></div>
         <!--[if lte IE 8 ]></div><![endif]-->
-        <div id="screen__mode" class="no"></div><?php /* helper to detect CSS media query in script.js */ ?>
+        <div id="screen__mode" class="no noshow"></div><?php /* helper to detect CSS media query in script.js */ ?>
         <!--    end of the difference-->
     <?php } ?>
 <!--    <div class="paperclip__title">-->
@@ -298,9 +295,10 @@ $imagePrefix = 'lib/tpl/starter/images';
 <!--    </div>-->
 
         <?php
-        global $ID, $conf, $ACT, $INFO;
+        global $ID, $conf, $ACT, $INFO, $_GET;
+        $show = $_GET['show'];
         //    if ($ID == $conf['start']) {
-        if ($ID == $conf['start'] && $ACT === 'show') {
+        if (($ID == $conf['start'] && $ACT === 'show') || $ACT === 'profile' || $show === 'editlog' || $show === 'comment' || $show === 'setting') {
             include 'footer.php';
         }?>
 
