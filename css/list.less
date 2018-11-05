@@ -1,5 +1,13 @@
 @import "controller.less";
 @listbond: 15vw;
+// <-firstlv_left-> <-gap-> <-low_lv_width->
+//              >A.  农林牧渔
+//                   农业
+//                          谷物种植
+//                          111.稻谷种植
+@firstlv_left: 3.7rem;
+@gap: 1.5rem;
+@lowlv: 1.1rem;
 
 .gridbackground {
     background-size: 40px 40px;
@@ -29,27 +37,37 @@
     margin-bottom: 1rem;
 }
 
+.firstlv_left {
+    display: inline-block;
+    font-family:  "Lucida Console", Monaco, monospace;
+    margin-right: @gap;
+}
+
+.firstlv_right {
+    display: inline-block;
+}
+
 .firstlv_icon {
     height: 1rem;
     margin-bottom: 0.4rem;
 }
 
 .secondlv {
-    margin-left: 6rem;
+    margin-left: @firstlv_left+@gap;
     font-size: 1.5rem;
     color: __paperclip__stdbg__;
     margin-bottom: 1rem;
 }
 
 .thirdlv {
-    margin-left: 8rem;
+    margin-left: @firstlv_left+@gap+@lowlv;
     font-size: 1.25rem;
     color: __paperclip__stdbg__;
     margin-bottom: 0.5rem;
 }
 
 .lowestgrp {
-    margin-left: 8rem;
+    margin-left: @firstlv_left+@gap+@lowlv;
     display: inline-block;
 }
 
@@ -60,6 +78,7 @@
     cursor: pointer;
     display: inherit;
     margin-bottom: 0.5rem;
+    padding: 0 0.5em;
 }
 
 .paperclip__list a {
@@ -70,7 +89,7 @@
 }
 
 .paperclip__listwarpper {
-    width: 60%;
+    width: 80%;
 }
 
 .paperclip__listtitle {

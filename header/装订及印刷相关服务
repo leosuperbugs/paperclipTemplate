@@ -5,12 +5,6 @@
     </div>
     <div class='desktop__title'>装订及印刷相关服务</div>
     <div class="intro"></div>
-    <img id='title_img'
-         src='lib/tpl/starter/images/装订及印刷相关服务.png'
-         alt='装订及印刷相关服务'
-        style="height:10em;
-                margin-left:-6em;"
-    >
     <div class="pet_warpper">
     <hr class="vertical_upper"/>
     <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>

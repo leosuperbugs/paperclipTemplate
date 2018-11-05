@@ -192,7 +192,7 @@ $imagePrefix = 'lib/tpl/starter/images';
             $idname = end($idname);
             $idname = str_replace(' ', '', $idname);
             // paperclip -- horrible customization
-            $idname = str_replace('_', '、', $idname);
+//            $idname = str_replace('_', '、', $idname);
             $filename ='lib/tpl/starter/header/'.$idname;
             include $filename;
             if (file_exists($filename)) {

@@ -1,0 +1,13 @@
+<div class="paperclip__title" style="background-image: url(lib/tpl/starter/images/bg/37铁路、船舶、航空航天和其他运输设备制造业.jpg);">
+        <div class='desktop__class'>
+    制造业<hr class="desktop__break"></div>
+        <div class='mobile__title' style="font-size:2em; ">人力<br>非<br>公路<br>休闲<br>车<br>制造<hr class="mobile__break">
+    </div>
+    <div class='desktop__title'>人力非公路休闲车制造</div>
+    <div class="intro"></div>
+    <div class="pet_warpper">
+    <hr class="vertical_upper"/>
+    <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
+    </div>
+    </div>
+    

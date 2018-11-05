@@ -1,3 +1,4 @@
+# coding: utf8
 industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 	{'id': "1",	 'name' :"农业",					'open': '', 'subclass':[
 		{'id': "11",	 'name' :"谷物种植",				'open': '', 'subclass':[
@@ -70,6 +71,9 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "154",	 'name' :"香蕉等亚热带水果种植",				'open': '', 'subclass':[
 
 			]},
+			{'id': "155",	 'name' :"西瓜等瓠果种植",				'open': '', 'subclass':[
+
+			]},
 			{'id': "159",	 'name' :"其他水果种植",				'open': '', 'subclass':[
 
 			]},
@@ -94,7 +98,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 		]},
 		{'id': "17",	 'name' :"中药材种植",				'open': '', 'subclass':[
 
-			{'id': "171",	 'name' :"中草药种植",				'open': '', 'subclass':[
+			{'id': "171",	 'name' :"规模化中草药种植",				'open': '', 'subclass':[
 
 			]},
 			{'id': "179",	 'name' :"其他中药材种植",				'open': '', 'subclass':[
@@ -102,14 +106,19 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 		{'id': "18",	 'name' :"草种植及割草",				'open': '', 'subclass':[
+			{'id': "181",	 'name' :"小面积草种植",				'open': '', 'subclass':[
 
+			]},
+			{'id': "182",	 'name' :"大面积草种植",				'open': '', 'subclass':[
+
+			]},
+			{'id': "183",	 'name' :"天然草原割草",				'open': '', 'subclass':[
+
+			]},
+			{'id': "184",	 'name' :"其他割草",				'open': '', 'subclass':[
+
+			]},
 		]},
-			{'id': "181",	 'name' :"草种植",				'open': '', 'subclass':[
-
-			]},
-			{'id': "182",	 'name' :"天然草原割草",				'open': '', 'subclass':[
-
-			]},
 		{'id': "19",	 'name' :"其他农业",				'open': '', 'subclass':[
 
 		]},
@@ -159,7 +168,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 	]},
 	{'id': "3",	 'name' :"畜牧业",				'open': '', 'subclass':[
 
-		{'id': "31",	 'name' :"牲畜饲养",				'open': '', 'subclass':[
+		{'id': "31",	 'name' :"家畜饲养",				'open': '', 'subclass':[
 
 			{'id': "311",	 'name' :"牛的饲养",				'open': '', 'subclass':[
 
@@ -176,11 +185,14 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "315",	 'name' :"骆驼饲养",				'open': '', 'subclass':[
 
 			]},
+			{'id': "316",	 'name' :"驴的饲养",				'open': '', 'subclass':[
+
+			]},
 			{'id': "319",	 'name' :"其他牲畜饲养",				'open': '', 'subclass':[
 
 			]},
 		]},
-		{'id': "32",	 'name' :"家禽饲养",				'open': '', 'subclass':[
+		{'id': "32",	 'name' :"禽类饲养",				'open': '', 'subclass':[
 
 			{'id': "321",	 'name' :"鸡的饲养",				'open': '', 'subclass':[
 
@@ -189,6 +201,12 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 			]},
 			{'id': "323",	 'name' :"鹅的饲养",				'open': '', 'subclass':[
+
+			]},
+			{'id': "324",	 'name' :"鸽子饲养",				'open': '', 'subclass':[
+
+			]},
+			{'id': "325",	 'name' :"鹌鹑饲养",				'open': '', 'subclass':[
 
 			]},
 			{'id': "329",	 'name' :"其他家禽饲养",				'open': '', 'subclass':[
@@ -287,6 +305,12 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "541",	 'name' :"鱼苗及鱼种场活动",				'open': '', 'subclass':[
 
 			]},
+			{'id': "542",	 'name' :"水产良种场活动",				'open': '', 'subclass':[
+
+			]},
+			{'id': "543",	 'name' :"水产增殖场活动",				'open': '', 'subclass':[
+
+			]},
 			{'id': "549",	 'name' :"其他渔业专业及辅助性活动",				'open': '', 'subclass':[
 
 			]},
@@ -300,10 +324,20 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 	{'id': "6",	 'name' :"煤炭开采和洗选业",				'open': '', 'subclass':[
 
 		{'id': "61",	 'name' :"烟煤和无烟煤开采洗选",				'open': '', 'subclass':[
+                    {'id': "611",	 'name' :"烟煤开采洗选",				'open': '', 'subclass':[
 
+                    ]},
+                    {'id': "612",	 'name' :"无烟煤开采洗选",				'open': '', 'subclass':[
+
+                    ]},
 		]},
-		{'id': "62",	 'name' :"褐煤开采洗选",				'open': '', 'subclass':[
+		{'id': "62",	 'name' :"褐煤和次烟煤开采洗选",				'open': '', 'subclass':[
+                    {'id': "621",	 'name' :"褐煤开采洗选",				'open': '', 'subclass':[
 
+                    ]},
+                    {'id': "622",	 'name' :"次烟煤开采洗选",				'open': '', 'subclass':[
+
+                    ]},
 		]},
 		{'id': "69",	 'name' :"其他煤炭采选",				'open': '', 'subclass':[
 
@@ -383,7 +417,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 			]},
 		]},
-		{'id': "93",	 'name' :"稀有稀土金属矿采选",				'open': '', 'subclass':[
+		{'id': "93",	 'name' :"稀有金属矿采选",				'open': '', 'subclass':[
 
 			{'id': "931",	 'name' :"钨钼矿采选",				'open': '', 'subclass':[
 
@@ -490,10 +524,19 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 		]},
 		{'id': "133",	 'name' :"植物油加工",				'open': '', 'subclass':[
 
-			{'id': "1331",	 'name' :"食用植物油加工",				'open': '', 'subclass':[
+			{'id': "1331",	 'name' :"非热带食用植物油加工",				'open': '', 'subclass':[
 
 			]},
-			{'id': "1332",	 'name' :"非食用植物油加工",				'open': '', 'subclass':[
+			{'id': "1332",	 'name' :"热带食用植物油加工",				'open': '', 'subclass':[
+
+			]},
+			{'id': "1333",	 'name' :"坚果油加工",				'open': '', 'subclass':[
+
+			]},
+			{'id': "1334",	 'name' :"其他食用植物油加工",				'open': '', 'subclass':[
+
+			]},
+			{'id': "1335",	 'name' :"非食用植物油加工",				'open': '', 'subclass':[
 
 			]},
 		]},
@@ -502,7 +545,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 		]},
 		{'id': "135",	 'name' :"屠宰及肉类加工",				'open': '', 'subclass':[
 
-			{'id': "1351",	 'name' :"牲畜屠宰",				'open': '', 'subclass':[
+			{'id': "1351",	 'name' :"家畜屠宰",				'open': '', 'subclass':[
 
 			]},
 			{'id': "1352",	 'name' :"禽类屠宰",				'open': '', 'subclass':[
@@ -535,11 +578,14 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "1372",	 'name' :"食用菌加工",				'open': '', 'subclass':[
 
 			]},
-			{'id': "1373",	 'name' :"水果和坚果加工",				'open': '', 'subclass':[
+			{'id': "1373",	 'name' :"水果加工",				'open': '', 'subclass':[
+
+			]},
+			{'id': "1374",	 'name' :"坚果加工",				'open': '', 'subclass':[
 
 			]},
 		]},
-		{'id': "139",	 'name' :"其他农副食品加工 ",				'open': '', 'subclass':[
+		{'id': "139",	 'name' :"其他农副食品加工",				'open': '', 'subclass':[
 
 			{'id': "1391",	 'name' :"淀粉及淀粉制品制造",				'open': '', 'subclass':[
 
@@ -550,7 +596,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "1393",	 'name' :"蛋品加工",				'open': '', 'subclass':[
 
 			]},
-			{'id': "1399",	 'name' :"其他未列明农副食品加工 ",				'open': '', 'subclass':[
+			{'id': "1399",	 'name' :"其他未列明农副食品加工",				'open': '', 'subclass':[
 
 			]},
 		]},
@@ -631,7 +677,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 		]},
 		{'id': "149",	 'name' :"其他食品制造",				'open': '', 'subclass':[
 
-			{'id': "1491",	 'name' :"营养食品制造 ",				'open': '', 'subclass':[
+			{'id': "1491",	 'name' :"营养食品制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "1492",	 'name' :"保健食品制造",				'open': '', 'subclass':[
@@ -640,7 +686,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "1493",	 'name' :"冷冻饮品及食用冰制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "1494",	 'name' :"盐加工  ",				'open': '', 'subclass':[
+			{'id': "1494",	 'name' :"盐加工",				'open': '', 'subclass':[
 
 			]},
 			{'id': "1495",	 'name' :"食品及饲料添加剂制造",				'open': '', 'subclass':[
@@ -655,19 +701,28 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 		{'id': "151",	 'name' :"酒的制造",				'open': '', 'subclass':[
 
-			{'id': "1511",	 'name' :"酒精制造",				'open': '', 'subclass':[
+			{'id': "1511",	 'name' :"工业用酒精制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "1512",	 'name' :"白酒制造",				'open': '', 'subclass':[
+			{'id': "1512",	 'name' :"啤酒制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "1513",	 'name' :"啤酒制造",				'open': '', 'subclass':[
+			{'id': "1513",	 'name' :"葡萄酒制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "1514",	 'name' :"黄酒制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "1515",	 'name' :"葡萄酒制造",				'open': '', 'subclass':[
+			{'id': "1515",	 'name' :"其他酿造酒制造",				'open': '', 'subclass':[
+
+			]},
+			{'id': "1516",	 'name' :"白酒制造",				'open': '', 'subclass':[
+
+			]},
+			{'id': "1517",	 'name' :"威士忌制造",				'open': '', 'subclass':[
+
+			]},
+			{'id': "1518",	 'name' :"其他蒸馏酒制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "1519",	 'name' :"其他酒制造",				'open': '', 'subclass':[
@@ -679,7 +734,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "1521",	 'name' :"碳酸饮料制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "1522",	 'name' :"瓶（罐）装饮用水制造",				'open': '', 'subclass':[
+			{'id': "1522",	 'name' :"瓶装饮用水制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "1523",	 'name' :"果菜汁及果菜汁饮料制造",				'open': '', 'subclass':[
@@ -691,7 +746,10 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "1525",	 'name' :"固体饮料制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "1529",	 'name' :"茶饮料及其他饮料制造",				'open': '', 'subclass':[
+			{'id': "1526",	 'name' :"茶饮料制造",				'open': '', 'subclass':[
+
+			]},
+			{'id': "1529",	 'name' :"其他饮料制造",				'open': '', 'subclass':[
 
 			]},
 		]},
@@ -699,12 +757,15 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 		]},
 	]},
-	{'id': "16",	 'name' :"烟草制品业 ",				'open': '', 'subclass':[
+	{'id': "16",	 'name' :"烟草制品业",				'open': '', 'subclass':[
 
-		{'id': "161",	 'name' :"烟叶复烤",				'open': '', 'subclass':[
+		{'id': "161",	 'name' :"烟叶采摘",				'open': '', 'subclass':[
 
 		]},
-		{'id': "162",	 'name' :"卷烟制造",				'open': '', 'subclass':[
+		{'id': "162",	 'name' :"烟叶复烤",				'open': '', 'subclass':[
+
+		]},
+		{'id': "163",	 'name' :"卷烟制造",				'open': '', 'subclass':[
 
 		]},
 		{'id': "169",	 'name' :"其他烟草制品制造",				'open': '', 'subclass':[
@@ -937,7 +998,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "2031",	 'name' :"建筑用木料及木材组件加工",				'open': '', 'subclass':[
 
 			]},
-			{'id': "2032",	 'name' :"木门窗制造 ",				'open': '', 'subclass':[
+			{'id': "2032",	 'name' :"木门窗制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "2033",	 'name' :"木楼梯制造",				'open': '', 'subclass':[
@@ -969,7 +1030,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "21",	 'name' :"家具制造业 ",				'open': '', 'subclass':[
+	{'id': "21",	 'name' :"家具制造业",				'open': '', 'subclass':[
 
 		{'id': "211",	 'name' :"木质家具制造",				'open': '', 'subclass':[
 
@@ -983,11 +1044,14 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 		{'id': "214",	 'name' :"塑料家具制造",				'open': '', 'subclass':[
 
 		]},
+		{'id': "215",	 'name' :"石材家具制造",				'open': '', 'subclass':[
+
+		]},
 		{'id': "219",	 'name' :"其他家具制造",				'open': '', 'subclass':[
 
 		]},
 	]},
-	{'id': "22",	 'name' :"造纸和纸制品业 ",				'open': '', 'subclass':[
+	{'id': "22",	 'name' :"造纸和纸制品业",				'open': '', 'subclass':[
 
 		{'id': "221",	 'name' :"纸浆制造",				'open': '', 'subclass':[
 
@@ -1045,16 +1109,25 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 		{'id': "241",	 'name' :"文教办公用品制造",				'open': '', 'subclass':[
 
-			{'id': "2411",	 'name' :"文具制造",				'open': '', 'subclass':[
+			{'id': "2411",	 'name' :"书写工具制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "2412",	 'name' :"笔的制造",				'open': '', 'subclass':[
+			{'id': "2412",	 'name' :"作图辅助工具制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "2413",	 'name' :"教学用模型及教具制造",				'open': '', 'subclass':[
+			{'id': "2413",	 'name' :"修正用品制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "2414",	 'name' :"墨水、墨汁制造",				'open': '', 'subclass':[
+			{'id': "2414",	 'name' :"裁剪工具制造",				'open': '', 'subclass':[
+
+			]},
+			{'id': "2415",	 'name' :"黏贴工具制造",				'open': '', 'subclass':[
+
+			]},
+			{'id': "2416",	 'name' :"墨水墨汁制造",				'open': '', 'subclass':[
+
+			]},
+			{'id': "2417",	 'name' :"教学用模型及教具制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "2419",	 'name' :"其他文教办公用品制造",				'open': '', 'subclass':[
@@ -1108,7 +1181,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 		]},
 		{'id': "244",	 'name' :"体育用品制造",				'open': '', 'subclass':[
 
-			{'id': "2441",	 'name' :"球类制造",				'open': '', 'subclass':[
+			{'id': "2441",	 'name' :"球类及配套用品制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "2442",	 'name' :"专项运动器材及配件制造",				'open': '', 'subclass':[
@@ -1129,10 +1202,10 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "2451",	 'name' :"电玩具制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "2452",	 'name' :"塑胶玩具制造",				'open': '', 'subclass':[
+			{'id': "2452",	 'name' :"塑胶儿童玩具制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "2453",	 'name' :"金属玩具制造",				'open': '', 'subclass':[
+			{'id': "2453",	 'name' :"金属模型玩具制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "2454",	 'name' :"弹射玩具制造",				'open': '', 'subclass':[
@@ -1142,6 +1215,12 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 			]},
 			{'id': "2456",	 'name' :"儿童乘骑玩耍的童车类产品制造",				'open': '', 'subclass':[
+
+			]},
+			{'id': "2457",	 'name' :"拼图玩具制造",				'open': '', 'subclass':[
+
+			]},
+			{'id': "2458",	 'name' :"树脂类模型玩具制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "2459",	 'name' :"其他玩具制造",				'open': '', 'subclass':[
@@ -1312,16 +1391,19 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "2667",	 'name' :"动物胶制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "2669",	 'name' :"其他专用化学产品制造 ",				'open': '', 'subclass':[
+			{'id': "2669",	 'name' :"其他专用化学产品制造",				'open': '', 'subclass':[
 
 			]},
 		]},
 		{'id': "267",	 'name' :"炸药、火工及焰火产品制造",				'open': '', 'subclass':[
 
-			{'id': "2671",	 'name' :"炸药及火工产品制造",				'open': '', 'subclass':[
+			{'id': "2671",	 'name' :"炸药制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "2672",	 'name' :"焰火、鞭炮产品制造",				'open': '', 'subclass':[
+			{'id': "2672",	 'name' :"火工产品制造",				'open': '', 'subclass':[
+
+			]},
+			{'id': "2673",	 'name' :"焰火、鞭炮产品制造",				'open': '', 'subclass':[
 
 			]},
 		]},
@@ -1344,7 +1426,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "27",	 'name' :"医药制造业 ",				'open': '', 'subclass':[
+	{'id': "27",	 'name' :"医药制造业",				'open': '', 'subclass':[
 
 		{'id': "271",	 'name' :"化学药品原料药制造",				'open': '', 'subclass':[
 
@@ -1370,7 +1452,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 			]},
 		]},
-		{'id': "277",	 'name' :" 卫生材料及医药用品制造",				'open': '', 'subclass':[
+		{'id': "277",	 'name' :"卫生材料及医药用品制造",				'open': '', 'subclass':[
 
 		]},
 		{'id': "278",	 'name' :"药用辅料及包装材料",				'open': '', 'subclass':[
@@ -1384,7 +1466,10 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "2811",	 'name' :"化纤浆粕制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "2812",	 'name' :"人造纤维（纤维素纤维）制造",				'open': '', 'subclass':[
+			{'id': "2812",	 'name' :"再生纤维素纤维制造",				'open': '', 'subclass':[
+
+			]},
+			{'id': "2813",	 'name' :"半合成纤维制造",				'open': '', 'subclass':[
 
 			]},
 		]},
@@ -1486,7 +1571,10 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "3011",	 'name' :"水泥制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "3012",	 'name' :"石灰和石膏制造",				'open': '', 'subclass':[
+			{'id': "3012",	 'name' :"石灰制造",				'open': '', 'subclass':[
+
+			]},
+			{'id': "3013",	 'name' :"石膏制造",				'open': '', 'subclass':[
 
 			]},
 		]},
@@ -1502,6 +1590,9 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 			]},
 			{'id': "3024",	 'name' :"轻质建筑材料制造",				'open': '', 'subclass':[
+
+			]},
+			{'id': "3025",	 'name' :"石膏制品制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "3029",	 'name' :"其他水泥类似制品制造",				'open': '', 'subclass':[
@@ -1588,7 +1679,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "3074",	 'name' :"日用陶瓷制品制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "3075",	 'name' :"陈设艺术陶瓷制造 ",				'open': '', 'subclass':[
+			{'id': "3075",	 'name' :"陈设艺术陶瓷制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "3076",	 'name' :"园艺陶瓷制造",				'open': '', 'subclass':[
@@ -1603,7 +1694,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "3081",	 'name' :"石棉制品制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "3082",	 'name' :"云母制品制造 ",				'open': '', 'subclass':[
+			{'id': "3082",	 'name' :"云母制品制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "3089",	 'name' :"耐火陶瓷制品及其他耐火材料制造",				'open': '', 'subclass':[
@@ -1620,7 +1711,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "31",	 'name' :"黑色金属冶炼和压延加工业 ",				'open': '', 'subclass':[
+	{'id': "31",	 'name' :"黑色金属冶炼和压延加工业",				'open': '', 'subclass':[
 
 		{'id': "311",	 'name' :"炼铁",				'open': '', 'subclass':[
 
@@ -1635,7 +1726,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 		]},
 	]},
-	{'id': "32",	 'name' :"有色金属冶炼和压延加工业 ",				'open': '', 'subclass':[
+	{'id': "32",	 'name' :"有色金属冶炼和压延加工业",				'open': '', 'subclass':[
 
 		{'id': "321",	 'name' :"常用有色金属冶炼",				'open': '', 'subclass':[
 
@@ -1713,7 +1804,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "33",	 'name' :"金属制品业 ",				'open': '', 'subclass':[
+	{'id': "33",	 'name' :"金属制品业",				'open': '', 'subclass':[
 
 		{'id': "331",	 'name' :"结构性金属制品制造",				'open': '', 'subclass':[
 
@@ -2010,7 +2101,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "35",	 'name' :"专用设备制造业 ",				'open': '', 'subclass':[
+	{'id': "35",	 'name' :"专用设备制造业",				'open': '', 'subclass':[
 
 		{'id': "351",	 'name' :"采矿、冶金、建筑专用设备制造",				'open': '', 'subclass':[
 
@@ -2331,9 +2422,18 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 		{'id': "377",	 'name' :"助动车制造",				'open': '', 'subclass':[
-
 		]},
 		{'id': "378",	 'name' :"非公路休闲车及零配件制造",				'open': '', 'subclass':[
+                    {'id': "3781",	 'name' :"人力非公路休闲车制造",				'open': '', 'subclass':[
+
+                    ]},
+                    {'id': "3782",	 'name' :"非人力非公路休闲车制造",				'open': '', 'subclass':[
+
+                    ]},
+                    {'id': "3783",	 'name' :"非公路休闲车零配件制造",				'open': '', 'subclass':[
+
+                    ]},
+
 
 		]},
 		{'id': "379",	 'name' :"潜水救捞及其他未列明运输设备制造",				'open': '', 'subclass':[
@@ -2349,7 +2449,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "38",	 'name' :"电气机械和器材制造业 ",				'open': '', 'subclass':[
+	{'id': "38",	 'name' :"电气机械和器材制造业",				'open': '', 'subclass':[
 
 		{'id': "381",	 'name' :"电机制造",				'open': '', 'subclass':[
 
@@ -2428,22 +2528,25 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "3851",	 'name' :"家用制冷电器具制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "3852",	 'name' :"家用空气调节器制造",				'open': '', 'subclass':[
+			{'id': "3852",	 'name' :"家用制热电器具制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "3853",	 'name' :"家用通风电器具制造",				'open': '', 'subclass':[
+			{'id': "3853",	 'name' :"家用空气调节器制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "3854",	 'name' :"家用厨房电器具制造",				'open': '', 'subclass':[
+			{'id': "3854",	 'name' :"家用通风电器具制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "3855",	 'name' :"家用清洁卫生电器具制造",				'open': '', 'subclass':[
+			{'id': "3855",	 'name' :"家用厨房电器具制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "3856",	 'name' :"家用美容、保健护理电器具制造",				'open': '', 'subclass':[
+			{'id': "3856",	 'name' :"家用清洁卫生电器具制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "3857",	 'name' :"家用电力器具专用配件制造",				'open': '', 'subclass':[
+			{'id': "3857",	 'name' :"家用美容、保健护理电器具制造",				'open': '', 'subclass':[
+
+			]},
+			{'id': "3858",	 'name' :"家用电力器具专用配件制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "3859",	 'name' :"其他家用电力器具制造",				'open': '', 'subclass':[
@@ -2524,16 +2627,19 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 		]},
 		{'id': "393",	 'name' :"广播电视设备制造",				'open': '', 'subclass':[
 
-			{'id': "3931",	 'name' :"广播电视节目制作及发射设备制造",				'open': '', 'subclass':[
+			{'id': "3931",	 'name' :"广播电视节目制作设备制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "3932",	 'name' :"广播电视接收设备制造",				'open': '', 'subclass':[
+			{'id': "3932",	 'name' :"广播电视节目发射设备制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "3933",	 'name' :"广播电视专用配件制造",				'open': '', 'subclass':[
+			{'id': "3933",	 'name' :"广播电视接收设备制造",				'open': '', 'subclass':[
 
 			]},
-			{'id': "3934",	 'name' :"专业音响设备制造",				'open': '', 'subclass':[
+			{'id': "3934",	 'name' :"广播电视专用配件制造",				'open': '', 'subclass':[
+
+			]},
+			{'id': "3935",	 'name' :"专业音响设备制造",				'open': '', 'subclass':[
 
 			]},
 			{'id': "3939",	 'name' :"应用电视设备及其他广播电视设备制造",				'open': '', 'subclass':[
@@ -2709,7 +2815,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 		]},
 	]},
-	{'id': "42",	 'name' :"废弃资源综合利用业  ",				'open': '', 'subclass':[
+	{'id': "42",	 'name' :"废弃资源综合利用业",				'open': '', 'subclass':[
 
 		{'id': "421",	 'name' :"金属废料和碎屑加工处理",				'open': '', 'subclass':[
 
@@ -2793,7 +2899,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 		]},
 	]},
-	{'id': "45",	 'name' :"燃气生产和供应业  ",				'open': '', 'subclass':[
+	{'id': "45",	 'name' :"燃气生产和供应业",				'open': '', 'subclass':[
 
 		{'id': "451",	 'name' :"燃气生产和供应业",				'open': '', 'subclass':[
 
@@ -2811,7 +2917,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 		]},
 	]},
-	{'id': "46",	 'name' :"水的生产和供应业  ",				'open': '', 'subclass':[
+	{'id': "46",	 'name' :"水的生产和供应业",				'open': '', 'subclass':[
 
 		{'id': "461",	 'name' :"自来水生产和供应",				'open': '', 'subclass':[
 
@@ -2837,27 +2943,34 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 		{'id': "472",	 'name' :"体育场馆建筑",				'open': '', 'subclass':[
 
 		]},
+		{'id': "473",	 'name' :"现当代城市地标建筑",				'open': '', 'subclass':[
+
+		]},
 		{'id': "479",	 'name' :"其他房屋建筑业",				'open': '', 'subclass':[
-	]},
+
+                ]},
 
 	]},
 	{'id': "48",	 'name' :"土木工程建筑业",				'open': '', 'subclass':[
 
-		{'id': "481",	 'name' :"铁路、道路、隧道和桥梁工程建筑 ",				'open': '', 'subclass':[
+		{'id': "481",	 'name' :"铁路、道路、隧道和桥梁工程建筑",				'open': '', 'subclass':[
 
-			{'id': "4811",	 'name' :"铁路工程建筑 ",				'open': '', 'subclass':[
-
-			]},
-			{'id': "4812",	 'name' :"公路工程建筑 ",				'open': '', 'subclass':[
+			{'id': "4811",	 'name' :"铁路工程建筑",				'open': '', 'subclass':[
 
 			]},
-			{'id': "4813",	 'name' :"市政道路工程建筑  ",				'open': '', 'subclass':[
+			{'id': "4812",	 'name' :"公路工程建筑",				'open': '', 'subclass':[
+
+			]},
+			{'id': "4813",	 'name' :"市政道路工程建筑",				'open': '', 'subclass':[
 
 			]},
 			{'id': "4814",	 'name' :"城市轨道交通工程建筑",				'open': '', 'subclass':[
 
 			]},
-			{'id': "4819",	 'name' :"其他道路、隧道和桥梁工程建筑  ",				'open': '', 'subclass':[
+			{'id': "4815",	 'name' :"其他道路隧道建筑",				'open': '', 'subclass':[
+
+			]},
+			{'id': "4816",	 'name' :"其他桥梁工程建筑",				'open': '', 'subclass':[
 
 			]},
 		]},
@@ -3151,7 +3264,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "5164",	 'name' :"金属及金属矿批发",				'open': '', 'subclass':[
 
 			]},
-			{'id': "5165",	 'name' :"建材批发 ",				'open': '', 'subclass':[
+			{'id': "5165",	 'name' :"建材批发",				'open': '', 'subclass':[
 
 			]},
 			{'id': "5166",	 'name' :"化肥批发",				'open': '', 'subclass':[
@@ -3163,7 +3276,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "5168",	 'name' :"农用薄膜批发",				'open': '', 'subclass':[
 
 			]},
-			{'id': "5169",	 'name' :"其他化工产品批发 ",				'open': '', 'subclass':[
+			{'id': "5169",	 'name' :"其他化工产品批发",				'open': '', 'subclass':[
 
 			]},
 		]},
@@ -3242,6 +3355,9 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 			]},
 			{'id': "5213",	 'name' :"便利店零售",				'open': '', 'subclass':[
+
+			]},
+			{'id': "5214",	 'name' :"无人零售店零售",				'open': '', 'subclass':[
 
 			]},
 			{'id': "5219",	 'name' :"其他综合零售",				'open': '', 'subclass':[
@@ -3502,7 +3618,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "5414",	 'name' :"公共自行车服务",				'open': '', 'subclass':[
 
 			]},
-			{'id': "5419",	 'name' :"其他城市公共交通运输  ",				'open': '', 'subclass':[
+			{'id': "5419",	 'name' :"其他城市公共交通运输",				'open': '', 'subclass':[
 
 			]},
 		]},
@@ -3603,7 +3719,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "56",	 'name' :"航空运输业 ",				'open': '', 'subclass':[
+	{'id': "56",	 'name' :"航空运输业",				'open': '', 'subclass':[
 
 		{'id': "561",	 'name' :"航空客货运输",				'open': '', 'subclass':[
 
@@ -3642,7 +3758,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			]},
 		]},
 	]},
-	{'id': "57",	 'name' :"管道运输业 ",				'open': '', 'subclass':[
+	{'id': "57",	 'name' :"管道运输业",				'open': '', 'subclass':[
 
 		{'id': "571",	 'name' :"海底管道运输",				'open': '', 'subclass':[
 
@@ -3823,6 +3939,9 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "6331",	 'name' :"广播电视卫星传输服务",				'open': '', 'subclass':[
 
 			]},
+			{'id': "6332",	 'name' :"全球卫星定位服务",				'open': '', 'subclass':[
+
+			]},
 			{'id': "6339",	 'name' :"其他卫星传输服务",				'open': '', 'subclass':[
 
 			]},
@@ -3847,7 +3966,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 		]},
 		{'id': "643",	 'name' :"互联网平台",				'open': '', 'subclass':[
 
-			{'id': "6431",	 'name' :"互联网生产服务平台",				'open': '', 'subclass':[
+			{'id': "6431",	 'name' :"互联网生产交流服务平台",				'open': '', 'subclass':[
 
 			]},
 			{'id': "6432",	 'name' :"互联网生活服务平台",				'open': '', 'subclass':[
@@ -3857,6 +3976,9 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 			]},
 			{'id': "6434",	 'name' :"互联网公共服务平台",				'open': '', 'subclass':[
+
+			]},
+			{'id': "6435",	 'name' :"互联网生产交易服务平台",				'open': '', 'subclass':[
 
 			]},
 			{'id': "6439",	 'name' :"其他互联网平台",				'open': '', 'subclass':[
@@ -4187,7 +4309,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 			]},
 		]},
-		{'id': "713",	 'name' :"  日用品出租",				'open': '', 'subclass':[
+		{'id': "713",	 'name' :"日用品出租",				'open': '', 'subclass':[
 
 		]},
 	]},
@@ -4295,8 +4417,10 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 			]},
 		]},
-		{'id': "727",	 'name' :" ",	 'name' :"安全保护服务",	 'name' :"安全服务",				'open': '', 'subclass':[
-
+		{'id': "727",	 'name' :"安全保护服务",	 'open': '', 'subclass':[
+            {'id': "7271", 'name' :"安全服务",				'open': '', 'subclass':[
+                                                                     
+            ]},
 			{'id': "7272",	 'name' :"安全系统监控服务",				'open': '', 'subclass':[
 
 			]},
@@ -4969,7 +5093,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 		]},
 	]},
 ]},
-{'id': "R",	 'name' :"文化体育/娱乐业",				'open': '', 'subclass':[
+{'id': "R",	 'name' :"文化/体育/娱乐业",				'open': '', 'subclass':[
 
 	{'id': "86",	 'name' :"新闻和出版业",				'open': '', 'subclass':[
 
@@ -5068,7 +5192,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "8912",	 'name' :"体育保障组织",				'open': '', 'subclass':[
 
 			]},
-			{'id': "8919",	 'name' :"其他体育组织 ",				'open': '', 'subclass':[
+			{'id': "8919",	 'name' :"其他体育组织",				'open': '', 'subclass':[
 
 			]},
 		]},
