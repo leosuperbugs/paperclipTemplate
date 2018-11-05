@@ -5,12 +5,6 @@
     </div>
     <div class='desktop__title'>水产品冷冻加工</div>
     <div class="intro"></div>
-    <img id='title_img'
-         src='lib/tpl/starter/images/水产品冷冻加工.png'
-         alt='水产品冷冻加工'
-        style="height:10em;
-                margin-left:-6em;"
-    >
     <div class="pet_warpper">
     <hr class="vertical_upper"/>
     <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>

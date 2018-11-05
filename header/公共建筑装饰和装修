@@ -5,12 +5,6 @@
     </div>
     <div class='desktop__title'>公共建筑装饰和装修</div>
     <div class="intro"></div>
-    <img id='title_img'
-         src='lib/tpl/starter/images/公共建筑装饰和装修.png'
-         alt='公共建筑装饰和装修'
-        style="height:10em;
-                margin-left:-6em;"
-    >
     <div class="pet_warpper">
     <hr class="vertical_upper"/>
     <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>
