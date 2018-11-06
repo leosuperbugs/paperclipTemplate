@@ -52,6 +52,9 @@ jQuery( document ).ready(function($) {
     }, function () {
        $("#qrcodefooter").css("display", "none");
     });
+
+
+
     // cut the first part of the page and paste it to the title
     let intro = $('p:first');
     let editbtn = $('div.editbutton_1');
@@ -63,8 +66,21 @@ jQuery( document ).ready(function($) {
         firsth1.remove();
     }
     $(".intro").append(intro);
-    $(".intro").append(editbtn);
+    $(".desktop__title").append(editbtn);
     console.log($('.page > p:first'));
+
+    // move the editbutto next to the h1
+    let clear = '<div class="clear"></div>';
+    $("h1").each(function () {
+        let editbutton = $(this).nextAll().filter(".editbutton_section").first();
+        if (editbutton) {
+            editbutton.remove();
+            editbutton.addClass("editbutton_lower");
+            $(this).append(editbutton);
+            // $(this).append(clear);
+        }
+    });
+
     // fold all the h1 and it's children
     $("h1").each(function() {
         this.onclick=function() {
@@ -118,6 +134,9 @@ jQuery( document ).ready(function($) {
             }
         }
     );
+
+    // move the edit buttons
+
 
 
     // set the width of paperclip__title to document.body.clientWidth
