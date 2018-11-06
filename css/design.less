@@ -8,6 +8,7 @@
 
 
 @import "controller.less";
+@clip_p: 1.2rem;
 /* header
 ********************************************************************/
 .notify {
@@ -260,6 +261,10 @@
     font-size: 93.75%;
 }
 
+#dokuwiki__content h1 {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
 
 /* footer
 ********************************************************************/
@@ -312,6 +317,36 @@
 .desktop__title {
     font-size: 5em;
 }
+
+.secedit {
+    display: inline-block;
+    font-size: @clip_p;
+    background-color: transparent;
+    padding-left: 1rem;
+    margin-left: 2rem;
+    margin-top: 0 !important;
+    background-repeat: no-repeat;
+    background-image: url("images/edit-white.png");
+    background-position: left;
+    background-size: @clip_p;
+
+    button {
+        background-color: transparent;
+        border: none;
+        color: inherit;
+    }
+}
+
+.editbutton_1 {
+    color: white;
+}
+
+.editbutton_lower {
+    float: right;
+    clear: right;
+
+    background-image: url("images/edit-grey.png");
+}
 .desktop__class {
     font-size: 1.2em;
     color: #c9c9c9;
@@ -337,7 +372,7 @@
 }
 .intro {
     width: 45%;
-    font-size: 1.2em;
+    font-size: @clip_p;
 }
 .vertical_lower, .vertical_upper{
     width: 3px;
