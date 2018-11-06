@@ -253,7 +253,7 @@ $imagePrefix = 'lib/tpl/starter/images';
                     <hr class="a11y" />
 
                     <!-- PAGE ACTIONS -->
-                    <?php if ($showTools &&( $ACT === 'show' || $ACT === 'admin')): ?>
+                    <?php if ($showTools &&( $ACT === 'show' || $ACT === 'admin' || $ACT === 'revisions')): ?>
                         <div id="dokuwiki__pagetools">
                             <h3 class="a11y"><?php echo $lang['page_tools'] ?></h3>
                             <ul>
