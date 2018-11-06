@@ -1,6 +1,7 @@
 headerbackup/
 .gitignore
 .idea/workspace.xml
+.idea/
 /vendor
 composer.json
 composer.lock
