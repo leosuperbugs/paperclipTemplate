@@ -71,7 +71,7 @@ jQuery( document ).ready(function($) {
 
     // move the editbutto next to the h1
     let clear = '<div class="clear"></div>';
-    $("h1").each(function () {
+    $("h1, h2, h3, h4, h5, h6").each(function () {
         let editbutton = $(this).nextAll().filter(".editbutton_section").first();
         if (editbutton) {
             editbutton.remove();
