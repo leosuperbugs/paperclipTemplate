@@ -153,7 +153,7 @@ $imagePrefix = 'lib/tpl/starter/images';
     if (showIndex()) { ?>
 
         <!--   Paperclip's start page     -->
-        <div class="paperclip__homewarpper">
+        <div class="paperclip__homewarpper" >
             <div class="paperclip__home">
                 <div class="paperclip__doddle">
                     <div class="paperclip__logo">
@@ -161,20 +161,20 @@ $imagePrefix = 'lib/tpl/starter/images';
                         include 'images/home/logo-pet.svg'
                         ?>
                     </div>
-                    <p>回形针手册是一本涵盖了日常生活所涉及方方面面的百科手册，<br>你可以试着检索一个条目</p>
+                    <p><?php echo tpl_getLang('slogan') ?></p>
                 </div>
                 <div class="paperclip__search__recommend">
                     <?php tpl_searchform()?>
-                    <p>推荐阅读：<a href="https://weibo.com" target="_blank">硫铁矿是怎么开采的？</a></p>
+                    <p><?php echo tpl_getLang('recommend') ?><a href=<?php echo tpl_getconf("recommendLink") ?> target="_blank"><?php echo tpl_getconf('recommendTitle') ?></a></p>
                     <div class="clear"></div>
                 </div>
             </div>
         </div>
         <div class="paperclip__list gridbackground">
             <div class="paperclip__listtitle">
-                全部条目
+                <?php echo tpl_getLang('fullEntries') ?>
             </div>
-            <div class="paperclip__listwarpper">
+            <div class="paperclip__listwarpper" id="paperclip__fullentries" >
                 <?php include 'header/listForHome' ?>
             </div>
         </div>
@@ -251,7 +251,7 @@ $imagePrefix = 'lib/tpl/starter/images';
                     <hr class="a11y" />
 
                     <!-- PAGE ACTIONS -->
-                    <?php if ($showTools &&( $ACT === 'show' || $ACT === 'admin' || $ACT === 'revisions')): ?>
+                    <?php if (showPageTools($showTools)): ?>
                         <div id="dokuwiki__pagetools">
                             <h3 class="a11y"><?php echo $lang['page_tools'] ?></h3>
                             <ul>
@@ -273,7 +273,7 @@ $imagePrefix = 'lib/tpl/starter/images';
 
             </div>
             <?php if (isContentPage()){?>
-            <div class="paperclip__toc nomobile">目录</div>
+            <div class="paperclip__toc nomobile"><?php echo $lang['toc'] ?></div>
             <?php } ?>
             <div class="paperclip__tocwarpper nomobile"></div>
         </div><!-- /site -->

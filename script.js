@@ -36,8 +36,11 @@ jQuery( document ).ready(function($) {
                 sider.removeClass('noshow');
                 toc.addClass('noshow');
             }
-        )
+            )
     }
+    // append full entries after user name at tag area
+    let fullEntries = '<li class="fullentries"><a href="/doku.php?id=start#paperclip__fullentries">全部条目</a></li>';
+    $('.profile').after(fullEntries);
 
     // remove the <strong> -
     $('#dw__toc > h3 > strong').remove();

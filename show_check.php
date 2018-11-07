@@ -48,7 +48,7 @@ function showLowerPet($filename) {
 /**
  * @param $showtools
  *
- * Logic: Show the page tools at show, revisions, edit, save, preview,  
+ * Logic: Show the page tools at show, revisions, edit, save, preview,
  */
 function showPageTools($showTools) {
     global $ACT;
