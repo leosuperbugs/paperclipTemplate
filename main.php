@@ -9,12 +9,17 @@
 
 if (!defined('DOKU_INC')) die(); /* must be run from within DokuWiki */
 @require_once(dirname(__FILE__).'/tpl_functions.php'); /* include hook for template functions */
+@require_once (dirname(__FILE__).'/show_check.php');
+
 header('X-UA-Compatible: IE=edge,chrome=1');
 
 $showTools = !tpl_getConf('hideTools') || ( tpl_getConf('hideTools') && !empty($_SERVER['REMOTE_USER']) );
 $showSidebar = page_findnearest($conf['sidebar']) && ($ACT=='show');
 $imagePrefix = 'lib/tpl/starter/images';
-?><!DOCTYPE html>
+?>
+
+<!DOCTYPE html>
+
 <html  xml:lang="<?php echo $conf['lang'] ?>"
   lang="<?php echo $conf['lang'] ?>" dir="<?php echo $lang['direction'] ?>" class="no-js">
 <head>
@@ -46,9 +51,6 @@ $imagePrefix = 'lib/tpl/starter/images';
                     <p class="claim"><?php echo $conf['tagline'] ?></p>
                 <?php endif ?>
 
-<!--                <ul class="a11y skip">-->
-<!--                    <li><a href="#dokuwiki__content">--><?php //echo $lang['skip_to_content'] ?><!--</a></li>-->
-<!--                </ul>-->
                 <div class="ZZer"></div>
             </div>
 
@@ -62,7 +64,7 @@ $imagePrefix = 'lib/tpl/starter/images';
                             global $ID, $conf, $ACT, $_GET;
                             $show = $_GET['show'];
                             //    if ($ID == $conf['start']) {
-                            if (!($ID === $conf['start'] && $ACT === 'show' && !isset($show))) {
+                            if (showHeaderLogo($show)) {
                                 ?>
                                 <li class="desktop__header">
                                     <a href="/doku.php">
@@ -146,10 +148,9 @@ $imagePrefix = 'lib/tpl/starter/images';
 
     <!--   Paperclip: this part is for the customization of the start page -->
     <?php
-    global $ID, $_GET, $conf, $ACT, $INFO;
-    $show = $_GET['show'];
-//    if ($ID == $conf['start']) {
-    if ($ID == $conf['start'] && $ACT === 'show' && !isset($show)) { ?>
+//    global $ID, $_GET, $conf, $ACT, $INFO;
+//    $show = $_GET['show'];
+    if (showIndex()) { ?>
 
         <!--   Paperclip's start page     -->
         <div class="paperclip__homewarpper">
@@ -186,16 +187,13 @@ $imagePrefix = 'lib/tpl/starter/images';
     <!--   Normal content page     -->
         <?php
         global $ACT;
-        if ($ACT === 'show') {
+        if (showContentHeader()) {
             $entryTitle = tpl_pagetitle(null, true);
             $idname = explode(':', $ID);
             $idname = end($idname);
-            $idname = str_replace(' ', '', $idname);
-            // paperclip -- horrible customization
-//            $idname = str_replace('_', '、', $idname);
             $filename ='lib/tpl/starter/header/'.$idname;
             include $filename;
-            if (file_exists($filename)) {
+            if (showLowerPet($filename)) {
                 ?>
                 <div class="pet_warpper">
                     <img id="pet_lower" src="lib/tpl/starter/images/pet_lower.png"/>
@@ -274,12 +272,12 @@ $imagePrefix = 'lib/tpl/starter/images';
                 <!-- ********** FOOTER ********** -->
 
             </div>
-            <?php if ($ACT === 'show' || $ACT === 'admin' ){?>
+            <?php if (isContentPage()){?>
             <div class="paperclip__toc nomobile">目录</div>
             <?php } ?>
             <div class="paperclip__tocwarpper nomobile"></div>
         </div><!-- /site -->
-        <?php if ($ACT === 'show' || $ACT === 'admin' ){?>
+        <?php if (isContentPage()){?>
             <div class="paperclip__backToTop">
                 <svg id="图层_1" data-name="图层 1" viewBox="0 0 100 100"><defs><style>.cls-1{fill:#f7f7f7;}.cls-2{fill:#282828;}</style></defs><title>回形针手册-icons</title><circle class="cls-1" cx="50" cy="50" r="48"/><path class="cls-2" d="M66.2,45,51.4,30.2a1.79,1.79,0,0,0-.31-.25L51,29.87l-.2-.1a1.39,1.39,0,0,0-.19-.06l-.17-.05a1.71,1.71,0,0,0-.78,0l-.17.05a1.39,1.39,0,0,0-.19.06l-.2.1-.14.08a1.79,1.79,0,0,0-.31.25L33.8,45a2,2,0,0,0,2.79,2.79L48,36.35v36a2,2,0,0,0,3.94,0v-36L63.41,47.79a2,2,0,0,0,1.4.58,1.94,1.94,0,0,0,1.39-.58A2,2,0,0,0,66.2,45Z"/></svg>
             </div>
@@ -299,10 +297,7 @@ $imagePrefix = 'lib/tpl/starter/images';
 <!--    </div>-->
 
         <?php
-        global $ID, $conf, $ACT, $INFO, $_GET;
-        $show = $_GET['show'];
-        //    if ($ID == $conf['start']) {
-        if (($ID == $conf['start'] && $ACT === 'show') || $ACT === 'profile' || $show === 'editlog' || $show === 'comment' || $show === 'setting') {
+        if (showFooter()) {
             include 'footer.php';
         }?>
 
