@@ -83,6 +83,8 @@ function _tpl_userpage($userPage, $title, $link=0, $wrapper=0, $return=0) {
 /**
  * Wrapper around custom template actions
  *
+ * paperclip hacked
+ *
  * @author Anika Henke <anika@selfthinker.org>
  */
 function _tpl_action($type, $link=0, $wrapper=0, $return=0) {
@@ -101,6 +103,12 @@ function _tpl_action($type, $link=0, $wrapper=0, $return=0) {
                 echo $output;
             }
             break;
+//        case 'fullEntries':
+//            if (tpl_getConf('fullEntries')) {
+//                $output = _tpl_userpage(tpl_getConf('fullEntries'), tpl_getLang('fullEntries'), $link, $wrapper, 1);
+//                if ($return) return $output;
+//                echo $output;
+//            }
     }
 }
 
