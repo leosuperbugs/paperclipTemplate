@@ -7,7 +7,7 @@
     background-color: __paperclip__stdbg__;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: calc(~"100vh - 100px");
 }
 
 .paperclip__login {
@@ -119,6 +119,13 @@
 .paperclip__update .block,
 .paperclip__register .block{
     margin-bottom: 1rem;
+}
+
+.paperclip__login .no,
+.paperclip__update .no,
+.paperclip__register .no{
+
+    display: block;
 }
 
 .paperclip__login .no p {

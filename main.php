@@ -16,6 +16,7 @@ header('X-UA-Compatible: IE=edge,chrome=1');
 $showTools = !tpl_getConf('hideTools') || ( tpl_getConf('hideTools') && !empty($_SERVER['REMOTE_USER']) );
 $showSidebar = page_findnearest($conf['sidebar']) && ($ACT=='show');
 $imagePrefix = 'lib/tpl/starter/images';
+
 ?>
 
 <!DOCTYPE html>
@@ -30,23 +31,21 @@ $imagePrefix = 'lib/tpl/starter/images';
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <?php echo tpl_favicon(array('favicon', 'mobile')) ?>
     <?php tpl_includeFile('meta.html') ?>
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <!-- Load Babel Compiler -->
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
 </head>
 
 <body>
-    <?php /* with these Conditional Comments you can better address IE issues in CSS files,
-             precede CSS rules by #IE8 for IE8 (div closes at the bottom) */ ?>
     <!--[if lte IE 8 ]><div id="IE8"><![endif]-->
 
-    <?php /* the "dokuwiki__top" id is needed somewhere at the top, because that's where the "back to top" button/link links to */ ?>
-    <?php /* tpl_classes() provides useful CSS classes; if you choose not to use it, the 'dokuwiki' class at least
-             should always be in one of the surrounding elements (e.g. plugins and templates depend on it) */ ?>
     <div id="dokuwiki__header"><div class="pad">
 
             <div class="headings">
-                <!--                <h1>--><?php ////tpl_link(wl(),$conf['title'],'accesskey="h" title="[H]"') ?><!--</h1>-->
-                <?php /* how to insert logo instead (if no CSS image replacement technique is used):
-                        upload your logo into the data/media folder (root of the media manager) and replace 'logo.png' accordingly:
-                        tpl_link(wl(),'<img src="'.ml('logo.png').'" alt="'.$conf['title'].'" />','id="dokuwiki__top" accesskey="h" title="[H]"') */ ?>
                 <?php if ($conf['tagline']): ?>
                     <p class="claim"><?php echo $conf['tagline'] ?></p>
                 <?php endif ?>
@@ -268,38 +267,25 @@ $imagePrefix = 'lib/tpl/starter/images';
                         </div>
                     <?php endif; ?>
                 </div><!-- /wrapper -->
-
                 <!-- ********** FOOTER ********** -->
-
             </div>
             <?php if (isContentPage()){?>
             <div class="paperclip__toc nomobile"><?php echo $lang['toc'] ?></div>
-            <?php } ?>
             <div class="paperclip__tocwarpper nomobile"></div>
+            <?php } ?>
         </div><!-- /site -->
         <?php if (isContentPage()){?>
             <div class="paperclip__backToTop">
                 <svg id="图层_1" data-name="图层 1" viewBox="0 0 100 100"><defs><style>.cls-1{fill:#f7f7f7;}.cls-2{fill:#282828;}</style></defs><title>回形针手册-icons</title><circle class="cls-1" cx="50" cy="50" r="48"/><path class="cls-2" d="M66.2,45,51.4,30.2a1.79,1.79,0,0,0-.31-.25L51,29.87l-.2-.1a1.39,1.39,0,0,0-.19-.06l-.17-.05a1.71,1.71,0,0,0-.78,0l-.17.05a1.39,1.39,0,0,0-.19.06l-.2.1-.14.08a1.79,1.79,0,0,0-.31.25L33.8,45a2,2,0,0,0,2.79,2.79L48,36.35v36a2,2,0,0,0,3.94,0v-36L63.41,47.79a2,2,0,0,0,1.4.58,1.94,1.94,0,0,0,1.39-.58A2,2,0,0,0,66.2,45Z"/></svg>
             </div>
         <?php } ?>
-
         <div class="no noshow"><?php tpl_indexerWebBug() /* provide DokuWiki housekeeping, required in all templates */ ?></div>
         <!--[if lte IE 8 ]></div><![endif]-->
         <div id="screen__mode" class="no noshow"></div><?php /* helper to detect CSS media query in script.js */ ?>
         <!--    end of the difference-->
     <?php } ?>
-<!--    <div class="paperclip__title">-->
-<!--    beginning of the difference-->
-<!--        <div class="pet_warpper">-->
-<!--            <hr class="vertical_upper"/>-->
-<!--            <img id="pet_upper" src="lib/tpl/starter/images/pet_upper.png"/>-->
-<!--        </div>-->
-<!--    </div>-->
-
         <?php
         if (showFooter()) {
             include 'footer.php';
         }?>
-
-</body>
-</html>
+</body></html>
