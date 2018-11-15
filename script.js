@@ -1,14 +1,37 @@
 jQuery( document ).ready(function($) {
 
-    var im = DOKU_BASE+"lib/tpl/starter/images/plus.png";
-    var screenMode = $('#screen__mode').css('z-index') + '';
+    removeSearchButtonText($);
 
-    // remove the text in search button
-    let btn  = $("[title='搜索']");
-    btn.text('');
+    setPageToolColor($);
+
+    setTOCHover($);
+
+    appendWholeEntries($);
+
+    removal($);
+
+    displayWXQRCode($);
+
+    cutToTitle($);
+
+    moveEditButton($);
+
+    entryH1Toggle($);
+
+    listSetToggle($);
+
+    setBackToTop($);
+
+    processForm($);
+});
+
+function setPageToolColor($) {
     // set the color
     $(".login a").css("color", "#e0ba7e");
     $(".logout a").css("color", "#e0ba7e");
+}
+
+function setTOCHover($) {
     // cut the toc and paste it to the side
     let toc = $('.dw__toc');
     $('.dw__toc').remove();
@@ -36,28 +59,37 @@ jQuery( document ).ready(function($) {
                 sider.removeClass('noshow');
                 toc.addClass('noshow');
             }
-            )
+        )
     }
+
+}
+
+function removal($) {
+    // remove the <strong> -
+    $('#dw__toc > h3 > strong').remove();
+}
+
+function appendWholeEntries($) {
     // append full entries after user name at tag area
     let fullEntries = '<li class="fullentries"><a href="/doku.php?id=start#paperclip__fullentries">全部条目</a></li>';
     $('.profile').after(fullEntries);
+}
 
-    // remove the <strong> -
-    $('#dw__toc > h3 > strong').remove();
+function displayWXQRCode($) {
     // display of wechat qrcode
     $("#wechat").hover(function () {
-       $("#qrcode").css("display", "block");
+        $("#qrcode").css("display", "block");
     }, function () {
-       $("#qrcode").css("display", "none");
+        $("#qrcode").css("display", "none");
     });
     $("#wechatfooter").hover(function () {
-       $("#qrcodefooter").css("display", "block");
+        $("#qrcodefooter").css("display", "block");
     }, function () {
-       $("#qrcodefooter").css("display", "none");
+        $("#qrcodefooter").css("display", "none");
     });
+}
 
-
-
+function cutToTitle($) {
     // cut the first part of the page and paste it to the title
     let intro = $('p:first');
     let editbtn = $('div.editbutton_1');
@@ -71,8 +103,10 @@ jQuery( document ).ready(function($) {
     $(".intro").append(intro);
     $(".desktop__title").append(editbtn);
     console.log($('.page > p:first'));
+}
 
-    // move the editbutto next to the h1
+function moveEditButton($) {
+    // move the editbutton next to the h1
     let clear = '<div class="clear"></div>';
     $("h1").each(function () {
         let editbutton = $(this).nextAll().filter(".editbutton_section").first();
@@ -83,6 +117,34 @@ jQuery( document ).ready(function($) {
             // $(this).append(clear);
         }
     });
+
+}
+
+function setBackToTop($) {
+    // back to top
+    $('.paperclip__backToTop').click(function () {
+        $('html,body').animate({ scrollTop: 0 }, 500);
+    });
+}
+
+function removeSearchButtonText($) {
+    // remove the text in search button
+    let btn  = $("[title='搜索']");
+    btn.text('');
+}
+
+function processForm($) {
+    // remove the br and put them behind p
+    $('.paperclip__login br').remove();
+    $('.paperclip__login p').append('<br>');
+
+    $('.paperclip__register br').remove();
+    $('.paperclip__register p').append('<br>');
+}
+
+function entryH1Toggle($) {
+    var screenMode = $('#screen__mode').css('z-index') + '';
+    var im = DOKU_BASE+"lib/tpl/starter/images/plus.png";
 
     // fold all the h1 and it's children
     $("h1").each(function() {
@@ -98,6 +160,9 @@ jQuery( document ).ready(function($) {
             $(this).prepend('<span style="color:#e0ab7e; font-size: 0.5em">▋</span>  ');
         }
     });
+}
+
+function listSetToggle($) {
     // add click action for firstlv div
     $(".firstlv").each(function () {
         this.onclick=function () {
@@ -137,34 +202,4 @@ jQuery( document ).ready(function($) {
             }
         }
     );
-
-    // move the edit buttons
-
-
-
-    // set the width of paperclip__title to document.body.clientWidth
-    // let widthOfScreen = document.body.clientWidth;
-    // let marginValue = (widthOfScreen - $('.paperclip__title').width()) / 2;
-    // $('.paperclip__title').css('margin-left', -marginValue);
-    // $('.paperclip__title').css('margin-right', -marginValue);
-    // $('.paperclip__title').css('padding-left', 0.05 * widthOfScreen);
-    // $('.paperclip__title').css('padding-right', 0.05 * widthOfScreen);
-    // console.log(document.body.clientWidth)
-
-    // scroll to the top
-    $('.paperclip__backToTop').click(function () {
-        $('html,body').animate({ scrollTop: 0 }, 500);
-    });
-
-
-    // remove the br and put them behind p
-    $('.paperclip__login br').remove();
-    $('.paperclip__login p').append('<br>');
-
-    $('.paperclip__register br').remove();
-    $('.paperclip__register p').append('<br>');
-});
-
-// var Paperclip = {
-
-// }
+}
