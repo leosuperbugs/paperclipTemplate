@@ -57,7 +57,7 @@ $imagePrefix = 'lib/tpl/starter/images';
                 <!-- USER TOOLS -->
                 <?php if ($conf['useacl'] && $showTools): ?>
                     <div id="dokuwiki__usertools">
-                        <h3 class="a11y"><?php echo $lang['user_tools'] ?></h3>
+<!--                        <h3 class="a11y">--><?php //echo $lang['user_tools'] ?><!--</h3>-->
                         <ul id="logo_area">
                             <?php
                             global $ID, $conf, $ACT, $_GET;
@@ -102,24 +102,16 @@ $imagePrefix = 'lib/tpl/starter/images';
                                      e.g. a button inside a <li> would be: tpl_action('edit', 0, 'li') */
                             ?>
                             <?php
-                            echo (new \dokuwiki\Menu\UserMenu())->getListItems();
-//                            tpl_toolsevent('usertools', array(
-//                                'admin'     => tpl_action('admin', 1, 'li', 1),
-//                                'userpage'  => _tpl_action('userpage', 1, 'li', 1),
-//                                'profile'   => tpl_action('profile', 1, 'li', 1),
-//                                'register'  => tpl_action('register', 1, 'li', 1),
-//                                'login'     => tpl_action('login', 1, 'li', 1),
-//                            )); ?>
+                            echo (new \dokuwiki\menu\usermenu())->getlistitems();
+                            ?>
                         </ul>
                         <!--                        <div class="paperclip__gradient"></div>-->
-                        <div class="clear"></div><div class="clear">
-                    </div>
+                        <div class="clear"></div>
                 <?php endif ?>
 
                 <!-- SITE TOOLS -->
                 <div id="dokuwiki__sitetools">
-                    <h3 class="a11y"><?php echo $lang['site_tools'] ?></h3>
-                    <!--                    --><?php //tpl_searchform() ?>
+<!--                    <h3 class="a11y">--><?php //echo $lang['site_tools'] ?><!--</h3>-->
                     <ul>
                         <?php tpl_toolsevent('sitetools', array(
                             'recent'    => tpl_action('recent', 1, 'li', 1),
@@ -141,7 +133,7 @@ $imagePrefix = 'lib/tpl/starter/images';
             <?php } ?>
 
             <div class="clearer"></div>
-            <hr class="a11y" />
+<!--            <hr class="a11y" />-->
         </div>
     </div><!-- /header -->
 
@@ -247,12 +239,12 @@ $imagePrefix = 'lib/tpl/starter/images';
                         </div></div><!-- /content -->
 
                     <div class="clearer"></div>
-                    <hr class="a11y" />
+<!--                    <hr class="a11y" />-->
 
                     <!-- PAGE ACTIONS -->
                     <?php if (showPageTools($showTools)): ?>
                         <div id="dokuwiki__pagetools">
-                            <h3 class="a11y"><?php echo $lang['page_tools'] ?></h3>
+<!--                            <h3 class="a11y">--><?php //echo $lang['page_tools'] ?><!--</h3>-->
                             <ul>
                                 <?php tpl_toolsevent('pagetools', array(
                                     'edit'      => tpl_action('edit', 1, 'li', 1),

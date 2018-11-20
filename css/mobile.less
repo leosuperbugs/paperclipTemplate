@@ -144,6 +144,13 @@ h1 {
 
 // paperclip title and list mobile version
 
+    .paperclip__logo svg,
+    .paperclip__logo img{
+        margin-right: @clipbond;
+        margin-left: @clipbond;
+        width: 100vw - 2 * @clipbond;
+    }
+
     .paperclip__home {
         height: calc(~"100vh - 200px");
     }
@@ -162,19 +169,26 @@ h1 {
 
     .paperclip__login .no p {
 
-        display: inline-block;
+        //display: inline-block;
         position: static;
+
+    }
+    .paperclip__login span ,
+    .paperclip__update span ,
+    .paperclip__register span {
+        width: 20vw;
+        text-align: right;
 
     }
     .paperclip__login input ,
     .paperclip__update input ,
     .paperclip__register input {
-        width: 50% !important;
+        width: 50vw !important;
     }
 
     .paperclip__login .no p,
     .paperclip__register .no p {
-        display: none;
+        vertical-align: middle;
     }
 
     .paperclip__search__recommend .no {
