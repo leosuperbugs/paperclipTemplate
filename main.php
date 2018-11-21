@@ -102,7 +102,8 @@ $imagePrefix = 'lib/tpl/starter/images';
                                      e.g. a button inside a <li> would be: tpl_action('edit', 0, 'li') */
                             ?>
                             <?php
-                            echo (new \dokuwiki\menu\usermenu())->getlistitems();
+			    $test = (new \dokuwiki\Menu\UserMenu());
+			    echo $test->getlistitems();
                             ?>
                         </ul>
                         <!--                        <div class="paperclip__gradient"></div>-->
