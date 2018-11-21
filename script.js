@@ -70,8 +70,25 @@ function removal($) {
 }
 
 function appendWholeEntries($) {
+    $.urlParam = function(name){
+        let results = new RegExp('[\?&]' + name + '=([^]*)').exec(window.location.href);
+        if (results==null){
+            return null;
+        }
+        else{
+            return results[1] || 0;
+        }
+    };
+    let action = $.urlParam("do");
+    let id = $.urlParam("id");
+
+    var fullEntries;
+    if ((!action || action == "show")&& (id == "start" || !id)) {
+        fullEntries = '<li class="fullentries"><a href="#paperclip__list">全部条目</a></li>';
+    } else {
+        fullEntries = '<li class="fullentries"><a href="/doku.php?id=start#paperclip__list">全部条目</a></li>';
+    }
     // append full entries after user name at tag area
-    let fullEntries = '<li class="fullentries"><a href="/doku.php?id=start#paperclip__fullentries">全部条目</a></li>';
     $('.profile').after(fullEntries);
 }
 

@@ -17,6 +17,8 @@ $showTools = !tpl_getConf('hideTools') || ( tpl_getConf('hideTools') && !empty($
 $showSidebar = page_findnearest($conf['sidebar']) && ($ACT=='show');
 $imagePrefix = 'lib/tpl/starter/images';
 
+include 'footer.php';
+
 ?>
 
 <!DOCTYPE html>
@@ -71,23 +73,25 @@ $imagePrefix = 'lib/tpl/starter/images';
                                     </a>
                                 </li>
                             <?php } ?>
-
-                            <li class="desktop__header">
-                                <a href="">
-                                    <img class="social" id="wechat"  src="lib/tpl/starter/images/wechat_bw.png">
-                                </a>
-                                <img id="qrcode" src="lib/tpl/starter/images/qrcode.jpg">
-                            </li>
-                            <li class="desktop__header">
-                                <a href="https://www.weibo.com/p/1005056414205745" target="_blank">
-                                    <img class="social"  src="lib/tpl/starter/images/weibo_bw.png"/>
-                                </a>
-                            </li>
-                            <li class="desktop__header">
-                                <a href="https://space.bilibili.com/258150656/" target="_blank">
-                                    <img class="social"  src="lib/tpl/starter/images/video.png">
-                                </a>
-                            </li>
+                            <?php
+                            paperclipLinks(__LINKSPOS__['header']);
+                            ?>
+<!--                            <li class="desktop__header">-->
+<!--                                <a href="">-->
+<!--                                    <img class="social" id="wechat"  src="lib/tpl/starter/images/wechat_bw.png">-->
+<!--                                </a>-->
+<!--                                <img id="qrcode" src="lib/tpl/starter/images/qrcode.jpg">-->
+<!--                            </li>-->
+<!--                            <li class="desktop__header">-->
+<!--                                <a href="https://www.weibo.com/p/1005056414205745" target="_blank">-->
+<!--                                    <img class="social"  src="lib/tpl/starter/images/weibo_bw.png"/>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li class="desktop__header">-->
+<!--                                <a href="https://space.bilibili.com/258150656/" target="_blank">-->
+<!--                                    <img class="social"  src="lib/tpl/starter/images/video.png">-->
+<!--                                </a>-->
+<!--                            </li>-->
                             <div class="clear"></div>
                         </ul>
                         <ul id="tag_area">
@@ -102,8 +106,8 @@ $imagePrefix = 'lib/tpl/starter/images';
                                      e.g. a button inside a <li> would be: tpl_action('edit', 0, 'li') */
                             ?>
                             <?php
-			    $test = (new \dokuwiki\Menu\UserMenu());
-			    echo $test->getlistitems();
+                            $test =  (new \dokuwiki\menu\usermenu());
+                            echo $test->getlistitems();
                             ?>
                         </ul>
                         <!--                        <div class="paperclip__gradient"></div>-->
@@ -162,7 +166,7 @@ $imagePrefix = 'lib/tpl/starter/images';
                 </div>
             </div>
         </div>
-        <div class="paperclip__list gridbackground">
+        <div class="paperclip__list gridbackground" id="paperclip__list">
             <div class="paperclip__listtitle">
                 <?php echo tpl_getLang('fullEntries') ?>
             </div>
@@ -279,7 +283,7 @@ $imagePrefix = 'lib/tpl/starter/images';
     <?php } ?>
         <?php
         if (showFooter()) {
-            include 'footer.php';
+            paperclipFooter();
         }?>
 </body>
 </html>
