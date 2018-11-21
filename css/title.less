@@ -116,7 +116,12 @@
 
 .paperclip__links {
     height: @clipfoth;
+    padding: 0;
     display: inline-block;
+}
+
+.paperclip__links__upper {
+    margin-top: 40px;
 }
 
 .paperclip__links li {
@@ -125,8 +130,15 @@
     position: relative;
 }
 
+.paperclip__links a {
+    margin-right: 1.5 * @clipfotu;
+}
+
+.paperclip__platform__upper {
+    margin-right: 10px;
+}
+
 .paperclip__platform {
-    margin-right: 2 * @clipfotu;
     height: @clipfotu;
 }
 
@@ -136,6 +148,15 @@
 
 .paperclip__ftlogo img {
     height: @clipfotu;
+}
+
+
+#qrcode {
+    position: absolute;
+    display: none;
+    height: 200px;
+    max-width: none;
+    z-index: 999;
 }
 
 #qrcodefooter {
