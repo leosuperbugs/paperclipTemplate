@@ -143,10 +143,9 @@ function moveEditButton($) {
             editbtn_wrapper.append(leftBrkt);
             editbtn_wrapper.innerHTML += editbutton.html();
             editbtn_wrapper.append(rightBrkt);
-            console.log(editbutton);
-            console.log(editbtn_wrapper);
             $(this).append(editbtn_wrapper);
         }
+        $('<hr class="paperclip__h1hr">').insertAfter(this);
     });
 
 }
