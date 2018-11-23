@@ -250,11 +250,28 @@
     font-size: 93.75%;
 }
 
-#dokuwiki__content h1 {
-    cursor: pointer;
-    margin-bottom: 2rem;
-}
+#dokuwiki__content {
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        margin: 3.2rem 0 1rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+        margin-top: @clipqiu;
+        margin-bottom: 2rem;
+    }
+    h3 {
+        font-size: 1rem;
+        margin-top: @clipqiu;
+        margin-bottom: 0.8rem;
+    }
+    p {
+        line-height: 160%;
+        margin-bottom: @clipqiu;
+    }
 
+}
 /* footer
 ********************************************************************/
 
@@ -311,11 +328,9 @@
     display: inline-block;
     font-size: @clip_p;
     background-color: transparent;
-    padding-left: 1rem;
     margin-left: 2rem;
     margin-top: 0 !important;
     background-repeat: no-repeat;
-    background-image: url("images/edit-white.png");
     background-position: left;
     background-size: @clip_p;
 
@@ -332,10 +347,8 @@
 }
 
 .editbutton_lower {
-    float: right;
+    float: none !important;
     clear: right;
-
-    background-image: url("images/edit-grey.png");
 }
 .desktop__class {
     font-size: 1.2em;
@@ -430,14 +443,12 @@
     height: 100px;
     -webkit-background-size: inherit;
     background-image: linear-gradient(-180deg,rgba(255,255,255,0) 0%,#fff 70%);
-    text-align: center;
     box-sizing: border-box;
 }
 
 .paperclip__hidecurtain {
     position: relative;
     height: auto;
-    text-align: center;
 }
 
 .paperclip__showbtn {
@@ -449,8 +460,23 @@
 }
 
 .paperclip__btn {
-    border: solid 1px __paperclip__gold__;
-    border-radius: 15px;
+    border: none;
     height: 25px;
     color: __paperclip__gold__;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-left: 0;
+}
+
+.paperclip__editbtn__wrapper {
+    display: inline-block;
+    font-size: 1rem;
+    margin-left: 2rem;
+
+    button {
+        color: __paperclip__gold__;
+        border: none;
+        text-decoration: underline;
+        padding: 0 0.2rem;
+    }
 }
