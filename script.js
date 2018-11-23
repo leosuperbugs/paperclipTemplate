@@ -127,13 +127,25 @@ function cutToTitle($) {
 function moveEditButton($) {
     // move the editbutton next to the h1
     let clear = '<div class="clear"></div>';
+
     $("h1").each(function () {
+        var editbtn_wrapper = document.createElement("div");
+        var leftBrkt = document.createElement('span');
+        var rightBrkt = document.createElement('span');
+        leftBrkt.innerHTML = '[';
+        rightBrkt.innerHTML = ']';
+        editbtn_wrapper.className = 'paperclip__editbtn__wrapper';
+
         let editbutton = $(this).nextAll().filter(".editbutton_section").first();
         if (editbutton) {
             editbutton.remove();
             editbutton.addClass("editbutton_lower");
-            $(this).append(editbutton);
-            // $(this).append(clear);
+            editbtn_wrapper.append(leftBrkt);
+            editbtn_wrapper.innerHTML += editbutton.html();
+            editbtn_wrapper.append(rightBrkt);
+            console.log(editbutton);
+            console.log(editbtn_wrapper);
+            $(this).append(editbtn_wrapper);
         }
     });
 
@@ -172,9 +184,6 @@ function entryH1Toggle($) {
         var h1Length = $(this).nextUntil("h1").length;
         var commentLength = $(this).nextUntil(".comment_wrapper").length;
         var clearLength = $(this).nextUntil(".clearer").length;
-        console.log(h1Length);
-        console.log(commentLength);
-        console.log(clearLength);
 
         if (h1Length > commentLength) {
             if (commentLength > clearLength) {
@@ -189,7 +198,6 @@ function entryH1Toggle($) {
                 content = $(this).nextUntil("h1");
             }
         }
-        console.log(content);
 
         content.wrapAll("<div class='paperclip__h1content'/>");
         if (screenMode == 1) {
@@ -221,7 +229,7 @@ function entryH1Toggle($) {
             hide_curtain.className = 'paperclip__hidecurtain noshow';
 
             // Set button properties
-            showbtn.innerHTML = '显示全部';
+            showbtn.innerHTML = '点击查看完整内容';
             showbtn.className = 'paperclip__showbtn paperclip__btn';
             showbtn.onclick = function () {
                 // Unwrap the h1 content

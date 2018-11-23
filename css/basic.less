@@ -177,6 +177,7 @@ ol ol ol ol ol {
 /*____________ tables ____________*/
 
 table {
+    margin: @clipqiu 0 @clipqiu;
     border-collapse: collapse;
     empty-cells: show;
     border-spacing: 0;
@@ -195,12 +196,12 @@ th,
 td {
     padding: .3em .5em;
     margin: 0;
+    min-height: @clipqiu;
     vertical-align: top;
     border: 1px solid __border__;
 }
 th {
     font-weight: bold;
-    background-color: __background_alt__;
     color: inherit;
     text-align: left;
 }
@@ -322,9 +323,10 @@ pre {
 }
 
 blockquote {
-    padding: 0 .5em;
-    border: solid __border__;
-    border-width: 0 0 0 .25em;
+    padding: 0 @clipqiu 0 @clipqiu;
+    margin-left: @clipqiu;
+    border: solid __paperclip__gold__;
+    border-width: 0 0 0 .50em;
 }
 [dir=rtl] blockquote {
     border-width: 0 .25em 0 0;
