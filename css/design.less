@@ -428,6 +428,13 @@
 
 .paperclip__h1 {
     position: relative;
+    
+    a.urlextern {
+        color: __paperclip__gold__;
+        background-image: none;
+        padding: 0;
+
+    }
 }
 
 .paperclip__h1content__wrapped {
@@ -474,10 +481,19 @@
     margin-left: 2rem;
 
     button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        vertical-align: baseline;
+
         color: __paperclip__gold__;
+        background-color: white;
         border: none;
         text-decoration: underline;
         padding: 0 0.2rem;
+    }
+    span {
+        vertical-align: baseline;
     }
 }
 
