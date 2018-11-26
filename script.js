@@ -1,4 +1,4 @@
-const h1MaxHeight = 200;
+const paperclipGold = "#e0ba7e";
 
 jQuery( document ).ready(function($) {
 
@@ -137,7 +137,7 @@ function moveEditButton($) {
         editbtn_wrapper.className = 'paperclip__editbtn__wrapper';
 
         let editbutton = $(this).nextAll().filter(".editbutton_section").first();
-        if (editbutton) {
+        if (editbutton.length != 0) {
             editbutton.remove();
             editbutton.addClass("editbutton_lower");
             editbtn_wrapper.append(leftBrkt);
@@ -214,6 +214,8 @@ function entryH1Toggle($) {
 
         // Hide the content over 200px at the init
         // Only apply the toggle buttons to content long enough (>200px)
+        var h1MaxHeight = 200;
+
         if ($(this).height() > h1MaxHeight) {
             let showbtn = document.createElement("BUTTON");
             let hidebtn = document.createElement("BUTTON");
