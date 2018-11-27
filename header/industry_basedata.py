@@ -4425,7 +4425,7 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 		]},
 		{'id': "727",	 'name' :"安全保护服务",	 'open': '', 'subclass':[
             {'id': "7271", 'name' :"安全服务",				'open': '', 'subclass':[
-                                                                     
+
             ]},
 			{'id': "7272",	 'name' :"安全系统监控服务",				'open': '', 'subclass':[
 
@@ -4883,7 +4883,10 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 		{'id': "821",	 'name' :"清洁服务",				'open': '', 'subclass':[
 
-			{'id': "8211",	 'name' :"建筑物清洁服务",				'open': '', 'subclass':[
+			{'id': "8211",	 'name' :"建筑物墙体清洁服务",				'open': '', 'subclass':[
+
+			]},
+			{'id': "8212",	 'name' :"室内保洁服务",				'open': '', 'subclass':[
 
 			]},
 			{'id': "8219",	 'name' :"其他清洁服务",				'open': '', 'subclass':[
@@ -5105,9 +5108,8 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 
 		{'id': "861",	 'name' :"新闻业",				'open': '', 'subclass':[
 
-			{'id': "862",	 'name' :"出版业",				'open': '', 'subclass':[
-
-			]},
+		]},
+                {'id': "862",	 'name' :"出版业",				'open': '', 'subclass':[
 			{'id': "8621",	 'name' :"图书出版",				'open': '', 'subclass':[
 
 			]},
@@ -5120,58 +5122,56 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "8624",	 'name' :"音像制品出版",				'open': '', 'subclass':[
 
 			]},
-			{'id': "8625",	 'name' :"电子出版物出版",				'open': '', 'subclass':[
-
-			]},
-			{'id': "8626",	 'name' :"数字出版",				'open': '', 'subclass':[
+			{'id': "8625",	 'name' :"数字出版",				'open': '', 'subclass':[
 
 			]},
 			{'id': "8629",	 'name' :"其他出版业",				'open': '', 'subclass':[
 
 			]},
-		]},
+
+                ]},
 	]},
 	{'id': "87",	 'name' :"广播、电视、电影和录音制作业",				'open': '', 'subclass':[
 
 		{'id': "871",	 'name' :"广播",				'open': '', 'subclass':[
 
-			{'id': "872",	 'name' :"电视",				'open': '', 'subclass':[
-
-			]},
-			{'id': "873",	 'name' :"影视节目制作",				'open': '', 'subclass':[
-
-			]},
-			{'id': "874",	 'name' :"广播电视集成播控",				'open': '', 'subclass':[
-
-			]},
-			{'id': "875",	 'name' :"电影和广播电视节目发行",				'open': '', 'subclass':[
-
-			]},
-			{'id': "876",	 'name' :"电影放映",				'open': '', 'subclass':[
-
-			]},
-			{'id': "877",	 'name' :"录音制作",				'open': '', 'subclass':[
-
-			]},
 		]},
+                {'id': "872",	 'name' :"电视",				'open': '', 'subclass':[
+
+                ]},
+                {'id': "873",	 'name' :"影视节目制作",				'open': '', 'subclass':[
+
+                ]},
+                {'id': "874",	 'name' :"广播电视集成播控",				'open': '', 'subclass':[
+
+                ]},
+                {'id': "875",	 'name' :"电影和广播电视节目发行",				'open': '', 'subclass':[
+
+                ]},
+                {'id': "876",	 'name' :"电影放映",				'open': '', 'subclass':[
+
+                ]},
+                {'id': "877",	 'name' :"录音制作",				'open': '', 'subclass':[
+
+                ]},
 	]},
 	{'id': "88",	 'name' :"文化艺术业",				'open': '', 'subclass':[
 
 		{'id': "881",	 'name' :"文艺创作与表演",				'open': '', 'subclass':[
 
-			{'id': "882",	 'name' :"艺术表演场馆",				'open': '', 'subclass':[
-
-			]},
-			{'id': "883",	 'name' :"图书馆与档案馆",				'open': '', 'subclass':[
-
-			]},
-			{'id': "8831",	 'name' :"图书馆",				'open': '', 'subclass':[
-
-			]},
-			{'id': "8832",	 'name' :"档案馆",				'open': '', 'subclass':[
-
-			]},
 		]},
+                {'id': "882",	 'name' :"艺术表演场馆",				'open': '', 'subclass':[
+
+                ]},
+                {'id': "883",	 'name' :"图书馆与档案馆",				'open': '', 'subclass':[
+
+                        {'id': "8831",	 'name' :"图书馆",				'open': '', 'subclass':[
+
+                        ]},
+                        {'id': "8832",	 'name' :"档案馆",				'open': '', 'subclass':[
+
+                        ]},
+                ]},
 		{'id': "884",	 'name' :"文物及非物质文化遗产保护",				'open': '', 'subclass':[
 
 		]},
@@ -5213,6 +5213,12 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 		]},
 		{'id': "893",	 'name' :"健身休闲活动",				'open': '', 'subclass':[
 
+			{'id': "8931",	 'name' :"健身活动",				'open': '', 'subclass':[
+
+			]},
+			{'id': "8932",	 'name' :"休闲活动",				'open': '', 'subclass':[
+
+			]},
 		]},
 		{'id': "899",	 'name' :"其他体育",				'open': '', 'subclass':[
 
