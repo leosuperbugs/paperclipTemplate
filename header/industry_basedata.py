@@ -4284,6 +4284,9 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 			{'id': "7115",	 'name' :"医疗设备经营租赁",				'open': '', 'subclass':[
 
 			]},
+			{'id': "7116",	 'name' :"声音影像录制及周边设备经营租赁",				'open': '', 'subclass':[
+
+			]},
 			{'id': "7119",	 'name' :"其他机械与设备经营租赁",				'open': '', 'subclass':[
 
 			]},
@@ -4393,6 +4396,9 @@ industry = [{'id': "A",	 'name' :"农/林/牧/渔",			'open': '', 'subclass':[
 		{'id': "725",	 'name' :"广告业",				'open': '', 'subclass':[
 
 			{'id': "7251",	 'name' :"互联网广告服务",				'open': '', 'subclass':[
+
+			]},
+			{'id': "7252",	 'name' :"国际广告服务",				'open': '', 'subclass':[
 
 			]},
 			{'id': "7259",	 'name' :"其他广告服务",				'open': '', 'subclass':[

@@ -177,7 +177,7 @@ function needToggle(id, doparam) {
         doparam == 'preview' ||
         doparam == 'diff' ||
         doparam == 'profile' ||
-        id.length == 0) {
+        !id) {
         return false;
     } else {
         return true;
