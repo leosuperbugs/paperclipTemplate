@@ -70,19 +70,19 @@ function removal($) {
     // remove the <strong> -
     $('#dw__toc > h3 > strong').remove();
 }
+function urlParam(name){
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+
+};
 
 function appendWholeEntries($) {
-    $.urlParam = function(name){
-        let results = new RegExp('[\?&]' + name + '=([^]*)').exec(window.location.href);
-        if (results==null){
-            return null;
-        }
-        else{
-            return results[1] || 0;
-        }
-    };
-    let action = $.urlParam("do");
-    let id = $.urlParam("id");
+    $.urlParam = urlParam;
+    let action = $.urlParam()["do"];
+    let id = $.urlParam()["id"];
 
     var fullEntries;
     if ((!action || action == "show")&& (id == "start" || !id)) {
@@ -172,9 +172,27 @@ function processForm($) {
     $('.paperclip__register p').append('<br>');
 }
 
+function needToggle(id, doparam) {
+    if (doparam == 'admin' ||
+        doparam == 'preview' ||
+        doparam == 'diff' ||
+        doparam == 'profile' ||
+        id.length == 0) {
+        return false;
+    } else {
+        return true;
+    }
+}
+
 function entryH1Toggle($) {
     var screenMode = $('#screen__mode').css('z-index') + '';
     var im = DOKU_BASE+"lib/tpl/starter/images/plus.png";
+    var doparam = $.urlParam()['do'];
+    var id = $.urlParam()['id'];
+    if (!needToggle(id, doparam)) {
+        return;
+    }
+
 
     // Wrap the content under h1
     // And then add buttons to fold and unfold the content
