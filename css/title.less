@@ -6,7 +6,7 @@
 @clipnowd: 41vw;    // .no width
 // footer
 @clipfotu: 25px;    // define the unit of calculating the height of footer
-@clipfoth: 4 * @clipfotu; // the height of footer
+@clipfoth: 2.25 * @clipfotu; // the height of footer
 
 .paperclip__homewarpper {
     background-color: __paperclip__darkgrey__;
@@ -118,6 +118,7 @@
     height: @clipfoth;
     padding: 0;
     display: inline-block;
+    box-sizing: content-box;
 }
 
 .paperclip__links__upper {

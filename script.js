@@ -161,6 +161,9 @@ function removeSearchButtonText($) {
     // remove the text in search button
     let btn  = $("[title='搜索']");
     btn.text('');
+    // remove the text in search button in search result
+    let btn2 = $(".paperclip__floatright [type='submit']");
+    btn2.text('');
 }
 
 function processForm($) {

@@ -3,6 +3,7 @@
  *
  * @author Anika Henke <anika@selfthinker.org>
  */
+@mobilelogow: 80vw;
 
 @import "controller.less";
 
@@ -146,7 +147,8 @@ h1 {
 
     .paperclip__logo svg,
     .paperclip__logo img{
-        width: 100%;
+        width: @mobilelogow;
+        margin: 0 (100vw - @mobilelogow) / 2;
     }
 
     .paperclip__home {
