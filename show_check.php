@@ -51,8 +51,9 @@ function showLowerPet($filename) {
  * Logic: Show the page tools at show, revisions, edit, save, preview,
  */
 function showPageTools($showTools) {
-    global $ACT;
-    return ($showTools &&( $ACT === 'show' || $ACT === 'admin' || $ACT === 'revisions'));
+    global $ACT, $_GET;
+    $show = $_GET['show'];
+    return ($showTools &&( $ACT === 'show' || $ACT === 'admin' || $ACT === 'revisions') &&!$show);
 }
 
 /**
