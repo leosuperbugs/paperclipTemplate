@@ -76,5 +76,5 @@ function isContentPage()
 function showFooter() {
     global $ID, $conf, $ACT, $_GET;
     $show = $_GET['show'];
-    return (($ID == $conf['start'] && $ACT === 'show') || $ACT === 'profile' || $show === 'editlog' || $show === 'comment' || $show === 'setting');
+    return (($ID == $conf['start'] && $ACT === 'show') || $ACT === 'profile' || $show !== '');
 }
