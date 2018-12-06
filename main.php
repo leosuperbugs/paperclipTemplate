@@ -39,6 +39,20 @@ include 'footer.php';
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     <!-- Load Babel Compiler -->
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130041193-1"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+
+     gtag('config', 'UA-130041193-1');
+   </script>
+   <script type="text/javascript" crossorigin="anonymous" src="https://mirror.testin.cn/testin-sdk-latest.min.js"></script>
+   <script>
+	    testinSDK.enable('data', '675ea58971787aa6eaed6c8cf89a0e97');
+	    testinSDK.enable('bug');
+	</script>
 
 </head>
 
@@ -106,7 +120,7 @@ include 'footer.php';
                                      e.g. a button inside a <li> would be: tpl_action('edit', 0, 'li') */
                             ?>
                             <?php
-                            $test =  (new \dokuwiki\menu\usermenu());
+                            $test =  (new \dokuwiki\Menu\UserMenu());
                             echo $test->getlistitems();
                             ?>
                         </ul>
