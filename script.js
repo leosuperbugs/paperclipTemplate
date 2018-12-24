@@ -10,6 +10,8 @@ jQuery( document ).ready(function($) {
 
     appendWholeEntries($);
 
+    resetAdminURL($);
+
     removal($);
 
     displayWXQRCode($);
@@ -92,6 +94,10 @@ function appendWholeEntries($) {
     }
     // append full entries after user name at tag area
     $('.profile').after(fullEntries);
+}
+
+function resetAdminURL($) {
+    $('.admin a').attr('href','/doku.php?show=alledit');
 }
 
 function displayWXQRCode($) {

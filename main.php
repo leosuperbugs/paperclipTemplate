@@ -1,9 +1,10 @@
 <?php
 /**
- * DokuWiki Starter Template
  *
- * @link     http://dokuwiki.org/template:starter
- * @author   Anika Henke <anika@selfthinker.org>
+ * The template for iPaperClip
+ *
+ * @link     https://ipaperclip.net
+ * @author   Tongyu Nie
  * @license  GPL 2 (http://www.gnu.org/licenses/gpl.html)
  */
 
@@ -35,10 +36,10 @@ include 'footer.php';
     <?php tpl_includeFile('meta.html') ?>
     <!-- Load React. -->
     <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-    <!-- Load Babel Compiler -->
-    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+<!--    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>-->
+<!--    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>-->
+<!--    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </head>
 
@@ -76,22 +77,6 @@ include 'footer.php';
                             <?php
                             paperclipLinks(__LINKSPOS__['header']);
                             ?>
-<!--                            <li class="desktop__header">-->
-<!--                                <a href="">-->
-<!--                                    <img class="social" id="wechat"  src="lib/tpl/starter/images/wechat_bw.png">-->
-<!--                                </a>-->
-<!--                                <img id="qrcode" src="lib/tpl/starter/images/qrcode.jpg">-->
-<!--                            </li>-->
-<!--                            <li class="desktop__header">-->
-<!--                                <a href="https://www.weibo.com/p/1005056414205745" target="_blank">-->
-<!--                                    <img class="social"  src="lib/tpl/starter/images/weibo_bw.png"/>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li class="desktop__header">-->
-<!--                                <a href="https://space.bilibili.com/258150656/" target="_blank">-->
-<!--                                    <img class="social"  src="lib/tpl/starter/images/video.png">-->
-<!--                                </a>-->
-<!--                            </li>-->
                             <div class="clear"></div>
                         </ul>
                         <ul id="tag_area">
@@ -106,7 +91,7 @@ include 'footer.php';
                                      e.g. a button inside a <li> would be: tpl_action('edit', 0, 'li') */
                             ?>
                             <?php
-                            $test =  (new \dokuwiki\menu\usermenu());
+                            $test =  (new \dokuwiki\Menu\UserMenu());
                             echo $test->getlistitems();
                             ?>
                         </ul>
