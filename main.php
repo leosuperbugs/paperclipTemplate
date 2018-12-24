@@ -52,6 +52,7 @@ include 'footer.php';
    <script>
 	    testinSDK.enable('data', '675ea58971787aa6eaed6c8cf89a0e97');
 	    testinSDK.enable('bug');
+	testinSDK.enable('feedback');
 	</script>
 
 </head>
