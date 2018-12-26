@@ -98,6 +98,7 @@ function appendWholeEntries($) {
 
 function resetAdminURL($) {
     $('.admin a').attr('href','/doku.php?show=alledit');
+    $('.profile a').attr('href', '/doku.php?show=editlog');
 }
 
 function displayWXQRCode($) {
