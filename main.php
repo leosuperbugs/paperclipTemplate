@@ -164,6 +164,8 @@ include 'footer.php';
         <div class="paperclip__list gridbackground" id="paperclip__list">
             <div class="paperclip__listtitle">
                 <?php echo tpl_getLang('fullEntries') ?>
+                <br>
+                <a href="/doku.php?id=wiki:syntax" target="_blank"><?php echo tpl_getLang('editguide') ?></a>
             </div>
             <div class="paperclip__listwarpper" id="paperclip__fullentries" >
                 <?php include 'header/listForHome' ?>
