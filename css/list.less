@@ -92,18 +92,29 @@
     width: 80%;
 }
 
+@clipSpace : 0.5rem;
+
 .paperclip__listtitle {
     float: right;
     font-size: 3rem;
     font-weight: bolder;
     color: __paperclip__stdbg__;
+    text-align: right;
 
-    a:link,
-    a:visited,
-    a {
-        font-size: 2rem;
-        color: __paperclip__stdbg__;
-
+    .paperclip__syntax {
+        a:link,
+        a:visited,
+        a {
+            padding-right: 0.2rem;
+            display: block;
+            font-size: 3 * @clipSpace;
+            text-decoration: underline;
+            color: __paperclip__crimson__;
+            font-weight: normal;
+            .paperclip__notlastchar {
+                letter-spacing: @clipSpace;
+            }
+        }
     }
 }
 
