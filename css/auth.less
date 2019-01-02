@@ -29,6 +29,10 @@
 .paperclip__register,
 .paperclip__update {
     background-image: url("images/home/regs-bg.svg");
+
+    .block {
+        border-spacing: 1rem;
+    }
 }
 
 .paperclip__doddlemid {
@@ -134,15 +138,18 @@
     display: inline;
 }
 .paperclip__update button{
+    display: block;
+    text-align: center;
+    margin-right: @clipSpace;
 }
-.paperclip__update button[type='submit'] {
-    margin-left: calc(~"50% - 5rem");
-    margin-top: -0rem;
-}
-.paperclip__update button[type='reset'] {
-    margin-top: -3.8rem;
-    margin-left: calc(~"50%");
-}
+//.paperclip__update button[type='submit'] {
+//    margin-left: calc(~"50% - 5rem");
+//    margin-top: -0rem;
+//}
+//.paperclip__update button[type='reset'] {
+//    margin-top: -3.8rem;
+//    margin-left: calc(~"50%");
+//}
 
 .table__button__wrapper {
     display: table-cell;
