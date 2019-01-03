@@ -115,7 +115,7 @@ include 'footer.php';
             <div class="clearer"></div>
 
             <!-- BREADCRUMBS -->
-            <?php if($conf['breadcrumbs']){ ?>
+            <?php if($conf['breadcrumbs']){?>
                 <div class="breadcrumbs"><?php tpl_breadcrumbs() ?></div>
             <?php } ?>
             <?php if($conf['youarehere']){ ?>

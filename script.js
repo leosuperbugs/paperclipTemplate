@@ -92,6 +92,7 @@ function appendWholeEntries($) {
     } else {
         fullEntries = '<li class="fullentries"><a href="/doku.php?id=start#paperclip__list">全部条目</a></li>';
     }
+
     // append full entries after user name at tag area
     $('.profile').after(fullEntries);
 }
