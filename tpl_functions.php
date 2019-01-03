@@ -88,7 +88,6 @@ function _tpl_userpage($userPage, $title, $link=0, $wrapper=0, $return=0) {
  * @author Anika Henke <anika@selfthinker.org>
  */
 function _tpl_action($type, $link=0, $wrapper=0, $return=0) {
-    echo('<script>console.log("_tpl_action")</script>');
     switch ($type) {
         case 'discussion':
             if (tpl_getConf('discussionPage')) {
@@ -146,7 +145,6 @@ if (!function_exists('tpl_classes')) {
             $INFO['exists'] ? '' : 'notFound',
             ($ID == $conf['start']) ? 'home' : '',
         );
-        echo('<script>console.log('.$classes.')</script>');
         return join(' ', $classes);
     }
 }
