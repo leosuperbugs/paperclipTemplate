@@ -228,8 +228,8 @@ function entryH1Toggle($) {
 
         content.wrapAll("<div class='paperclip__h1content'/>");
         if (screenMode == 1) {
-            $(this).append('&nbsp;&nbsp; <img border="0" class="plus" src="' + im + '"><div class="clear"></div>');
-            $(this).nextUntil("h1").toggle();
+            $(this).append('<img border="0" class="plus" src="' + im + '"><div class="clear"></div>');
+            // $(this).nextUntil("h1").toggle();
         }
         else {
             $(this).prepend('<span style="color:#e0ab7e; font-size: 0.5em">▋</span>  ');
@@ -238,56 +238,61 @@ function entryH1Toggle($) {
 
     $('.paperclip__h1content').wrap('<div class="paperclip__h1"></div>');
 
-    $(".paperclip__h1content").each(function () {
+    // Fold the content
+    // Desktop Only
+    if (screenMode != 1) {
+        $(".paperclip__h1content").each(function () {
 
-        // Hide the content over 200px at the init
-        // Only apply the toggle buttons to content long enough (>200px)
-        var h1MaxHeight = 200;
+            // Hide the content over 200px at the init
+            // Only apply the toggle buttons to content long enough (>200px)
+            var h1MaxHeight = 200;
 
-        if ($(this).height() > h1MaxHeight) {
-            let showbtn = document.createElement("BUTTON");
-            let hidebtn = document.createElement("BUTTON");
-            let show_curtain = document.createElement("div");
-            let hide_curtain = document.createElement("div");
+            if ($(this).height() > h1MaxHeight) {
+                let showbtn = document.createElement("BUTTON");
+                let hidebtn = document.createElement("BUTTON");
+                let show_curtain = document.createElement("div");
+                let hide_curtain = document.createElement("div");
 
-            // Hide the overflowed part
-            $(this).addClass("paperclip__h1content__wrapped");
+                // Hide the overflowed part
+                $(this).addClass("paperclip__h1content__wrapped");
 
-            // Set the curtains' properties
-            show_curtain.className = 'paperclip__showcurtain';
-            hide_curtain.className = 'paperclip__hidecurtain noshow';
+                // Set the curtains' properties
+                show_curtain.className = 'paperclip__showcurtain';
+                hide_curtain.className = 'paperclip__hidecurtain noshow';
 
-            // Set button properties
-            showbtn.innerHTML = '点击查看完整内容';
-            showbtn.className = 'paperclip__showbtn paperclip__btn';
-            showbtn.onclick = function () {
-                // Unwrap the h1 content
-                $(this).parent().siblings(".paperclip__h1content").removeClass("paperclip__h1content__wrapped");
-                // Show the counterpart
-                $(this).parent().siblings('.paperclip__hidecurtain').removeClass("noshow");
-                // Hide self and the curtain
-                $(this).parent().addClass("noshow");
-            };
+                // Set button properties
+                showbtn.innerHTML = '点击查看完整内容';
+                showbtn.className = 'paperclip__showbtn paperclip__btn';
+                showbtn.onclick = function () {
+                    // Unwrap the h1 content
+                    $(this).parent().siblings(".paperclip__h1content").removeClass("paperclip__h1content__wrapped");
+                    // Show the counterpart
+                    $(this).parent().siblings('.paperclip__hidecurtain').removeClass("noshow");
+                    // Hide self and the curtain
+                    $(this).parent().addClass("noshow");
+                };
 
-            hidebtn.className = 'paperclip__hidebtn paperclip__btn';
-            hidebtn.innerHTML = '收起';
-            hidebtn.onclick = function () {
-                // Wrap the h1 content
-                $(this).parent().siblings(".paperclip__h1content").addClass("paperclip__h1content__wrapped");
-                // Show the counterpart button
-                $(this).parent().siblings(".paperclip__showcurtain").removeClass("noshow");
-                // Hide self and the curtain
-                $(this).parent().addClass("noshow");
-            };
+                hidebtn.className = 'paperclip__hidebtn paperclip__btn';
+                hidebtn.innerHTML = '收起';
+                hidebtn.onclick = function () {
+                    // Wrap the h1 content
+                    $(this).parent().siblings(".paperclip__h1content").addClass("paperclip__h1content__wrapped");
+                    // Show the counterpart button
+                    $(this).parent().siblings(".paperclip__showcurtain").removeClass("noshow");
+                    // Hide self and the curtain
+                    $(this).parent().addClass("noshow");
+                };
 
-            // Assemble the elements
-            show_curtain.append(showbtn);
-            hide_curtain.append(hidebtn);
-            $(this).parent().append(show_curtain);
-            $(this).parent().append(hide_curtain);
-        }
+                // Assemble the elements
+                show_curtain.append(showbtn);
+                hide_curtain.append(hidebtn);
+                $(this).parent().append(show_curtain);
+                $(this).parent().append(hide_curtain);
+            }
 
-    });
+        });
+    }
+
 
 }
 
