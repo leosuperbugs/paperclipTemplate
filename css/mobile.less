@@ -4,6 +4,7 @@
  * @author Anika Henke <anika@selfthinker.org>
  */
 @mobilelogow: 80vw;
+@mobilelistbound: 0.6 * @listbond;
 
 @import "controller.less";
 
@@ -83,6 +84,10 @@ h1 {
     margin-bottom: .7em;
 }
 
+.dokuwiki_pagetools {
+    display: none;
+}
+
 
 #dokuwiki__header ul.a11y.skip {
     left: auto !important;
@@ -108,23 +113,42 @@ h1 {
     border-radius: 100px;
     z-index: 1;
 }
+
+#dokuwiki__header {
+  margin-top: 2rem;
+}
 .paperclip__title {
-    padding-top: 0em;
-    padding-bottom: 0em;
-    background-image: url(images/circle.png);
-    margin: 0;
-    background-size: initial;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  background-image: url(images/circle.png) !important;
+  margin: 0;
+  background-size: initial;
+  height: auto;
+  .desktop__title {
+    width: 70%;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .intro {
+    width: 100%;
+    p {
+      font-size: 1rem;
+      color: __paperclip__textgrey__;
+    }
+
+  }
 }
 
-.desktop__title {
-    display: none ;
+.notify {
+  display: none;
 }
+
 .desktop__class {
     display: none;
 }
 .mobile__title {
-    display: block;
-    background: transparent;
+    display: none;
 }
 .mobile__break {
     width:60px;
@@ -136,6 +160,31 @@ h1 {
     display: block;
 }
 
+#dokuwiki__content {
+  h1 {
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    background-color: __paperclip__edititem__;
+    .paperclip__editbtn__wrapper {
+      display: none;
+    }
+  }
+  h1 .launched {
+    background-color: __paperclip__h1__;
+  }
+}
+
+#dokuwiki__pagetools {
+  display: none;
+}
+
+.comment_wrapper {
+  display: none !important;
+}
+
 //.paperclip__search__recommend .no {
 //    width: 100%;
 //}
@@ -144,19 +193,28 @@ h1 {
 //}
 
 // paperclip title and list mobile version
+  .paperclip__logo {
+    text-align: center;
+  }
 
     .paperclip__logo svg,
     .paperclip__logo img{
         width: @mobilelogow;
-        margin: 0 (100vw - @mobilelogow) / 2;
     }
 
     .paperclip__home {
-        height: calc(~"100vh - 200px");
+        height: 100vh;
     }
 
     .paperclip__list {
-        background-color: white;
+      background-color: white;
+      padding: @mobilelistbound;
+      .firstlv_left {
+        margin-right: 0;
+      }
+      .secondlv, .thirdlv, .lowestgrp {
+        margin-left: @firstlv_left;
+      }
     }
 
     .paperclip__listtitle {
