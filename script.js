@@ -293,7 +293,25 @@ function entryH1Toggle($) {
         });
     }
 
+    // Section toggle
+    // Mobile only.
+    if (screenMode == 1) {
+        $("h1").each(function () {
+            $(this).next().toggle();
+            this.onclick = function () {
+                $(this).next().toggle();
+                $(this).toggleClass("launched");
 
+                if ($(this).hasClass("launched")) {
+                    // set the img to minus
+                    $(this).children('img').attr("src", "/lib/tpl/starter/images/minus.png");
+                } else {
+                    // set the img to plus
+                    $(this).children('img').attr("src", "/lib/tpl/starter/images/plus.png");
+                }
+            };
+        })
+    }
 }
 
 function listSetToggle($) {
