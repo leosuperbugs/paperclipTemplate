@@ -65,6 +65,10 @@ function showPageTools($showTools) {
 function isContentPage()
 {
     global $ACT;
+    $show = $_GET['show'];
+    if (isset($show)) {
+        return false;
+    }
     return ($ACT === 'show' || $ACT === 'admin' || $ACT === 'preview');
 }
 
