@@ -43,12 +43,6 @@ include 'footer.php';
 
      gtag('config', 'UA-130041193-1');
    </script>
-   <script type="text/javascript" crossorigin="anonymous" src="https://mirror.testin.cn/testin-sdk-latest.min.js"></script>
-   <script>
-	    testinSDK.enable('data', '675ea58971787aa6eaed6c8cf89a0e97');
-	    testinSDK.enable('bug');
-	testinSDK.enable('feedback');
-	</script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </head>
