@@ -4128,13 +4128,6 @@
         </div>
         </div>
         <div class='firstlv_warpper noshow'>
-            <div class="secondlv lowerlv" id="中国共产党机关">
-            中国共产党机关</div>
-            <div class='secondlv_warpper noshow'>
-                <div class="thirdlv lowerlv" id="中国共产党机关">中国共产党机关</div>
-                <div class="lowestgrp noshow">
-                    <a class="fourthlv lowerlv" id="中国共产党机关" target='_blank' href="/doku.php?id=公共管理社会保障社会组织:中国共产党机关:中国共产党机关:中国共产党机关 ">9101.中国共产党机关</a>
-                    </div></div>
             <div class="secondlv lowerlv" id="国家机构">
             国家机构</div>
             <div class='secondlv_warpper noshow'>
@@ -4168,17 +4161,6 @@
                         
                         <a class="fourthlv lowerlv" id="其他未列明国家机构" target='_blank'  href="/doku.php?id=公共管理社会保障社会组织:国家机构:其他国家机构:其他未列明国家机构 ">9299.其他未列明国家机构</a>
                         </div></div>
-            <div class="secondlv lowerlv" id="人民政协民主党派">
-            人民政协、民主党派</div>
-            <div class='secondlv_warpper noshow'>
-                <div class="thirdlv lowerlv" id="人民政协">人民政协</div>
-                <div class="lowestgrp noshow">
-                    <a class="fourthlv lowerlv" id="人民政协" target='_blank' href="/doku.php?id=公共管理社会保障社会组织:人民政协民主党派:人民政协:人民政协 ">9311.人民政协</a>
-                    </div>
-                <div class="thirdlv lowerlv" id="民主党派">民主党派</div>
-                <div class="lowestgrp noshow">
-                    <a class="fourthlv lowerlv" id="民主党派" target='_blank' href="/doku.php?id=公共管理社会保障社会组织:人民政协民主党派:民主党派:民主党派 ">9321.民主党派</a>
-                    </div></div>
             <div class="secondlv lowerlv" id="社会保障">
             社会保障</div>
             <div class='secondlv_warpper noshow'>
@@ -4229,12 +4211,7 @@
                 <div class="lowestgrp noshow">
                     <a class="fourthlv lowerlv" id="基金会" target='_blank' href="/doku.php?id=公共管理社会保障社会组织:群众团体社会团体和其他成员组织:基金会:基金会 ">9531.基金会</a>
                     </div>
-                <div class="thirdlv lowerlv" id="宗教组织">宗教组织</div>
-                <div class="lowestgrp noshow">
-                        <a class="fourthlv lowerlv" id="宗教团体服务" target='_blank'  href="/doku.php?id=公共管理社会保障社会组织:群众团体社会团体和其他成员组织:宗教组织:宗教团体服务 ">9541.宗教团体服务</a>
-                        
-                        <a class="fourthlv lowerlv" id="宗教活动场所服务" target='_blank'  href="/doku.php?id=公共管理社会保障社会组织:群众团体社会团体和其他成员组织:宗教组织:宗教活动场所服务 ">9542.宗教活动场所服务</a>
-                        </div></div>
+               </div>
             <div class="secondlv lowerlv" id="基层群众自治组织及其他组织">
             基层群众自治组织及其他组织</div>
             <div class='secondlv_warpper noshow'>
