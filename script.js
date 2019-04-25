@@ -6,7 +6,7 @@ jQuery( document ).ready(function($) {
 
     setPageToolColor($);
 
-    setTOCHover($);
+//    setTOCHover($);
 
     appendWholeEntries($);
 

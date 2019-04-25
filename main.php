@@ -224,9 +224,9 @@ include 'footer.php';
                             <?php tpl_includeFile('pageheader.html') ?>
 
 
-                            <div class="page">
+                            <div class="page <?php if (isContentPage()) {echo 'paperclip__content';} ?>">
                                 <!-- wikipage start -->
-                                <?php tpl_content() /* the main content */ ?>
+                                <?php tpl_content(false) /* the main content */ ?>
                                 <!-- wikipage stop -->
                                 <div class="clearer"></div>
                             </div>
@@ -234,6 +234,12 @@ include 'footer.php';
                             <?php tpl_flush() ?>
                             <?php tpl_includeFile('pagefooter.html') ?>
                         </div></div><!-- /content -->
+                    <?php if (isContentPage()){?>
+                        <div class="paperclip__toc">
+                            <?php tpl_toc() ?>
+
+                        </div>
+                    <?php } ?>
 
                     <div class="clearer"></div>
 <!--                    <hr class="a11y" />-->
@@ -258,10 +264,6 @@ include 'footer.php';
                 </div><!-- /wrapper -->
                 <!-- ********** FOOTER ********** -->
             </div>
-            <?php if (isContentPage()){?>
-            <div class="paperclip__toc nomobile"><?php echo $lang['toc'] ?></div>
-            <div class="paperclip__tocwarpper nomobile"></div>
-            <?php } ?>
         </div></div><!-- /site -->
         <?php if (isContentPage()){?>
             <div class="paperclip__backToTop">
