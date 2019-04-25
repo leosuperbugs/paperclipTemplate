@@ -231,9 +231,9 @@ function entryH1Toggle($) {
             $(this).append('<img border="0" class="plus" src="' + im + '"><div class="clear"></div>');
             // $(this).nextUntil("h1").toggle();
         }
-        else {
-            $(this).prepend('<span style="color:#e0ab7e; font-size: 0.5em">▋</span>  ');
-        }
+        //else {
+         //   $(this).prepend('<span style="color:#e0ab7e; font-size: 0.5em">▋</span>  ');
+        //}
     });
 
     $('.paperclip__h1content').wrap('<div class="paperclip__h1"></div>');
