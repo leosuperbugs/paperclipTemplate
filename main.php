@@ -224,7 +224,7 @@ include 'footer.php';
                             <?php tpl_includeFile('pageheader.html') ?>
 
 
-                            <div class="page <?php if (isContentPage()) {echo 'paperclip__content';} ?>">
+                            <div class="page <?php if (isContentPage()) {echo 'paperclip__content';} if (needMarginTop()) {echo  'paperclip__margin';}?>">
                                 <!-- wikipage start -->
                                 <?php tpl_content(false) /* the main content */ ?>
                                 <!-- wikipage stop -->

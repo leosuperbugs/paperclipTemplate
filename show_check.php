@@ -72,6 +72,25 @@ function isContentPage()
     return ($ACT === 'show' || $ACT === 'admin' || $ACT === 'preview');
 }
 
+
+/**
+ * Logic: add some margin for revision and admin pages
+ *
+ * @return bool
+ */
+function needMarginTop() {
+    global $ACT;
+
+    $show = $_GET['show'];
+    if ($show === 'admin') {
+        return true;
+    }
+    if (isset($show)) {
+        return false;
+    }
+    return ($ACT === 'revisions' || $ACT === 'admin' || $ACT === 'diff');
+}
+
 /**
  * Logic: Show the paperclip footer only when necessary
  *
