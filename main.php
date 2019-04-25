@@ -34,11 +34,15 @@ include 'footer.php';
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <?php echo tpl_favicon(array('favicon', 'mobile')) ?>
     <?php tpl_includeFile('meta.html') ?>
-    <!-- Load React. -->
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-<!--    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>-->
-<!--    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>-->
-<!--    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130041193-1"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+
+     gtag('config', 'UA-130041193-1');
+   </script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </head>
@@ -220,9 +224,9 @@ include 'footer.php';
                             <?php tpl_includeFile('pageheader.html') ?>
 
 
-                            <div class="page">
+                            <div class="page <?php if (isContentPage()) {echo 'paperclip__content';} if (needMarginTop()) {echo  'paperclip__margin';}?>">
                                 <!-- wikipage start -->
-                                <?php tpl_content() /* the main content */ ?>
+                                <?php tpl_content(false) /* the main content */ ?>
                                 <!-- wikipage stop -->
                                 <div class="clearer"></div>
                             </div>
@@ -230,34 +234,17 @@ include 'footer.php';
                             <?php tpl_flush() ?>
                             <?php tpl_includeFile('pagefooter.html') ?>
                         </div></div><!-- /content -->
+                    <?php if (isContentPage()){?>
+                        <div class="paperclip__toc">
+                            <?php tpl_toc() ?>
+
+                        </div>
+                    <?php } ?>
 
                     <div class="clearer"></div>
-<!--                    <hr class="a11y" />-->
-
-                    <!-- PAGE ACTIONS -->
-                    <?php if (showPageTools($showTools)): ?>
-                        <div id="dokuwiki__pagetools">
-<!--                            <h3 class="a11y">--><?php //echo $lang['page_tools'] ?><!--</h3>-->
-                            <ul>
-                                <?php tpl_toolsevent('pagetools', array(
-                                    'edit'      => tpl_action('edit', 1, 'li', 1),
-                                    'discussion'=> _tpl_action('discussion', 1, 'li', 1),
-                                    'revisions' => tpl_action('revisions', 1, 'li', 1),
-                                    'backlink'  => tpl_action('backlink', 1, 'li', 1),
-                                    'subscribe' => tpl_action('subscribe', 1, 'li', 1),
-                                    'revert'    => tpl_action('revert', 1, 'li', 1),
-                                    'top'       => tpl_action('top', 1, 'li', 1),
-                                )); ?>
-                            </ul>
-                        </div>
-                    <?php endif; ?>
                 </div><!-- /wrapper -->
                 <!-- ********** FOOTER ********** -->
             </div>
-            <?php if (isContentPage()){?>
-            <div class="paperclip__toc nomobile"><?php echo $lang['toc'] ?></div>
-            <div class="paperclip__tocwarpper nomobile"></div>
-            <?php } ?>
         </div></div><!-- /site -->
         <?php if (isContentPage()){?>
             <div class="paperclip__backToTop">
@@ -273,4 +260,5 @@ include 'footer.php';
         if (showFooter()) {
             paperclipFooter();
         }?>
-</body></html>
+</body>
+</html>
